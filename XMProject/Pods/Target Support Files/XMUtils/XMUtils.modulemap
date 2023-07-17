@@ -1,0 +1,6 @@
+framework module XMUtils {
+  umbrella header "XMUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

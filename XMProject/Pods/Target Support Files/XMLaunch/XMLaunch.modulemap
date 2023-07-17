@@ -1,0 +1,6 @@
+framework module XMLaunch {
+  umbrella header "XMLaunch-umbrella.h"
+
+  export *
+  module * { export * }
+}

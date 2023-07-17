@@ -1,0 +1,6 @@
+framework module XMUser {
+  umbrella header "XMUser-umbrella.h"
+
+  export *
+  module * { export * }
+}

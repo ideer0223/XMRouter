@@ -1,0 +1,1689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EEA1A49A48D2E9F6C63ED691F82A74 /* XMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9860311B222AB4384E4EA05FEA8F3699 /* XMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E3029F110E805FC2B728F32E37B836F /* XMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8B4ED787AEA49FA45ABFBE74AAA6E1 /* XMHomeViewController.m */; };
+		1182C67FCF534835B589EB09C4D4A8E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		11DCFE30993113BE3D33309E47259387 /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9419A77C29C74435775A84B79088DFB9 /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1232D67F03989673D8879736EBAE2BA9 /* XMAppDelegateComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C2754A2DBA7A0425338D6E69BB6CBE2B /* XMAppDelegateComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1763C668EC2F5B0B71EC8E6933124CDC /* XMBaseNavViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 163AC5E285C9BBD949B2C573602C7F9E /* XMBaseNavViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18AA56C524EB4A672F22F348FB2BED37 /* XMAppDelegateComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D034D9316C73477607DC838FFDCC16E3 /* XMAppDelegateComponent.m */; };
+		209B2C0313824C1D8743A04DBF214FF8 /* XMHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D8B0968B74C0A9C865219C8742AE04 /* XMHome-dummy.m */; };
+		241748997C5354823EFE779D17563430 /* XMHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A35B12C657A84D53D83BD02F45A072F0 /* XMHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		277D1C5F90BF1603EE3B18D7288AC43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2A978D7FAC9AD875863C0D57BCA8056A /* Pods-XMProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 885E7CEC87AD1880A43C6D19C1092363 /* Pods-XMProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AC20383511CA679FA95E1ED06A00A27 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A55879595B9B98D0791DFDF072166E /* NSString+Extension.m */; };
+		2B3F43EBBB022BEF43CAF44A4ED638C6 /* XMBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B09FADFAF4F1BCB3EECC8E51BDDBC54 /* XMBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		304542A76DE8D996B7A9E29F4519B163 /* XMLaunch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 732D37383616A1EA96BCD84ACB03D389 /* XMLaunch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		309252D67F2203744C1118B1273EB780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		39567B8B72E45034C5FE3EC6617E4761 /* XMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FB3EC6D6F047504801340C7D8A566E /* XMBase-dummy.m */; };
+		459AD9C0802E6C5868A2B7AD0D885BEC /* XMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE5C222BD89D426AF19FEF45A7532A5 /* XMBaseViewController.m */; };
+		4B7EC4F99D94C74899E4C28D1525A967 /* XMBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E55F9B820E9C5118E8D077A99AF7CB /* XMBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A8199A4E30570A1A3B26BF6870FA6C5 /* XMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 560B2D3D5FFE27AD5FEA2C98B55D5E82 /* XMUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E43EB0141CBD11512D232AF117C8115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		602D91523939998BB242B483380689B3 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DABE5BB9C7CBDA2FC4FACDBB9A49F7 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66749CF9852EEBB84F71C70DE8BB23A0 /* Pods-XMProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E31B289B805CA606934C48F995FC42 /* Pods-XMProject-dummy.m */; };
+		67436A6FDC5BF847C466FB225D0BB197 /* XMUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC9FE4D38F99310FB6FD14E4649406E /* XMUtils-dummy.m */; };
+		7020F1C2048A157BF9F9F772803D57CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7675F640DA9822149848052659C9A3DF /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FCEE26C29835F12DC82F7174C9944B /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F969B83F276CBC3095AA3C2892D08C0 /* XMRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E32897DBF162404BED4AE94E0CF6E425 /* XMRouter-dummy.m */; };
+		832A7A29F5530F35C8273F3BD779AD05 /* XMUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E799A3A5CE397D45859B1FBB5318357 /* XMUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8916747E5C5873ADC774B2C1D1DD6F13 /* XMApplicationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3139E9933E237D79A5484A3219630AD3 /* XMApplicationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9572A5886F18352973FEE54A2455F8A1 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D0858940684A2C698687DA7E91EBF5 /* UIView+Extension.m */; };
+		9B54789411C33A2CFE0710B8B151F317 /* XMUserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F05E6DDBD491B415D4517E787B1CC0 /* XMUserViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1295AF7DE310257270FA68F64EE890E /* XMBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40DFAD161C9DE5DBF9B8BE1164839A8 /* XMBaseNavViewController.m */; };
+		A41C033D9C95E5ECD6A13FE205BD3606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B4DB5AF7FEEB62A5D89744DCEE64FA95 /* XMUser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4422B8C925F15320E989C448D965299E /* XMUser-dummy.m */; };
+		B6167A17173819F091F164169FDD9A6E /* XMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9016D884E8705842FF20E988767B0F0 /* XMUserViewController.m */; };
+		B6BDFB5BECA227483D5779AE22702387 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 91322641E3F848265CD65A0F504618B5 /* ReplaceMe.m */; };
+		BEFFD866A5F5024FD143788F4E966A5F /* XMUser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC900E545CC3ACBEADA2738101B955B8 /* XMUser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C8C1EA9A072117AE54588380FB21DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DCC29349A5E33103037B655B37B9FAF2 /* XMHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 725BEFB707C9ADD989CF880301F4CEB2 /* XMHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6935E4458C674355922F27177411967 /* XMLaunch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9424B7F16B5B67B9778A8343451AAD66 /* XMLaunch-dummy.m */; };
+		EC930488B53F8FAAE885ED6372993FEF /* XMRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F995D6B5F82045E2E934B3DF667846 /* XMRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EDF7AF004A9A89BECA6A1D02AC9212 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB39187106E0989F25137EEF4EAA403 /* UIColor+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CE525D78FABF326FB14EBD36D16F4DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D767AB2818AB482E7C02FCE8BC7CD9A;
+			remoteInfo = XMBase;
+		};
+		3605752E9538A89D4A1F98A02C58855B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C4334B167657E654567CDDF10A5409;
+			remoteInfo = XMUtils;
+		};
+		4E13C37893F5185213F2212DBA345741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 762DD13817427C30194DBBD3D6E3EF1B;
+			remoteInfo = XMLaunch;
+		};
+		82D1D6FD37D5909E82F45E11706DD38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C220DFE6512366CB15D97D0A1829A960;
+			remoteInfo = XMRouter;
+		};
+		A90C6764B26D77A2B956A549BAE612BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D767AB2818AB482E7C02FCE8BC7CD9A;
+			remoteInfo = XMBase;
+		};
+		B09317C37CFCE4D81F35DA180460BD95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD600A32B656DB9D6EA33D49848ADCD;
+			remoteInfo = XMUser;
+		};
+		E788DF63E856754DFB9930988E76F2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D767AB2818AB482E7C02FCE8BC7CD9A;
+			remoteInfo = XMBase;
+		};
+		E868A9A03070F0E8DFDB868F98FF8155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A680538C9E7AF5E3668D136E30902027;
+			remoteInfo = XMHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E47FF7A7C713E3A00D6359857EA342 /* XMLaunch */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMLaunch; path = XMLaunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FA76D416ECFF76C7430EF6131ED96C /* XMHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMHome.debug.xcconfig; sourceTree = "<group>"; };
+		04D0858940684A2C698687DA7E91EBF5 /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "XMUtils/Classes/UIView+Extension.m"; sourceTree = "<group>"; };
+		086FBF6BFA6D1C54164B37F5F473F698 /* XMRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMRouter.debug.xcconfig; sourceTree = "<group>"; };
+		0D125B49ED9C86BD9274CDA7E623EB18 /* XMUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMUtils.modulemap; sourceTree = "<group>"; };
+		11CE3B8109F5BF0E651026B007D2D0F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		13E31B289B805CA606934C48F995FC42 /* Pods-XMProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMProject-dummy.m"; sourceTree = "<group>"; };
+		152F63282734CF1C99365E634DD843B0 /* XMHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMHome.release.xcconfig; sourceTree = "<group>"; };
+		1552168C5006171AE468AC33906FE2A3 /* XMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMBase-prefix.pch"; sourceTree = "<group>"; };
+		163AC5E285C9BBD949B2C573602C7F9E /* XMBaseNavViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBaseNavViewController.h; path = XMBase/Classes/XMBaseNavViewController.h; sourceTree = "<group>"; };
+		18C6E60170A2949F4A4BD0416222B6A3 /* XMUser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUser-prefix.pch"; sourceTree = "<group>"; };
+		1C196F6AAEFD148300B64B3D63FA071E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1CBA4075D00005BF7C0617A57EE37410 /* XMLaunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLaunch.debug.xcconfig; sourceTree = "<group>"; };
+		1EB5BA35D0FBA2F0399D03075BFBA6F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1F0EE2983CD484B206D7D80238E9B259 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		281E800F1FAB38222B660EDCE2E2E6E8 /* Pods-XMProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMProject.modulemap"; sourceTree = "<group>"; };
+		2E30A0AC8E7009A63A70EE398CD9850C /* XMUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUtils.debug.xcconfig; sourceTree = "<group>"; };
+		3139E9933E237D79A5484A3219630AD3 /* XMApplicationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMApplicationProtocol.h; path = XMLaunch/Classes/XMApplicationProtocol.h; sourceTree = "<group>"; };
+		3B5D7C0CF64D974E496A37AF77237F48 /* Pods-XMProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMProject-Info.plist"; sourceTree = "<group>"; };
+		3FDE5E3736324835B9A2DB5E7E47E63F /* Pods-XMProject */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XMProject"; path = Pods_XMProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4313E444E6A138CD1C87155ABD8FD62A /* XMRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMRouter-Info.plist"; sourceTree = "<group>"; };
+		4422B8C925F15320E989C448D965299E /* XMUser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMUser-dummy.m"; sourceTree = "<group>"; };
+		48AFD785020E045CFD256EC5CF05A9E6 /* XMUser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMUser; path = XMUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D59DAB546B0DE72D2C287E9293D5306 /* XMBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4E3B51CE9A91F44E2F9C3112DA99F66B /* XMHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5062E476AEF6E727D75916705E018862 /* XMBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMBase-Info.plist"; sourceTree = "<group>"; };
+		55B23EB6585D8F9EFE05B4119D15AD94 /* XMUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUtils-prefix.pch"; sourceTree = "<group>"; };
+		560B2D3D5FFE27AD5FEA2C98B55D5E82 /* XMUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMUtils.h; path = XMUtils/Classes/XMUtils.h; sourceTree = "<group>"; };
+		5CE46CCE21016C3677B57D9B417D87B8 /* XMBase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMBase; path = XMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7F837AA6BC675F5EF4ADEF5A097BF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5F9C47F180DDB05498F8B8472D64BBAC /* XMLaunch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMLaunch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		632F57013C12BFEB1790C5BC723FC3A6 /* XMLaunch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMLaunch-Info.plist"; sourceTree = "<group>"; };
+		633AC95FA7D9D7CE8EBFDB562C52B94F /* XMUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMUtils-Info.plist"; sourceTree = "<group>"; };
+		65F05E6DDBD491B415D4517E787B1CC0 /* XMUserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMUserViewController.h; path = XMUser/Classes/XMUserViewController.h; sourceTree = "<group>"; };
+		6C4E465B31486B400552BF8FD42DA97B /* XMUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUtils.release.xcconfig; sourceTree = "<group>"; };
+		6CD6568F2510BABA7801B4FE513F7051 /* XMUser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMUser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E799A3A5CE397D45859B1FBB5318357 /* XMUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUtils-umbrella.h"; sourceTree = "<group>"; };
+		6EFDA164ABD5473D40910732388AA371 /* XMLaunch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLaunch-prefix.pch"; sourceTree = "<group>"; };
+		723CE6DA12C22AAB68F2D9B865DD19AB /* XMRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMRouter.release.xcconfig; sourceTree = "<group>"; };
+		725BEFB707C9ADD989CF880301F4CEB2 /* XMHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMHomeViewController.h; path = XMHome/Classes/XMHomeViewController.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		732D37383616A1EA96BCD84ACB03D389 /* XMLaunch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLaunch-umbrella.h"; sourceTree = "<group>"; };
+		78FCEE26C29835F12DC82F7174C9944B /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "XMUtils/Classes/UIView+Extension.h"; sourceTree = "<group>"; };
+		7B09FADFAF4F1BCB3EECC8E51BDDBC54 /* XMBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBaseViewController.h; path = XMBase/Classes/XMBaseViewController.h; sourceTree = "<group>"; };
+		7BB39187106E0989F25137EEF4EAA403 /* UIColor+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extension.m"; path = "XMUtils/Classes/UIColor+Extension.m"; sourceTree = "<group>"; };
+		7EF05F07F0A07CB8B59136131E5FB1FF /* XMUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUser.debug.xcconfig; sourceTree = "<group>"; };
+		809D7792CFD9251B6AE191C79BB47A9A /* XMHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMHome.modulemap; sourceTree = "<group>"; };
+		8192935F7C7083C67E01B697E0D4FADA /* Pods-XMProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMProject.debug.xcconfig"; sourceTree = "<group>"; };
+		84A55879595B9B98D0791DFDF072166E /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "XMUtils/Classes/NSString+Extension.m"; sourceTree = "<group>"; };
+		84FB3EC6D6F047504801340C7D8A566E /* XMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMBase-dummy.m"; sourceTree = "<group>"; };
+		885E7CEC87AD1880A43C6D19C1092363 /* Pods-XMProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMProject-umbrella.h"; sourceTree = "<group>"; };
+		907BF13E10881F6E859AAEDA520F8EC7 /* Pods-XMProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91322641E3F848265CD65A0F504618B5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMRouter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		91D43CE233444A1A5BCDCB1FEFEE0945 /* XMRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMRouter-prefix.pch"; sourceTree = "<group>"; };
+		9419A77C29C74435775A84B79088DFB9 /* UIColor+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extension.h"; path = "XMUtils/Classes/UIColor+Extension.h"; sourceTree = "<group>"; };
+		9424B7F16B5B67B9778A8343451AAD66 /* XMLaunch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMLaunch-dummy.m"; sourceTree = "<group>"; };
+		9860311B222AB4384E4EA05FEA8F3699 /* XMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMBase-umbrella.h"; sourceTree = "<group>"; };
+		9A7A03141E587ED8124A04353AA88345 /* XMUtils */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMUtils; path = XMUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDC050CDF1E0AD524F1E080789D786B /* XMRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMRouter.modulemap; sourceTree = "<group>"; };
+		9EC9FE4D38F99310FB6FD14E4649406E /* XMUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMUtils-dummy.m"; sourceTree = "<group>"; };
+		A150FE2B457C478F171C6DE96DBBFBFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A18CDE3A401169D2E1C761CC88365EB3 /* XMUser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMUser.modulemap; sourceTree = "<group>"; };
+		A35B12C657A84D53D83BD02F45A072F0 /* XMHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMHome-umbrella.h"; sourceTree = "<group>"; };
+		A6DC8193FC65A3DA7C14734672F853C6 /* XMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMBase.modulemap; sourceTree = "<group>"; };
+		A96BE65DE1394FFB399A03E3574584A1 /* Pods-XMProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMProject.release.xcconfig"; sourceTree = "<group>"; };
+		AE18C4C51BFA2DCDD9870392196EE9EB /* Pods-XMProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF02EA2E9E432AB1D9640578DEAB2847 /* XMRouter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMRouter; path = XMRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F995D6B5F82045E2E934B3DF667846 /* XMRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMRouter-umbrella.h"; sourceTree = "<group>"; };
+		B1198271DC44E894A95E69421A920837 /* XMBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMBase.debug.xcconfig; sourceTree = "<group>"; };
+		B6A31B10E9BA0B17ACC85F25DAE05EB4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B862C8A679D7323AA6950D1527B26D60 /* XMRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD9318743240DB0CB28C9BD8DD285669 /* XMUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF98E31D10744559F995D7B7CD8324A8 /* XMUser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMUser-Info.plist"; sourceTree = "<group>"; };
+		C2754A2DBA7A0425338D6E69BB6CBE2B /* XMAppDelegateComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMAppDelegateComponent.h; path = XMLaunch/Classes/XMAppDelegateComponent.h; sourceTree = "<group>"; };
+		CBC3503679706A4328345C92446514B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CC900E545CC3ACBEADA2738101B955B8 /* XMUser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUser-umbrella.h"; sourceTree = "<group>"; };
+		CF63AE61D64957E80A15C36918726DDB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D01650E66D17474C91577DB9CC3EB8D2 /* XMHome */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMHome; path = XMHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D034D9316C73477607DC838FFDCC16E3 /* XMAppDelegateComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMAppDelegateComponent.m; path = XMLaunch/Classes/XMAppDelegateComponent.m; sourceTree = "<group>"; };
+		D40DFAD161C9DE5DBF9B8BE1164839A8 /* XMBaseNavViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMBaseNavViewController.m; path = XMBase/Classes/XMBaseNavViewController.m; sourceTree = "<group>"; };
+		D4DABE5BB9C7CBDA2FC4FACDBB9A49F7 /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "XMUtils/Classes/NSString+Extension.h"; sourceTree = "<group>"; };
+		D4E55F9B820E9C5118E8D077A99AF7CB /* XMBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBase.h; path = XMBase/Classes/XMBase.h; sourceTree = "<group>"; };
+		D5E9B4192946985080B4069C584E5423 /* XMLaunch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMLaunch.modulemap; sourceTree = "<group>"; };
+		D6D3AA8B6D190706D2C343D4A81718AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D9016D884E8705842FF20E988767B0F0 /* XMUserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMUserViewController.m; path = XMUser/Classes/XMUserViewController.m; sourceTree = "<group>"; };
+		DF8B4ED787AEA49FA45ABFBE74AAA6E1 /* XMHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMHomeViewController.m; path = XMHome/Classes/XMHomeViewController.m; sourceTree = "<group>"; };
+		E0B35DC3839278DAC03F1F2C0C8893C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E32897DBF162404BED4AE94E0CF6E425 /* XMRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMRouter-dummy.m"; sourceTree = "<group>"; };
+		E9E4856FC9A88B774E9914F7F108C281 /* XMLaunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLaunch.release.xcconfig; sourceTree = "<group>"; };
+		EA05E90D73D49F856741D1E3FADC0097 /* Pods-XMProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMProject-frameworks.sh"; sourceTree = "<group>"; };
+		EA50D3CE3D188CD5F9965D71E2C262ED /* XMBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMBase.release.xcconfig; sourceTree = "<group>"; };
+		EF5AB8C869632B61D2D86213D097B0E1 /* XMUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUser.release.xcconfig; sourceTree = "<group>"; };
+		F1D8B0968B74C0A9C865219C8742AE04 /* XMHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMHome-dummy.m"; sourceTree = "<group>"; };
+		F2E8E147964BFAE8A1492D0E74B301E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F72F1C02B98A092DB439C6D6B4B68EDA /* XMHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMHome-Info.plist"; sourceTree = "<group>"; };
+		F89FEE935B0F1C86B391C4488F4D9206 /* XMHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMHome-prefix.pch"; sourceTree = "<group>"; };
+		FDE5C222BD89D426AF19FEF45A7532A5 /* XMBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMBaseViewController.m; path = XMBase/Classes/XMBaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B39795CE40FBAC6C28E6D6317D6917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277D1C5F90BF1603EE3B18D7288AC43D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F768500DC85993F8F6537659BDA4525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1182C67FCF534835B589EB09C4D4A8E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F5822984D735F5F1A3B07349F53D57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41C033D9C95E5ECD6A13FE205BD3606 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D18784EDAC87455B08681F9A156D051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309252D67F2203744C1118B1273EB780 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8CA2B610D79CCB5613F757E0D949C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C8C1EA9A072117AE54588380FB21DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CABD47682CAC078F6A52F7BEC97B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7020F1C2048A157BF9F9F772803D57CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82F2B1540DA64844B383A8EF844081E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E43EB0141CBD11512D232AF117C8115 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		211AA8E38A781EE43D11EFE2C293C87F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				11CE3B8109F5BF0E651026B007D2D0F5 /* LICENSE */,
+				CBC3503679706A4328345C92446514B3 /* README.md */,
+				4D59DAB546B0DE72D2C287E9293D5306 /* XMBase.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		249DE17B65977ED9C53403F08578907C /* XMUser */ = {
+			isa = PBXGroup;
+			children = (
+				65F05E6DDBD491B415D4517E787B1CC0 /* XMUserViewController.h */,
+				D9016D884E8705842FF20E988767B0F0 /* XMUserViewController.m */,
+				4F86431D22E18D4F33E1E30E0E795664 /* Pod */,
+				6AB6FC224B0CAF20AD03F20F7251D378 /* Support Files */,
+			);
+			name = XMUser;
+			path = ../../XMUser;
+			sourceTree = "<group>";
+		};
+		2A51BB7C3E2A67D1AFFEAE7BDEAB85B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FDE5E3736324835B9A2DB5E7E47E63F /* Pods-XMProject */,
+				5CE46CCE21016C3677B57D9B417D87B8 /* XMBase */,
+				D01650E66D17474C91577DB9CC3EB8D2 /* XMHome */,
+				02E47FF7A7C713E3A00D6359857EA342 /* XMLaunch */,
+				AF02EA2E9E432AB1D9640578DEAB2847 /* XMRouter */,
+				48AFD785020E045CFD256EC5CF05A9E6 /* XMUser */,
+				9A7A03141E587ED8124A04353AA88345 /* XMUtils */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F1671E62183931DB29B92F2150E7E69 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CF63AE61D64957E80A15C36918726DDB /* LICENSE */,
+				A150FE2B457C478F171C6DE96DBBFBFA /* README.md */,
+				BD9318743240DB0CB28C9BD8DD285669 /* XMUtils.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3AC035608AF8D93C76B91743588A40FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				809D7792CFD9251B6AE191C79BB47A9A /* XMHome.modulemap */,
+				F1D8B0968B74C0A9C865219C8742AE04 /* XMHome-dummy.m */,
+				F72F1C02B98A092DB439C6D6B4B68EDA /* XMHome-Info.plist */,
+				F89FEE935B0F1C86B391C4488F4D9206 /* XMHome-prefix.pch */,
+				A35B12C657A84D53D83BD02F45A072F0 /* XMHome-umbrella.h */,
+				02FA76D416ECFF76C7430EF6131ED96C /* XMHome.debug.xcconfig */,
+				152F63282734CF1C99365E634DD843B0 /* XMHome.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../XMProject/Pods/Target Support Files/XMHome";
+			sourceTree = "<group>";
+		};
+		45625DFF1451647D4D3CCB585D3A9C2C /* XMRouter */ = {
+			isa = PBXGroup;
+			children = (
+				91322641E3F848265CD65A0F504618B5 /* ReplaceMe.m */,
+				AF49E069A97E4F6D9458BFB7C9F58F60 /* Pod */,
+				51BA5B38F67366165F81380BF3A1BDFC /* Support Files */,
+			);
+			name = XMRouter;
+			path = ../../XMRouter;
+			sourceTree = "<group>";
+		};
+		4F86431D22E18D4F33E1E30E0E795664 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E0B35DC3839278DAC03F1F2C0C8893C5 /* LICENSE */,
+				F2E8E147964BFAE8A1492D0E74B301E6 /* README.md */,
+				6CD6568F2510BABA7801B4FE513F7051 /* XMUser.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		51BA5B38F67366165F81380BF3A1BDFC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DDC050CDF1E0AD524F1E080789D786B /* XMRouter.modulemap */,
+				E32897DBF162404BED4AE94E0CF6E425 /* XMRouter-dummy.m */,
+				4313E444E6A138CD1C87155ABD8FD62A /* XMRouter-Info.plist */,
+				91D43CE233444A1A5BCDCB1FEFEE0945 /* XMRouter-prefix.pch */,
+				B0F995D6B5F82045E2E934B3DF667846 /* XMRouter-umbrella.h */,
+				086FBF6BFA6D1C54164B37F5F473F698 /* XMRouter.debug.xcconfig */,
+				723CE6DA12C22AAB68F2D9B865DD19AB /* XMRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../XMProject/Pods/Target Support Files/XMRouter";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6AB6FC224B0CAF20AD03F20F7251D378 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A18CDE3A401169D2E1C761CC88365EB3 /* XMUser.modulemap */,
+				4422B8C925F15320E989C448D965299E /* XMUser-dummy.m */,
+				BF98E31D10744559F995D7B7CD8324A8 /* XMUser-Info.plist */,
+				18C6E60170A2949F4A4BD0416222B6A3 /* XMUser-prefix.pch */,
+				CC900E545CC3ACBEADA2738101B955B8 /* XMUser-umbrella.h */,
+				7EF05F07F0A07CB8B59136131E5FB1FF /* XMUser.debug.xcconfig */,
+				EF5AB8C869632B61D2D86213D097B0E1 /* XMUser.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../XMProject/Pods/Target Support Files/XMUser";
+			sourceTree = "<group>";
+		};
+		6F8EDE72E34A5E1467C4CF9D0C251386 /* XMLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				C2754A2DBA7A0425338D6E69BB6CBE2B /* XMAppDelegateComponent.h */,
+				D034D9316C73477607DC838FFDCC16E3 /* XMAppDelegateComponent.m */,
+				3139E9933E237D79A5484A3219630AD3 /* XMApplicationProtocol.h */,
+				7148248D8E606FBB84E733366D7CB043 /* Pod */,
+				9526D3F0F6B0ADB0677925824F537D41 /* Support Files */,
+			);
+			name = XMLaunch;
+			path = ../../XMLaunch;
+			sourceTree = "<group>";
+		};
+		7148248D8E606FBB84E733366D7CB043 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1EB5BA35D0FBA2F0399D03075BFBA6F3 /* LICENSE */,
+				1C196F6AAEFD148300B64B3D63FA071E /* README.md */,
+				5F9C47F180DDB05498F8B8472D64BBAC /* XMLaunch.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8BB373490338FCF386ABFECC3DEF9BB5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE983D5FA5F444EE1F101C49C6257531 /* XMBase */,
+				E2E5095B1E82A28801869F21A7D5B88A /* XMHome */,
+				6F8EDE72E34A5E1467C4CF9D0C251386 /* XMLaunch */,
+				45625DFF1451647D4D3CCB585D3A9C2C /* XMRouter */,
+				249DE17B65977ED9C53403F08578907C /* XMUser */,
+				AF026A496B588EC6061B65D9188828CC /* XMUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9526D3F0F6B0ADB0677925824F537D41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9B4192946985080B4069C584E5423 /* XMLaunch.modulemap */,
+				9424B7F16B5B67B9778A8343451AAD66 /* XMLaunch-dummy.m */,
+				632F57013C12BFEB1790C5BC723FC3A6 /* XMLaunch-Info.plist */,
+				6EFDA164ABD5473D40910732388AA371 /* XMLaunch-prefix.pch */,
+				732D37383616A1EA96BCD84ACB03D389 /* XMLaunch-umbrella.h */,
+				1CBA4075D00005BF7C0617A57EE37410 /* XMLaunch.debug.xcconfig */,
+				E9E4856FC9A88B774E9914F7F108C281 /* XMLaunch.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../XMProject/Pods/Target Support Files/XMLaunch";
+			sourceTree = "<group>";
+		};
+		AF026A496B588EC6061B65D9188828CC /* XMUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D4DABE5BB9C7CBDA2FC4FACDBB9A49F7 /* NSString+Extension.h */,
+				84A55879595B9B98D0791DFDF072166E /* NSString+Extension.m */,
+				9419A77C29C74435775A84B79088DFB9 /* UIColor+Extension.h */,
+				7BB39187106E0989F25137EEF4EAA403 /* UIColor+Extension.m */,
+				78FCEE26C29835F12DC82F7174C9944B /* UIView+Extension.h */,
+				04D0858940684A2C698687DA7E91EBF5 /* UIView+Extension.m */,
+				560B2D3D5FFE27AD5FEA2C98B55D5E82 /* XMUtils.h */,
+				2F1671E62183931DB29B92F2150E7E69 /* Pod */,
+				B1116F781BEA6B3D780F03026AF9EAF7 /* Support Files */,
+			);
+			name = XMUtils;
+			path = ../../XMUtils;
+			sourceTree = "<group>";
+		};
+		AF49E069A97E4F6D9458BFB7C9F58F60 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1F0EE2983CD484B206D7D80238E9B259 /* LICENSE */,
+				B6A31B10E9BA0B17ACC85F25DAE05EB4 /* README.md */,
+				B862C8A679D7323AA6950D1527B26D60 /* XMRouter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B1116F781BEA6B3D780F03026AF9EAF7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D125B49ED9C86BD9274CDA7E623EB18 /* XMUtils.modulemap */,
+				9EC9FE4D38F99310FB6FD14E4649406E /* XMUtils-dummy.m */,
+				633AC95FA7D9D7CE8EBFDB562C52B94F /* XMUtils-Info.plist */,
+				55B23EB6585D8F9EFE05B4119D15AD94 /* XMUtils-prefix.pch */,
+				6E799A3A5CE397D45859B1FBB5318357 /* XMUtils-umbrella.h */,
+				2E30A0AC8E7009A63A70EE398CD9850C /* XMUtils.debug.xcconfig */,
+				6C4E465B31486B400552BF8FD42DA97B /* XMUtils.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../XMProject/Pods/Target Support Files/XMUtils";
+			sourceTree = "<group>";
+		};
+		BE983D5FA5F444EE1F101C49C6257531 /* XMBase */ = {
+			isa = PBXGroup;
+			children = (
+				D4E55F9B820E9C5118E8D077A99AF7CB /* XMBase.h */,
+				163AC5E285C9BBD949B2C573602C7F9E /* XMBaseNavViewController.h */,
+				D40DFAD161C9DE5DBF9B8BE1164839A8 /* XMBaseNavViewController.m */,
+				7B09FADFAF4F1BCB3EECC8E51BDDBC54 /* XMBaseViewController.h */,
+				FDE5C222BD89D426AF19FEF45A7532A5 /* XMBaseViewController.m */,
+				211AA8E38A781EE43D11EFE2C293C87F /* Pod */,
+				D69B0DD674251958089D67ADBCDE5FC9 /* Support Files */,
+			);
+			name = XMBase;
+			path = ../../XMBase;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8BB373490338FCF386ABFECC3DEF9BB5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2A51BB7C3E2A67D1AFFEAE7BDEAB85B6 /* Products */,
+				FFA015AAD90435F4D7FA15A18C83622B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D38CF82FD534008C8B72255AC0B374F8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D6D3AA8B6D190706D2C343D4A81718AC /* LICENSE */,
+				5F7F837AA6BC675F5EF4ADEF5A097BF9 /* README.md */,
+				4E3B51CE9A91F44E2F9C3112DA99F66B /* XMHome.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D69B0DD674251958089D67ADBCDE5FC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6DC8193FC65A3DA7C14734672F853C6 /* XMBase.modulemap */,
+				84FB3EC6D6F047504801340C7D8A566E /* XMBase-dummy.m */,
+				5062E476AEF6E727D75916705E018862 /* XMBase-Info.plist */,
+				1552168C5006171AE468AC33906FE2A3 /* XMBase-prefix.pch */,
+				9860311B222AB4384E4EA05FEA8F3699 /* XMBase-umbrella.h */,
+				B1198271DC44E894A95E69421A920837 /* XMBase.debug.xcconfig */,
+				EA50D3CE3D188CD5F9965D71E2C262ED /* XMBase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../XMProject/Pods/Target Support Files/XMBase";
+			sourceTree = "<group>";
+		};
+		DE8557C9D2285AA33E453A4CA9CD5C97 /* Pods-XMProject */ = {
+			isa = PBXGroup;
+			children = (
+				281E800F1FAB38222B660EDCE2E2E6E8 /* Pods-XMProject.modulemap */,
+				907BF13E10881F6E859AAEDA520F8EC7 /* Pods-XMProject-acknowledgements.markdown */,
+				AE18C4C51BFA2DCDD9870392196EE9EB /* Pods-XMProject-acknowledgements.plist */,
+				13E31B289B805CA606934C48F995FC42 /* Pods-XMProject-dummy.m */,
+				EA05E90D73D49F856741D1E3FADC0097 /* Pods-XMProject-frameworks.sh */,
+				3B5D7C0CF64D974E496A37AF77237F48 /* Pods-XMProject-Info.plist */,
+				885E7CEC87AD1880A43C6D19C1092363 /* Pods-XMProject-umbrella.h */,
+				8192935F7C7083C67E01B697E0D4FADA /* Pods-XMProject.debug.xcconfig */,
+				A96BE65DE1394FFB399A03E3574584A1 /* Pods-XMProject.release.xcconfig */,
+			);
+			name = "Pods-XMProject";
+			path = "Target Support Files/Pods-XMProject";
+			sourceTree = "<group>";
+		};
+		E2E5095B1E82A28801869F21A7D5B88A /* XMHome */ = {
+			isa = PBXGroup;
+			children = (
+				725BEFB707C9ADD989CF880301F4CEB2 /* XMHomeViewController.h */,
+				DF8B4ED787AEA49FA45ABFBE74AAA6E1 /* XMHomeViewController.m */,
+				D38CF82FD534008C8B72255AC0B374F8 /* Pod */,
+				3AC035608AF8D93C76B91743588A40FB /* Support Files */,
+			);
+			name = XMHome;
+			path = ../../XMHome;
+			sourceTree = "<group>";
+		};
+		FFA015AAD90435F4D7FA15A18C83622B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE8557C9D2285AA33E453A4CA9CD5C97 /* Pods-XMProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		78040AA5E53CFDF09FA142E429E04052 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1232D67F03989673D8879736EBAE2BA9 /* XMAppDelegateComponent.h in Headers */,
+				8916747E5C5873ADC774B2C1D1DD6F13 /* XMApplicationProtocol.h in Headers */,
+				304542A76DE8D996B7A9E29F4519B163 /* XMLaunch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8636F18CF6D84098C4041F233E79184D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFFD866A5F5024FD143788F4E966A5F /* XMUser-umbrella.h in Headers */,
+				9B54789411C33A2CFE0710B8B151F317 /* XMUserViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1580F879FDE26A41C2D665CF45DF4C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7EC4F99D94C74899E4C28D1525A967 /* XMBase.h in Headers */,
+				04EEA1A49A48D2E9F6C63ED691F82A74 /* XMBase-umbrella.h in Headers */,
+				1763C668EC2F5B0B71EC8E6933124CDC /* XMBaseNavViewController.h in Headers */,
+				2B3F43EBBB022BEF43CAF44A4ED638C6 /* XMBaseViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C651FD6861CFEE67439674F533FB1A06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602D91523939998BB242B483380689B3 /* NSString+Extension.h in Headers */,
+				11DCFE30993113BE3D33309E47259387 /* UIColor+Extension.h in Headers */,
+				7675F640DA9822149848052659C9A3DF /* UIView+Extension.h in Headers */,
+				5A8199A4E30570A1A3B26BF6870FA6C5 /* XMUtils.h in Headers */,
+				832A7A29F5530F35C8273F3BD779AD05 /* XMUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17C62C793A79879421CC599FC63AA8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241748997C5354823EFE779D17563430 /* XMHome-umbrella.h in Headers */,
+				DCC29349A5E33103037B655B37B9FAF2 /* XMHomeViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA83FAB8C016EACE8BB592913E859F01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A978D7FAC9AD875863C0D57BCA8056A /* Pods-XMProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE446504255A845E85759343D54A32D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC930488B53F8FAAE885ED6372993FEF /* XMRouter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E07A143C1C0EBE406D2130E2DFAA110 /* Pods-XMProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E099DBCC136239EB10F9BCA8A86AB1 /* Build configuration list for PBXNativeTarget "Pods-XMProject" */;
+			buildPhases = (
+				EA83FAB8C016EACE8BB592913E859F01 /* Headers */,
+				18C634797FC9DA600E22CF361F4FFFAB /* Sources */,
+				A82F2B1540DA64844B383A8EF844081E /* Frameworks */,
+				59C0C3E2AEF25576F916187169F11B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43EC59CF026ECB3A33BBDE2F91148D4 /* PBXTargetDependency */,
+				3F02403324EEFA28B87128BC9EAD68A1 /* PBXTargetDependency */,
+				37CF5D9D4F0507F2C02209BF82A632D8 /* PBXTargetDependency */,
+				F46EA815B2CFBB7F6FF52F02A9702170 /* PBXTargetDependency */,
+				9A3DFCE6675AEB1B55764AE626B6CEEE /* PBXTargetDependency */,
+				B3F085053E884E924D4F13679B51347B /* PBXTargetDependency */,
+			);
+			name = "Pods-XMProject";
+			productName = Pods_XMProject;
+			productReference = 3FDE5E3736324835B9A2DB5E7E47E63F /* Pods-XMProject */;
+			productType = "com.apple.product-type.framework";
+		};
+		15C4334B167657E654567CDDF10A5409 /* XMUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1365E363792B4F5E47D955F2D8BE8DFA /* Build configuration list for PBXNativeTarget "XMUtils" */;
+			buildPhases = (
+				C651FD6861CFEE67439674F533FB1A06 /* Headers */,
+				A2E94F47ED276BC38F87E6EC2AE2414A /* Sources */,
+				2D18784EDAC87455B08681F9A156D051 /* Frameworks */,
+				F40F589AC91EA11D87B31EA9024FBC4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMUtils;
+			productName = XMUtils;
+			productReference = 9A7A03141E587ED8124A04353AA88345 /* XMUtils */;
+			productType = "com.apple.product-type.framework";
+		};
+		762DD13817427C30194DBBD3D6E3EF1B /* XMLaunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89BA03D2770D25B8D236ACB26335D6E3 /* Build configuration list for PBXNativeTarget "XMLaunch" */;
+			buildPhases = (
+				78040AA5E53CFDF09FA142E429E04052 /* Headers */,
+				B9F6A98D27087EBE83F5E9E93D685AFB /* Sources */,
+				26F5822984D735F5F1A3B07349F53D57 /* Frameworks */,
+				C82274D2EEB4A2C2FDBB399B53476186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLaunch;
+			productName = XMLaunch;
+			productReference = 02E47FF7A7C713E3A00D6359857EA342 /* XMLaunch */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D767AB2818AB482E7C02FCE8BC7CD9A /* XMBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D416CBE49E682C93BD3305C37457FC4 /* Build configuration list for PBXNativeTarget "XMBase" */;
+			buildPhases = (
+				A1580F879FDE26A41C2D665CF45DF4C1 /* Headers */,
+				64F9A4F2C4CA63431CE11B044D522458 /* Sources */,
+				8E8CA2B610D79CCB5613F757E0D949C7 /* Frameworks */,
+				C9B727F43AD7809F62597F5627346C62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMBase;
+			productName = XMBase;
+			productReference = 5CE46CCE21016C3677B57D9B417D87B8 /* XMBase */;
+			productType = "com.apple.product-type.framework";
+		};
+		A680538C9E7AF5E3668D136E30902027 /* XMHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26F0EC5F925A63F7B10F10CDC23435F /* Build configuration list for PBXNativeTarget "XMHome" */;
+			buildPhases = (
+				D17C62C793A79879421CC599FC63AA8A /* Headers */,
+				49852546102E92A5FB7C81F969B1CD39 /* Sources */,
+				1F768500DC85993F8F6537659BDA4525 /* Frameworks */,
+				D9D7A07A1EC4A593A12CD424DE7C2D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ED6958F68E92375480471F6DA95A35E /* PBXTargetDependency */,
+			);
+			name = XMHome;
+			productName = XMHome;
+			productReference = D01650E66D17474C91577DB9CC3EB8D2 /* XMHome */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFD600A32B656DB9D6EA33D49848ADCD /* XMUser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9CD5475D41448ADF1326A068563086D /* Build configuration list for PBXNativeTarget "XMUser" */;
+			buildPhases = (
+				8636F18CF6D84098C4041F233E79184D /* Headers */,
+				018A88790695109D4C08A804740EECDE /* Sources */,
+				A6CABD47682CAC078F6A52F7BEC97B35 /* Frameworks */,
+				53ADF32C0F85F7C9E2C992FF0C5E214F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBD88F22A0E33F80222C80D957D16B5 /* PBXTargetDependency */,
+			);
+			name = XMUser;
+			productName = XMUser;
+			productReference = 48AFD785020E045CFD256EC5CF05A9E6 /* XMUser */;
+			productType = "com.apple.product-type.framework";
+		};
+		C220DFE6512366CB15D97D0A1829A960 /* XMRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2547DB566D852CF5C90DB6C7A07470E6 /* Build configuration list for PBXNativeTarget "XMRouter" */;
+			buildPhases = (
+				FE446504255A845E85759343D54A32D4 /* Headers */,
+				9ABBEEEBFFE8CD715A7BD70C3121D7B4 /* Sources */,
+				03B39795CE40FBAC6C28E6D6317D6917 /* Frameworks */,
+				7DF5F865E252B2FA16BC6C70B57E2823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMRouter;
+			productName = XMRouter;
+			productReference = AF02EA2E9E432AB1D9640578DEAB2847 /* XMRouter */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2A51BB7C3E2A67D1AFFEAE7BDEAB85B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E07A143C1C0EBE406D2130E2DFAA110 /* Pods-XMProject */,
+				9D767AB2818AB482E7C02FCE8BC7CD9A /* XMBase */,
+				A680538C9E7AF5E3668D136E30902027 /* XMHome */,
+				762DD13817427C30194DBBD3D6E3EF1B /* XMLaunch */,
+				C220DFE6512366CB15D97D0A1829A960 /* XMRouter */,
+				AFD600A32B656DB9D6EA33D49848ADCD /* XMUser */,
+				15C4334B167657E654567CDDF10A5409 /* XMUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53ADF32C0F85F7C9E2C992FF0C5E214F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C0C3E2AEF25576F916187169F11B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF5F865E252B2FA16BC6C70B57E2823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82274D2EEB4A2C2FDBB399B53476186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B727F43AD7809F62597F5627346C62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D7A07A1EC4A593A12CD424DE7C2D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40F589AC91EA11D87B31EA9024FBC4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		018A88790695109D4C08A804740EECDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DB5AF7FEEB62A5D89744DCEE64FA95 /* XMUser-dummy.m in Sources */,
+				B6167A17173819F091F164169FDD9A6E /* XMUserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C634797FC9DA600E22CF361F4FFFAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66749CF9852EEBB84F71C70DE8BB23A0 /* Pods-XMProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49852546102E92A5FB7C81F969B1CD39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B2C0313824C1D8743A04DBF214FF8 /* XMHome-dummy.m in Sources */,
+				0E3029F110E805FC2B728F32E37B836F /* XMHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F9A4F2C4CA63431CE11B044D522458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39567B8B72E45034C5FE3EC6617E4761 /* XMBase-dummy.m in Sources */,
+				A1295AF7DE310257270FA68F64EE890E /* XMBaseNavViewController.m in Sources */,
+				459AD9C0802E6C5868A2B7AD0D885BEC /* XMBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABBEEEBFFE8CD715A7BD70C3121D7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BDFB5BECA227483D5779AE22702387 /* ReplaceMe.m in Sources */,
+				7F969B83F276CBC3095AA3C2892D08C0 /* XMRouter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E94F47ED276BC38F87E6EC2AE2414A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC20383511CA679FA95E1ED06A00A27 /* NSString+Extension.m in Sources */,
+				F4EDF7AF004A9A89BECA6A1D02AC9212 /* UIColor+Extension.m in Sources */,
+				9572A5886F18352973FEE54A2455F8A1 /* UIView+Extension.m in Sources */,
+				67436A6FDC5BF847C466FB225D0BB197 /* XMUtils-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F6A98D27087EBE83F5E9E93D685AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AA56C524EB4A672F22F348FB2BED37 /* XMAppDelegateComponent.m in Sources */,
+				E6935E4458C674355922F27177411967 /* XMLaunch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EBD88F22A0E33F80222C80D957D16B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMBase;
+			target = 9D767AB2818AB482E7C02FCE8BC7CD9A /* XMBase */;
+			targetProxy = E788DF63E856754DFB9930988E76F2E5 /* PBXContainerItemProxy */;
+		};
+		37CF5D9D4F0507F2C02209BF82A632D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMLaunch;
+			target = 762DD13817427C30194DBBD3D6E3EF1B /* XMLaunch */;
+			targetProxy = 4E13C37893F5185213F2212DBA345741 /* PBXContainerItemProxy */;
+		};
+		3F02403324EEFA28B87128BC9EAD68A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMHome;
+			target = A680538C9E7AF5E3668D136E30902027 /* XMHome */;
+			targetProxy = E868A9A03070F0E8DFDB868F98FF8155 /* PBXContainerItemProxy */;
+		};
+		6ED6958F68E92375480471F6DA95A35E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMBase;
+			target = 9D767AB2818AB482E7C02FCE8BC7CD9A /* XMBase */;
+			targetProxy = 0CE525D78FABF326FB14EBD36D16F4DF /* PBXContainerItemProxy */;
+		};
+		9A3DFCE6675AEB1B55764AE626B6CEEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMUser;
+			target = AFD600A32B656DB9D6EA33D49848ADCD /* XMUser */;
+			targetProxy = B09317C37CFCE4D81F35DA180460BD95 /* PBXContainerItemProxy */;
+		};
+		B3F085053E884E924D4F13679B51347B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMUtils;
+			target = 15C4334B167657E654567CDDF10A5409 /* XMUtils */;
+			targetProxy = 3605752E9538A89D4A1F98A02C58855B /* PBXContainerItemProxy */;
+		};
+		B43EC59CF026ECB3A33BBDE2F91148D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMBase;
+			target = 9D767AB2818AB482E7C02FCE8BC7CD9A /* XMBase */;
+			targetProxy = A90C6764B26D77A2B956A549BAE612BE /* PBXContainerItemProxy */;
+		};
+		F46EA815B2CFBB7F6FF52F02A9702170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMRouter;
+			target = C220DFE6512366CB15D97D0A1829A960 /* XMRouter */;
+			targetProxy = 82D1D6FD37D5909E82F45E11706DD38C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07FB5F2B9E3BE7E3226FA37B48D14DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E4856FC9A88B774E9914F7F108C281 /* XMLaunch.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMLaunch/XMLaunch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMLaunch/XMLaunch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMLaunch/XMLaunch.modulemap";
+				PRODUCT_MODULE_NAME = XMLaunch;
+				PRODUCT_NAME = XMLaunch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0D0E699E9550EAC7AB9C483995BFDDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CBA4075D00005BF7C0617A57EE37410 /* XMLaunch.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMLaunch/XMLaunch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMLaunch/XMLaunch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMLaunch/XMLaunch.modulemap";
+				PRODUCT_MODULE_NAME = XMLaunch;
+				PRODUCT_NAME = XMLaunch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1860063D6B63ED7022EF53D0B02ADECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E30A0AC8E7009A63A70EE398CD9850C /* XMUtils.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMUtils/XMUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMUtils/XMUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMUtils/XMUtils.modulemap";
+				PRODUCT_MODULE_NAME = XMUtils;
+				PRODUCT_NAME = XMUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E040F5BAD1A0BE0C4D74A31C2F616CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FA76D416ECFF76C7430EF6131ED96C /* XMHome.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMHome/XMHome-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMHome/XMHome-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMHome/XMHome.modulemap";
+				PRODUCT_MODULE_NAME = XMHome;
+				PRODUCT_NAME = XMHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EB6D7B1F3FD6A1A38A0DE0F77CE3398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 152F63282734CF1C99365E634DD843B0 /* XMHome.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMHome/XMHome-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMHome/XMHome-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMHome/XMHome.modulemap";
+				PRODUCT_MODULE_NAME = XMHome;
+				PRODUCT_NAME = XMHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25904150AA8AFA0A6DE07FD46DE5E3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1198271DC44E894A95E69421A920837 /* XMBase.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMBase/XMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMBase/XMBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMBase/XMBase.modulemap";
+				PRODUCT_MODULE_NAME = XMBase;
+				PRODUCT_NAME = XMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		521938C090A9272535B517A8DD5EB25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96BE65DE1394FFB399A03E3574584A1 /* Pods-XMProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMProject/Pods-XMProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMProject/Pods-XMProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A2D25B1D257225AE1F4EB1E0D6CEA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8192935F7C7083C67E01B697E0D4FADA /* Pods-XMProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMProject/Pods-XMProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMProject/Pods-XMProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		625D0CD83A9802FAD047837164A54222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA50D3CE3D188CD5F9965D71E2C262ED /* XMBase.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMBase/XMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMBase/XMBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMBase/XMBase.modulemap";
+				PRODUCT_MODULE_NAME = XMBase;
+				PRODUCT_NAME = XMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A696E75D9C7157A5EBD8377B1A23E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5AB8C869632B61D2D86213D097B0E1 /* XMUser.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMUser/XMUser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMUser/XMUser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMUser/XMUser.modulemap";
+				PRODUCT_MODULE_NAME = XMUser;
+				PRODUCT_NAME = XMUser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A487B652A41D60F00BE03825AE74E0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF05F07F0A07CB8B59136131E5FB1FF /* XMUser.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMUser/XMUser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMUser/XMUser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMUser/XMUser.modulemap";
+				PRODUCT_MODULE_NAME = XMUser;
+				PRODUCT_NAME = XMUser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD5AFC0F234CA88C0F3B29E3DCCA5BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723CE6DA12C22AAB68F2D9B865DD19AB /* XMRouter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMRouter/XMRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMRouter/XMRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMRouter/XMRouter.modulemap";
+				PRODUCT_MODULE_NAME = XMRouter;
+				PRODUCT_NAME = XMRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1FBCA34D190D73A31138F4907BE565A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C4E465B31486B400552BF8FD42DA97B /* XMUtils.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMUtils/XMUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMUtils/XMUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMUtils/XMUtils.modulemap";
+				PRODUCT_MODULE_NAME = XMUtils;
+				PRODUCT_NAME = XMUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE4EF92A3E6716F46EEDD34FE76BF905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 086FBF6BFA6D1C54164B37F5F473F698 /* XMRouter.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMRouter/XMRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMRouter/XMRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMRouter/XMRouter.modulemap";
+				PRODUCT_MODULE_NAME = XMRouter;
+				PRODUCT_NAME = XMRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1365E363792B4F5E47D955F2D8BE8DFA /* Build configuration list for PBXNativeTarget "XMUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860063D6B63ED7022EF53D0B02ADECA /* Debug */,
+				D1FBCA34D190D73A31138F4907BE565A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D416CBE49E682C93BD3305C37457FC4 /* Build configuration list for PBXNativeTarget "XMBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25904150AA8AFA0A6DE07FD46DE5E3D0 /* Debug */,
+				625D0CD83A9802FAD047837164A54222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2547DB566D852CF5C90DB6C7A07470E6 /* Build configuration list for PBXNativeTarget "XMRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4EF92A3E6716F46EEDD34FE76BF905 /* Debug */,
+				CD5AFC0F234CA88C0F3B29E3DCCA5BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89BA03D2770D25B8D236ACB26335D6E3 /* Build configuration list for PBXNativeTarget "XMLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0E699E9550EAC7AB9C483995BFDDC2 /* Debug */,
+				07FB5F2B9E3BE7E3226FA37B48D14DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E099DBCC136239EB10F9BCA8A86AB1 /* Build configuration list for PBXNativeTarget "Pods-XMProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2D25B1D257225AE1F4EB1E0D6CEA41 /* Debug */,
+				521938C090A9272535B517A8DD5EB25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26F0EC5F925A63F7B10F10CDC23435F /* Build configuration list for PBXNativeTarget "XMHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E040F5BAD1A0BE0C4D74A31C2F616CC /* Debug */,
+				1EB6D7B1F3FD6A1A38A0DE0F77CE3398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9CD5475D41448ADF1326A068563086D /* Build configuration list for PBXNativeTarget "XMUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A487B652A41D60F00BE03825AE74E0FE /* Debug */,
+				9A696E75D9C7157A5EBD8377B1A23E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

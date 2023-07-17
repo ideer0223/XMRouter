@@ -1,0 +1,27 @@
+{
+  "name": "XMHome",
+  "version": "0.1.0",
+  "summary": "A short description of XMHome.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ideer0223@163.com/XMHome",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ideer0223@163.com": "ideer0223@163.com"
+  },
+  "source": {
+    "git": "https://github.com/ideer0223@163.com/XMHome.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "XMHome/Classes/**/*",
+  "dependencies": {
+    "XMBase": [
+
+    ]
+  }
+}

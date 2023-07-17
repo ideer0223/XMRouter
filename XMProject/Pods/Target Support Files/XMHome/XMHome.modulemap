@@ -1,0 +1,6 @@
+framework module XMHome {
+  umbrella header "XMHome-umbrella.h"
+
+  export *
+  module * { export * }
+}

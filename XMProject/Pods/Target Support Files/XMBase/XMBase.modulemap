@@ -1,0 +1,6 @@
+framework module XMBase {
+  umbrella header "XMBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
