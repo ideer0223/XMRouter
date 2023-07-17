@@ -7,51 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04EEA1A49A48D2E9F6C63ED691F82A74 /* XMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7718A273A343228B93440BE8C05701F5 /* XMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E3029F110E805FC2B728F32E37B836F /* XMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8299CB3B0F7256E73C29279384B7F1D2 /* XMHomeViewController.m */; };
+		04EEA1A49A48D2E9F6C63ED691F82A74 /* XMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33164737C303E05B90C7AE2353F15398 /* XMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E3029F110E805FC2B728F32E37B836F /* XMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A6D1B09E9CE09A2F56A16818F8ADF4 /* XMHomeViewController.m */; };
 		1182C67FCF534835B589EB09C4D4A8E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		11DCFE30993113BE3D33309E47259387 /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = BB736E6812C7E1566BADC7CD4B212522 /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1232D67F03989673D8879736EBAE2BA9 /* XMAppDelegateComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 087820C9D601B3FCBAF0FF3003B9029F /* XMAppDelegateComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1763C668EC2F5B0B71EC8E6933124CDC /* XMBaseNavViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F9330FB89E6CD51866AF31F3D1556E /* XMBaseNavViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18AA56C524EB4A672F22F348FB2BED37 /* XMAppDelegateComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D383E690B7E160FC5967FF51F805298 /* XMAppDelegateComponent.m */; };
-		209B2C0313824C1D8743A04DBF214FF8 /* XMHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB17D3762F58F17AB021D9E599F1CA3E /* XMHome-dummy.m */; };
-		241748997C5354823EFE779D17563430 /* XMHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B48AA463F2EDBC8860BA2BFE28F1BF /* XMHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11DCFE30993113BE3D33309E47259387 /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC45AB478E617B6EBD9CE9E6A74115A /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1232D67F03989673D8879736EBAE2BA9 /* XMAppDelegateComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B27E814374055DBAAACFD3D6EDDF186 /* XMAppDelegateComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1763C668EC2F5B0B71EC8E6933124CDC /* XMBaseNavViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D496970173140396EC14021FFB1D7C5 /* XMBaseNavViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18AA56C524EB4A672F22F348FB2BED37 /* XMAppDelegateComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8842946147B67F20D2B38AA70FA8B8 /* XMAppDelegateComponent.m */; };
+		209B2C0313824C1D8743A04DBF214FF8 /* XMHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7F3033E5BFDFC975F5B79ACE88526 /* XMHome-dummy.m */; };
+		241748997C5354823EFE779D17563430 /* XMHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9941E4F0EF5377FD9451EC0DC4EF579 /* XMHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		277D1C5F90BF1603EE3B18D7288AC43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2AC20383511CA679FA95E1ED06A00A27 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 395492982FFACEB36C19F3B2CBFE4F25 /* NSString+Extension.m */; };
-		2B3F43EBBB022BEF43CAF44A4ED638C6 /* XMBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D94CBDE1AF334C350924F64C8DA2C7EC /* XMBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		304542A76DE8D996B7A9E29F4519B163 /* XMLaunch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FB6A2CE6EBAA4FE0FEE605A3E9F1EE /* XMLaunch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AC20383511CA679FA95E1ED06A00A27 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE73313ADF0FD305AFFBECF5681424E3 /* NSString+Extension.m */; };
+		2B3F43EBBB022BEF43CAF44A4ED638C6 /* XMBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D06C7013AACC8023C5C1FC7C60531C9 /* XMBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		304542A76DE8D996B7A9E29F4519B163 /* XMLaunch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E1F9C7F33BFB86EC599EAA96D2D700 /* XMLaunch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		309252D67F2203744C1118B1273EB780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		39567B8B72E45034C5FE3EC6617E4761 /* XMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F3A6B1163B73D11BDE0155B143B03 /* XMBase-dummy.m */; };
-		459AD9C0802E6C5868A2B7AD0D885BEC /* XMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C5CAEB29D9E45D90CFAD339E86E78 /* XMBaseViewController.m */; };
-		4B7EC4F99D94C74899E4C28D1525A967 /* XMBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0F2A371ABFC5CD68285929991C1856 /* XMBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39567B8B72E45034C5FE3EC6617E4761 /* XMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C5E562A5DCC9C5A91F896E244D212D /* XMBase-dummy.m */; };
+		459AD9C0802E6C5868A2B7AD0D885BEC /* XMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E9BA4BEFF0EC36BCF66B842765D13 /* XMBaseViewController.m */; };
+		4B7EC4F99D94C74899E4C28D1525A967 /* XMBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F38789755865758ED42D34CF62E6348E /* XMBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54EA3FEB5250B6E8A64584EDB77173AD /* Pods-XMProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E31B289B805CA606934C48F995FC42 /* Pods-XMProject-dummy.m */; };
 		5650318DD879FED2EB465D59D8D2DDEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5A8199A4E30570A1A3B26BF6870FA6C5 /* XMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AF595305E88E4933E7C774BE2A2FDB60 /* XMUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		602D91523939998BB242B483380689B3 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E481F04801E653DBF4DAD6FE57C4E55 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67436A6FDC5BF847C466FB225D0BB197 /* XMUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E9A42A7EC1E7F028436FBC972696C5 /* XMUtils-dummy.m */; };
+		5A8199A4E30570A1A3B26BF6870FA6C5 /* XMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 168420FE1566C989D3076E6C715B58B2 /* XMUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602D91523939998BB242B483380689B3 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4651810DCAF9763F99A1E40585C8432C /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67436A6FDC5BF847C466FB225D0BB197 /* XMUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CC3154A31CFD71E04FFE9952DC0944 /* XMUtils-dummy.m */; };
 		7020F1C2048A157BF9F9F772803D57CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7675F640DA9822149848052659C9A3DF /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1536B2D56738EF9BC41C3B5EB1B78759 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E990EE9A58CE3C42E4DAD3D6B427DE0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 72201BBD31E617D614AFF997DB9D281E /* ReplaceMe.m */; };
-		7F969B83F276CBC3095AA3C2892D08C0 /* XMRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 195898C7A904DC0AC291C1C021BE6F4D /* XMRouter-dummy.m */; };
-		832A7A29F5530F35C8273F3BD779AD05 /* XMUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C09A1AFD4CF7D8E24D45C3E950C0B49D /* XMUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8916747E5C5873ADC774B2C1D1DD6F13 /* XMApplicationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EFBCA291F4C8F9D323FF266DE182F4 /* XMApplicationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		904D2C85B1F30BC010F44589FDFD0661 /* XMNetWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8553BF584492E5C7D4210A94C092F0BE /* XMNetWork-dummy.m */; };
-		9572A5886F18352973FEE54A2455F8A1 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E09390917D7524F8C04A7A45A827C4AD /* UIView+Extension.m */; };
-		9B54789411C33A2CFE0710B8B151F317 /* XMUserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D02C86BB03D23B4DE79DE497E38F2343 /* XMUserViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1295AF7DE310257270FA68F64EE890E /* XMBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E612E016B22B9EE18146CA4A539DB3B2 /* XMBaseNavViewController.m */; };
+		7675F640DA9822149848052659C9A3DF /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = CD11586A2748591D4E88A30F2A7F11B3 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E990EE9A58CE3C42E4DAD3D6B427DE0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AEC86F29EB48109E6C0C53CD61AE3D /* ReplaceMe.m */; };
+		7F969B83F276CBC3095AA3C2892D08C0 /* XMRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A77D060089E044EFC668347DA3DA138 /* XMRouter-dummy.m */; };
+		832A7A29F5530F35C8273F3BD779AD05 /* XMUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C25D7AB034BE643293C1960E4C5F7AE1 /* XMUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8916747E5C5873ADC774B2C1D1DD6F13 /* XMApplicationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CF64A81769F409F0849AD20968BAE4AE /* XMApplicationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		904D2C85B1F30BC010F44589FDFD0661 /* XMNetWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2F53EF5788354FDF1704736B367715 /* XMNetWork-dummy.m */; };
+		9572A5886F18352973FEE54A2455F8A1 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E913A3CB4289E50763000AB5278E45 /* UIView+Extension.m */; };
+		9B54789411C33A2CFE0710B8B151F317 /* XMUserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C8BFD9D754AE8EA142ABB5B5A3D81E /* XMUserViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1295AF7DE310257270FA68F64EE890E /* XMBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E361829DDEEF18774FD421EBE6CE7C /* XMBaseNavViewController.m */; };
 		A41C033D9C95E5ECD6A13FE205BD3606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B4DB5AF7FEEB62A5D89744DCEE64FA95 /* XMUser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 517FFFFABE060E27B0F5EFD616EDAB1C /* XMUser-dummy.m */; };
-		B6167A17173819F091F164169FDD9A6E /* XMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4750F8EA22156658AD33D6E26CEAA /* XMUserViewController.m */; };
-		B6BDFB5BECA227483D5779AE22702387 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2084A17D6F7C13F62B2F1A9F5EAEA5AF /* ReplaceMe.m */; };
-		BEFFD866A5F5024FD143788F4E966A5F /* XMUser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBEA3F64257209DB905F8ED108A7CC2 /* XMUser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4DB5AF7FEEB62A5D89744DCEE64FA95 /* XMUser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB1BC5636AE91805481176B161579C1 /* XMUser-dummy.m */; };
+		B6167A17173819F091F164169FDD9A6E /* XMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6443A93FF1B084779369F13EA1610B2 /* XMUserViewController.m */; };
+		B6BDFB5BECA227483D5779AE22702387 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 01691058C39A232E404B34D64EF25FA7 /* ReplaceMe.m */; };
+		BEFFD866A5F5024FD143788F4E966A5F /* XMUser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DF8BA86415301E9A393F002BF4B1EF3 /* XMUser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC8F984CD2E276F013BA4299F85EF66C /* Pods-XMProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 885E7CEC87AD1880A43C6D19C1092363 /* Pods-XMProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D71B11023AF4C25230213807D845FC75 /* XMNetWork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 621B1C8125E2D0E044F8843734A0CA21 /* XMNetWork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D71B11023AF4C25230213807D845FC75 /* XMNetWork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C84D17846AE8191B3DDD6168ADB5D96A /* XMNetWork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9C8C1EA9A072117AE54588380FB21DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DCC29349A5E33103037B655B37B9FAF2 /* XMHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7A5B33198F59BF5967F7C7F265E041 /* XMHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC29349A5E33103037B655B37B9FAF2 /* XMHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9053226566D12A966073B88F94DD4F00 /* XMHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4EF31A4C91924595899A2F9725BEFB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E6935E4458C674355922F27177411967 /* XMLaunch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDCA7BD7032D98CB9EC8C9E10D3AADA /* XMLaunch-dummy.m */; };
-		EC930488B53F8FAAE885ED6372993FEF /* XMRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BDE8FE5D77CCD620E896E6BD8637F03 /* XMRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4EDF7AF004A9A89BECA6A1D02AC9212 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 913D35406E05B5E4526C3155E671C504 /* UIColor+Extension.m */; };
+		E6935E4458C674355922F27177411967 /* XMLaunch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD83921C3AD11BEC4BB41EBCB2A7881 /* XMLaunch-dummy.m */; };
+		EC930488B53F8FAAE885ED6372993FEF /* XMRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67184863CE68E283E338F16794B25F08 /* XMRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EDF7AF004A9A89BECA6A1D02AC9212 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F707F3C69C283BE17EA78B7491B6FCFF /* UIColor+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,116 +121,116 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019E75609810D0783D4988C92C425E6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		01691058C39A232E404B34D64EF25FA7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMRouter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		02E47FF7A7C713E3A00D6359857EA342 /* XMLaunch */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMLaunch; path = XMLaunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		087820C9D601B3FCBAF0FF3003B9029F /* XMAppDelegateComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMAppDelegateComponent.h; path = XMLaunch/Classes/XMAppDelegateComponent.h; sourceTree = "<group>"; };
-		0AFD6126EC3DE5C14985ADF31C290D65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		0BA05EB9B74C3C32A4DB7D29D3178096 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0BDE8FE5D77CCD620E896E6BD8637F03 /* XMRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMRouter-umbrella.h"; sourceTree = "<group>"; };
-		0F2C5CAEB29D9E45D90CFAD339E86E78 /* XMBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMBaseViewController.m; path = XMBase/Classes/XMBaseViewController.m; sourceTree = "<group>"; };
-		12337B9885AD18A859A6CC316778BF42 /* XMHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMHome-Info.plist"; sourceTree = "<group>"; };
+		070AEC88F73C6657481BF1C5B70B3BA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0C7D9AD9E85EC444D37DC86D104F872D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0DD83921C3AD11BEC4BB41EBCB2A7881 /* XMLaunch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMLaunch-dummy.m"; sourceTree = "<group>"; };
 		13E31B289B805CA606934C48F995FC42 /* Pods-XMProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMProject-dummy.m"; sourceTree = "<group>"; };
-		150455651172FBFC69E44F8FEAE405E7 /* XMHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMHome.release.xcconfig; sourceTree = "<group>"; };
-		1536B2D56738EF9BC41C3B5EB1B78759 /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "XMUtils/Classes/UIView+Extension.h"; sourceTree = "<group>"; };
-		17A3C5791C10B8B6B318F44FC28EE9D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1827DBD19F25063CB5708C0282F86B8A /* XMLaunch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMLaunch.modulemap; sourceTree = "<group>"; };
-		188E7FE786F4828FC5CEE9C674A366D9 /* XMNetWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMNetWork-prefix.pch"; sourceTree = "<group>"; };
-		195898C7A904DC0AC291C1C021BE6F4D /* XMRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMRouter-dummy.m"; sourceTree = "<group>"; };
-		1BF34986FC3482A349B151E3F0909768 /* XMRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMRouter-prefix.pch"; sourceTree = "<group>"; };
-		2084A17D6F7C13F62B2F1A9F5EAEA5AF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMRouter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		25F9330FB89E6CD51866AF31F3D1556E /* XMBaseNavViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBaseNavViewController.h; path = XMBase/Classes/XMBaseNavViewController.h; sourceTree = "<group>"; };
+		168420FE1566C989D3076E6C715B58B2 /* XMUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMUtils.h; path = XMUtils/Classes/XMUtils.h; sourceTree = "<group>"; };
+		1A989A8BE990CA94E7C04D740122807B /* XMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMBase-prefix.pch"; sourceTree = "<group>"; };
+		1AD940CF0437C1A054BAA2F525A70AB6 /* XMLaunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLaunch.debug.xcconfig; sourceTree = "<group>"; };
+		1EC7F3033E5BFDFC975F5B79ACE88526 /* XMHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMHome-dummy.m"; sourceTree = "<group>"; };
+		22210798875CF06A8C740AD5C2D1437A /* XMRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMRouter.modulemap; sourceTree = "<group>"; };
 		281E800F1FAB38222B660EDCE2E2E6E8 /* Pods-XMProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMProject.modulemap"; sourceTree = "<group>"; };
-		2B7306553992B7779CC991AD90123321 /* XMUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMUtils-Info.plist"; sourceTree = "<group>"; };
-		2BB8C2FEBD5D22BF609D08E024019DF5 /* XMUser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMUser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2D383E690B7E160FC5967FF51F805298 /* XMAppDelegateComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMAppDelegateComponent.m; path = XMLaunch/Classes/XMAppDelegateComponent.m; sourceTree = "<group>"; };
-		2EEA31381D20E7AD16437B1C77245677 /* XMHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		34D4CFD228926E5AE77C79D93AD51A63 /* XMUser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUser-prefix.pch"; sourceTree = "<group>"; };
-		3613FC428F75A1576D480AD9572B0278 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		395492982FFACEB36C19F3B2CBFE4F25 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "XMUtils/Classes/NSString+Extension.m"; sourceTree = "<group>"; };
+		2BC45AB478E617B6EBD9CE9E6A74115A /* UIColor+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extension.h"; path = "XMUtils/Classes/UIColor+Extension.h"; sourceTree = "<group>"; };
+		2C719CFD85069C0E083311B29F385364 /* XMHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMHome.debug.xcconfig; sourceTree = "<group>"; };
+		2D496970173140396EC14021FFB1D7C5 /* XMBaseNavViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBaseNavViewController.h; path = XMBase/Classes/XMBaseNavViewController.h; sourceTree = "<group>"; };
+		2F2F53EF5788354FDF1704736B367715 /* XMNetWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMNetWork-dummy.m"; sourceTree = "<group>"; };
+		300EBE7C88C6E81F5AF0EA0179217C9E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		318A7AFD2E6780F1BEBDA9B24EB91397 /* XMBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMBase.release.xcconfig; sourceTree = "<group>"; };
+		33164737C303E05B90C7AE2353F15398 /* XMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMBase-umbrella.h"; sourceTree = "<group>"; };
+		34E0921A40FEFAEC9634940EF4F19EB2 /* XMNetWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMNetWork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B27E814374055DBAAACFD3D6EDDF186 /* XMAppDelegateComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMAppDelegateComponent.h; path = XMLaunch/Classes/XMAppDelegateComponent.h; sourceTree = "<group>"; };
 		3B5D7C0CF64D974E496A37AF77237F48 /* Pods-XMProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMProject-Info.plist"; sourceTree = "<group>"; };
-		3B6A8F1D8468FBAEB14717D42A6B4D00 /* XMLaunch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLaunch-prefix.pch"; sourceTree = "<group>"; };
-		3F19C091FFB303F7422665F6BD5F8937 /* XMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMBase.modulemap; sourceTree = "<group>"; };
+		3CE334A2AD8B75F5A57948DAF9D4768B /* XMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMBase.modulemap; sourceTree = "<group>"; };
+		3DF8BA86415301E9A393F002BF4B1EF3 /* XMUser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUser-umbrella.h"; sourceTree = "<group>"; };
 		3FDE5E3736324835B9A2DB5E7E47E63F /* Pods-XMProject */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XMProject"; path = Pods_XMProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		414B24CB647E43C2FF5C750DF851D3BE /* XMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMBase-prefix.pch"; sourceTree = "<group>"; };
-		43C463FF5814D9F1B1639537B5B67FAE /* XMBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMBase.release.xcconfig; sourceTree = "<group>"; };
-		448298070443921E6117CA1F1EAD1C3E /* XMHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMHome.debug.xcconfig; sourceTree = "<group>"; };
+		41371509084EB23035914F9CD608D4FA /* XMBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMBase-Info.plist"; sourceTree = "<group>"; };
+		42CC3154A31CFD71E04FFE9952DC0944 /* XMUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMUtils-dummy.m"; sourceTree = "<group>"; };
+		43E51285DB7F2CD6F060B293B6EBD960 /* XMLaunch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMLaunch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		44771CF94E04A6BF9FA768AD524D408F /* XMHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMHome-Info.plist"; sourceTree = "<group>"; };
+		4651810DCAF9763F99A1E40585C8432C /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "XMUtils/Classes/NSString+Extension.h"; sourceTree = "<group>"; };
 		48AFD785020E045CFD256EC5CF05A9E6 /* XMUser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMUser; path = XMUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F0F2A371ABFC5CD68285929991C1856 /* XMBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBase.h; path = XMBase/Classes/XMBase.h; sourceTree = "<group>"; };
-		517FFFFABE060E27B0F5EFD616EDAB1C /* XMUser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMUser-dummy.m"; sourceTree = "<group>"; };
-		552B2FFEF07D84A688F43DE70176DA6A /* XMRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4C1E9BA4BEFF0EC36BCF66B842765D13 /* XMBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMBaseViewController.m; path = XMBase/Classes/XMBaseViewController.m; sourceTree = "<group>"; };
+		4F414FE3CE91DA4581720EE890CE8849 /* XMNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMNetWork.debug.xcconfig; sourceTree = "<group>"; };
+		4FA376D166EDC8D366C28096F873EC83 /* XMUser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMUser-Info.plist"; sourceTree = "<group>"; };
+		4FD160DBE43CC8511AC6D3C2530F0878 /* XMRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		51946B544A562B87192D7476FE9E9B8A /* XMHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		546CDBD87C252F37AF6A091B9F548CB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		54C2D0EFB0A04807C17FE612F1F8D701 /* XMRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMRouter.release.xcconfig; sourceTree = "<group>"; };
+		553F81AC4E0C96950BD4F7A3B69AE588 /* XMUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUtils-prefix.pch"; sourceTree = "<group>"; };
+		5A77D060089E044EFC668347DA3DA138 /* XMRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMRouter-dummy.m"; sourceTree = "<group>"; };
 		5CE46CCE21016C3677B57D9B417D87B8 /* XMBase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMBase; path = XMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60FB6A2CE6EBAA4FE0FEE605A3E9F1EE /* XMLaunch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLaunch-umbrella.h"; sourceTree = "<group>"; };
-		621B1C8125E2D0E044F8843734A0CA21 /* XMNetWork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMNetWork-umbrella.h"; sourceTree = "<group>"; };
-		6390424038CE537E67954F3E514867C0 /* XMNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMNetWork.debug.xcconfig; sourceTree = "<group>"; };
-		6647078854FE63DB4DD494A379FFE073 /* XMLaunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLaunch.release.xcconfig; sourceTree = "<group>"; };
-		69F4FFAC3CC4FF7B9D7947EBC99B384C /* XMUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUtils-prefix.pch"; sourceTree = "<group>"; };
-		6CBB2193199E4BB48E6E8177D133B28F /* XMNetWork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMNetWork-Info.plist"; sourceTree = "<group>"; };
-		6E4732DC3FA3D0E64B8B4A25534C6DC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		72201BBD31E617D614AFF997DB9D281E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMNetWork/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		614918AF12123E99C1A8E19E5692BA78 /* XMUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMUtils.modulemap; sourceTree = "<group>"; };
+		61584557F6B98C4E53359702C6C6E27F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		644F20C36D562BF49E83720DB47CCD2E /* XMUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUtils.debug.xcconfig; sourceTree = "<group>"; };
+		67184863CE68E283E338F16794B25F08 /* XMRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMRouter-umbrella.h"; sourceTree = "<group>"; };
+		70936D7F651430D4C15CA38432839410 /* XMLaunch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMLaunch-Info.plist"; sourceTree = "<group>"; };
+		72E913A3CB4289E50763000AB5278E45 /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "XMUtils/Classes/UIView+Extension.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76C35822917DE5E82F4C8DA90B9D42EF /* XMUser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMUser-Info.plist"; sourceTree = "<group>"; };
-		7718A273A343228B93440BE8C05701F5 /* XMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMBase-umbrella.h"; sourceTree = "<group>"; };
-		78EFDD469398043D4669A565A524953F /* XMUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUser.debug.xcconfig; sourceTree = "<group>"; };
+		7463B4596E0AA2CF679E356EE2D27DA0 /* XMUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUtils.release.xcconfig; sourceTree = "<group>"; };
+		75C8BFD9D754AE8EA142ABB5B5A3D81E /* XMUserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMUserViewController.h; path = XMUser/Classes/XMUserViewController.h; sourceTree = "<group>"; };
+		7A45A85371B759FD3C32BC2F1C455DA3 /* XMUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMUtils-Info.plist"; sourceTree = "<group>"; };
+		7D06C7013AACC8023C5C1FC7C60531C9 /* XMBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBaseViewController.h; path = XMBase/Classes/XMBaseViewController.h; sourceTree = "<group>"; };
+		7D8842946147B67F20D2B38AA70FA8B8 /* XMAppDelegateComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMAppDelegateComponent.m; path = XMLaunch/Classes/XMAppDelegateComponent.m; sourceTree = "<group>"; };
 		8192935F7C7083C67E01B697E0D4FADA /* Pods-XMProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMProject.debug.xcconfig"; sourceTree = "<group>"; };
-		82270BC52883B419016E0608D680C3BD /* XMLaunch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMLaunch-Info.plist"; sourceTree = "<group>"; };
-		8299CB3B0F7256E73C29279384B7F1D2 /* XMHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMHomeViewController.m; path = XMHome/Classes/XMHomeViewController.m; sourceTree = "<group>"; };
-		83032321815FB3997CF96DDB9C37E0B4 /* XMBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMBase-Info.plist"; sourceTree = "<group>"; };
-		833A4EE5554C3BE509EBB8AD194CEF3F /* XMRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMRouter-Info.plist"; sourceTree = "<group>"; };
-		83FA80FD1A1700463C5E61086F5783EE /* XMHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMHome.modulemap; sourceTree = "<group>"; };
-		8553BF584492E5C7D4210A94C092F0BE /* XMNetWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMNetWork-dummy.m"; sourceTree = "<group>"; };
+		83C45A7E8C5F57EF55ACCF5BC6EB2AA1 /* XMUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUser.debug.xcconfig; sourceTree = "<group>"; };
 		885E7CEC87AD1880A43C6D19C1092363 /* Pods-XMProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMProject-umbrella.h"; sourceTree = "<group>"; };
-		8DE4750F8EA22156658AD33D6E26CEAA /* XMUserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMUserViewController.m; path = XMUser/Classes/XMUserViewController.m; sourceTree = "<group>"; };
+		8A041E5A5393FCA0FBEC780DEB0B0C50 /* XMNetWork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMNetWork.modulemap; sourceTree = "<group>"; };
+		8A2AB93F0592154923D44E2D9F7F081C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8A3464F1B286C3052CA91C93C8A98471 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8B0F9D4387D1AC9CCFE97F9C720EA1A6 /* XMUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8ED94ACA7A64D9401D0AE893C1874F91 /* XMHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMHome.release.xcconfig; sourceTree = "<group>"; };
+		9053226566D12A966073B88F94DD4F00 /* XMHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMHomeViewController.h; path = XMHome/Classes/XMHomeViewController.h; sourceTree = "<group>"; };
 		907BF13E10881F6E859AAEDA520F8EC7 /* Pods-XMProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMProject-acknowledgements.markdown"; sourceTree = "<group>"; };
-		913D35406E05B5E4526C3155E671C504 /* UIColor+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extension.m"; path = "XMUtils/Classes/UIColor+Extension.m"; sourceTree = "<group>"; };
-		97E9A42A7EC1E7F028436FBC972696C5 /* XMUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMUtils-dummy.m"; sourceTree = "<group>"; };
-		9902FA378158E6DAB437A374794CEF7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		97E1F9C7F33BFB86EC599EAA96D2D700 /* XMLaunch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLaunch-umbrella.h"; sourceTree = "<group>"; };
+		97E361829DDEEF18774FD421EBE6CE7C /* XMBaseNavViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMBaseNavViewController.m; path = XMBase/Classes/XMBaseNavViewController.m; sourceTree = "<group>"; };
 		9A7A03141E587ED8124A04353AA88345 /* XMUtils */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMUtils; path = XMUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A7F3A6B1163B73D11BDE0155B143B03 /* XMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMBase-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E4756720DFD40B1EC840E20A5845444 /* XMNetWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMNetWork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E481F04801E653DBF4DAD6FE57C4E55 /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "XMUtils/Classes/NSString+Extension.h"; sourceTree = "<group>"; };
-		A2B48AA463F2EDBC8860BA2BFE28F1BF /* XMHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMHome-umbrella.h"; sourceTree = "<group>"; };
-		A35AA9158E5D3501EF8BD698BA2601A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A4163601608F40FF067BAF8587C64D17 /* XMLaunch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMLaunch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8BBC5160D34BED671DECCC1FFAC01D7 /* XMUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUtils.release.xcconfig; sourceTree = "<group>"; };
+		A00DA7A2E25BF1DAFCAA9B1D9719BE2B /* XMLaunch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLaunch-prefix.pch"; sourceTree = "<group>"; };
+		A528CECF11C7ED1918D12DB7BD8D6F2A /* XMRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMRouter-Info.plist"; sourceTree = "<group>"; };
+		A58D5E16F632DFD129DCFBB05E055B89 /* XMLaunch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMLaunch.modulemap; sourceTree = "<group>"; };
 		A96BE65DE1394FFB399A03E3574584A1 /* Pods-XMProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMProject.release.xcconfig"; sourceTree = "<group>"; };
+		A9C5E562A5DCC9C5A91F896E244D212D /* XMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMBase-dummy.m"; sourceTree = "<group>"; };
+		AC838CEBFA4A2851D3A3B86019770146 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AD2774E581C6A29D6FA5D3483BBC2A18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AE18C4C51BFA2DCDD9870392196EE9EB /* Pods-XMProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE7E1224C8E46C923E70E9DD452DFFD8 /* XMHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMHome-prefix.pch"; sourceTree = "<group>"; };
 		AF02EA2E9E432AB1D9640578DEAB2847 /* XMRouter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMRouter; path = XMRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF595305E88E4933E7C774BE2A2FDB60 /* XMUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMUtils.h; path = XMUtils/Classes/XMUtils.h; sourceTree = "<group>"; };
-		B71AA7F278BF79830611B8A2F59DC1DE /* XMNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMNetWork.release.xcconfig; sourceTree = "<group>"; };
-		B796B5B086FAAEC66252C93CE77BC493 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B9248ECC1B4A387362DD1EBBD50ECFF8 /* XMRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMRouter.modulemap; sourceTree = "<group>"; };
-		BB736E6812C7E1566BADC7CD4B212522 /* UIColor+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extension.h"; path = "XMUtils/Classes/UIColor+Extension.h"; sourceTree = "<group>"; };
-		BD462E280AF37C55130469E86B0981E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BDBEA3F64257209DB905F8ED108A7CC2 /* XMUser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUser-umbrella.h"; sourceTree = "<group>"; };
-		BF70D762388333FFFC842E7574C5E6D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BF7A5B33198F59BF5967F7C7F265E041 /* XMHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMHomeViewController.h; path = XMHome/Classes/XMHomeViewController.h; sourceTree = "<group>"; };
-		C09A1AFD4CF7D8E24D45C3E950C0B49D /* XMUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUtils-umbrella.h"; sourceTree = "<group>"; };
-		C127F42C3E7870AFB4008BA05444B906 /* XMBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMBase.debug.xcconfig; sourceTree = "<group>"; };
-		C1DE88BB8F40E37812E606688AB17DD6 /* XMRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMRouter.release.xcconfig; sourceTree = "<group>"; };
-		C1EFBCA291F4C8F9D323FF266DE182F4 /* XMApplicationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMApplicationProtocol.h; path = XMLaunch/Classes/XMApplicationProtocol.h; sourceTree = "<group>"; };
-		C52A607F8723EE30665DD01E70AF45CC /* XMUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C6287CBA02BD380EFB06B70CBDD6EFEC /* XMUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMUtils.modulemap; sourceTree = "<group>"; };
-		C6E9B7E44D2A0280107374895EC3FFB4 /* XMBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B06F4CB48869F19FF55502D4AD3CB151 /* XMBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2A6D1B09E9CE09A2F56A16818F8ADF4 /* XMHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMHomeViewController.m; path = XMHome/Classes/XMHomeViewController.m; sourceTree = "<group>"; };
+		B6443A93FF1B084779369F13EA1610B2 /* XMUserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMUserViewController.m; path = XMUser/Classes/XMUserViewController.m; sourceTree = "<group>"; };
+		B894933DC3BAEF8CE15FA1D99241923C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B98904C0491DAF0778DCFB298BC2499F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BC85399DF10013E8506765FFA423C54C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BE9BC8EC84A267316F5BBADA11444397 /* XMRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMRouter.debug.xcconfig; sourceTree = "<group>"; };
+		C17E06654D12E8729AA2C9AE59927A02 /* XMNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMNetWork.release.xcconfig; sourceTree = "<group>"; };
+		C25D7AB034BE643293C1960E4C5F7AE1 /* XMUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUtils-umbrella.h"; sourceTree = "<group>"; };
+		C346C237BA717DE6E9C369D060EE9625 /* XMUser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMUser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4AEC86F29EB48109E6C0C53CD61AE3D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMNetWork/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C500F6C070A16620875965353A839F5F /* XMLaunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLaunch.release.xcconfig; sourceTree = "<group>"; };
 		C74B41E09FF685E6DD49E29B64E112C4 /* XMNetWork */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMNetWork; path = XMNetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB15104340A0E21D14F13D58E8F3860F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CD5FF7863457B08903831032B3914262 /* XMHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMHome-prefix.pch"; sourceTree = "<group>"; };
+		C84D17846AE8191B3DDD6168ADB5D96A /* XMNetWork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMNetWork-umbrella.h"; sourceTree = "<group>"; };
+		CD11586A2748591D4E88A30F2A7F11B3 /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "XMUtils/Classes/UIView+Extension.h"; sourceTree = "<group>"; };
+		CF64A81769F409F0849AD20968BAE4AE /* XMApplicationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMApplicationProtocol.h; path = XMLaunch/Classes/XMApplicationProtocol.h; sourceTree = "<group>"; };
 		D01650E66D17474C91577DB9CC3EB8D2 /* XMHome */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMHome; path = XMHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D02C86BB03D23B4DE79DE497E38F2343 /* XMUserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMUserViewController.h; path = XMUser/Classes/XMUserViewController.h; sourceTree = "<group>"; };
-		D8C84848C5B94BD8DE7723BCB54B0D7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D94CBDE1AF334C350924F64C8DA2C7EC /* XMBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBaseViewController.h; path = XMBase/Classes/XMBaseViewController.h; sourceTree = "<group>"; };
-		DF6D09CB7BA929440E8BDCB1F43251A4 /* XMUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUser.release.xcconfig; sourceTree = "<group>"; };
-		E09390917D7524F8C04A7A45A827C4AD /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "XMUtils/Classes/UIView+Extension.m"; sourceTree = "<group>"; };
-		E612E016B22B9EE18146CA4A539DB3B2 /* XMBaseNavViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMBaseNavViewController.m; path = XMBase/Classes/XMBaseNavViewController.m; sourceTree = "<group>"; };
-		E7D76E6098277176F19427191E10B3EB /* XMRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMRouter.debug.xcconfig; sourceTree = "<group>"; };
-		E875D2FB632CEA4919433508B651AC04 /* XMNetWork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMNetWork.modulemap; sourceTree = "<group>"; };
-		E9AA8994D1F212F9436E27AA382B8FCE /* XMUser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMUser.modulemap; sourceTree = "<group>"; };
+		D0CABA7B90E04A52AFD85EC4F1880763 /* XMNetWork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMNetWork-Info.plist"; sourceTree = "<group>"; };
+		DA35DD071280493E594BA88E4FE4C0B8 /* XMRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMRouter-prefix.pch"; sourceTree = "<group>"; };
+		DE73313ADF0FD305AFFBECF5681424E3 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "XMUtils/Classes/NSString+Extension.m"; sourceTree = "<group>"; };
+		DFF43EB8EE9684616DEE91BECD0A945C /* XMUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUser.release.xcconfig; sourceTree = "<group>"; };
+		E20598458CA7A31524291EFC9231C8F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E392852EFC93E4BBE0A067E774FB2D81 /* XMBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMBase.debug.xcconfig; sourceTree = "<group>"; };
+		E8160E02EFCCD71057F78EE261B54D72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EA05E90D73D49F856741D1E3FADC0097 /* Pods-XMProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMProject-frameworks.sh"; sourceTree = "<group>"; };
-		EB17D3762F58F17AB021D9E599F1CA3E /* XMHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMHome-dummy.m"; sourceTree = "<group>"; };
-		EBDCA7BD7032D98CB9EC8C9E10D3AADA /* XMLaunch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMLaunch-dummy.m"; sourceTree = "<group>"; };
-		EDF3F427DED2A69C15EB2046EC70898C /* XMLaunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLaunch.debug.xcconfig; sourceTree = "<group>"; };
-		FCE00C2BD9763A687A5EF5E111B36F1A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FE1FD1CD6250F8DF6FED584B80B6EC51 /* XMUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUtils.debug.xcconfig; sourceTree = "<group>"; };
+		EDB1BC5636AE91805481176B161579C1 /* XMUser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMUser-dummy.m"; sourceTree = "<group>"; };
+		F07127BAFC74429C7F23BA4C1F5FBB52 /* XMUser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUser-prefix.pch"; sourceTree = "<group>"; };
+		F38789755865758ED42D34CF62E6348E /* XMBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBase.h; path = XMBase/Classes/XMBase.h; sourceTree = "<group>"; };
+		F501E5FAF0D35BFA745D81F0B2888D8C /* XMUser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMUser.modulemap; sourceTree = "<group>"; };
+		F573B5BB5ED316B79BB5C8B5B22A52DC /* XMHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMHome.modulemap; sourceTree = "<group>"; };
+		F707F3C69C283BE17EA78B7491B6FCFF /* UIColor+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extension.m"; path = "XMUtils/Classes/UIColor+Extension.m"; sourceTree = "<group>"; };
+		F9941E4F0EF5377FD9451EC0DC4EF579 /* XMHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMHome-umbrella.h"; sourceTree = "<group>"; };
+		FEBBC630B1A5F3530D718AB92E6EB99C /* XMNetWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMNetWork-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,39 +301,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FAEC8D14739A1CE869896D9265F8AA8 /* Pod */ = {
+		0453EEEB23CC5750C3DDDB84C77FC7E3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				019E75609810D0783D4988C92C425E6A /* LICENSE */,
-				6E4732DC3FA3D0E64B8B4A25534C6DC8 /* README.md */,
-				9E4756720DFD40B1EC840E20A5845444 /* XMNetWork.podspec */,
+				3CE334A2AD8B75F5A57948DAF9D4768B /* XMBase.modulemap */,
+				A9C5E562A5DCC9C5A91F896E244D212D /* XMBase-dummy.m */,
+				41371509084EB23035914F9CD608D4FA /* XMBase-Info.plist */,
+				1A989A8BE990CA94E7C04D740122807B /* XMBase-prefix.pch */,
+				33164737C303E05B90C7AE2353F15398 /* XMBase-umbrella.h */,
+				E392852EFC93E4BBE0A067E774FB2D81 /* XMBase.debug.xcconfig */,
+				318A7AFD2E6780F1BEBDA9B24EB91397 /* XMBase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/XMBase";
+			sourceTree = "<group>";
+		};
+		0BB092D50168361B3B6240787BC7C540 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AC838CEBFA4A2851D3A3B86019770146 /* LICENSE */,
+				070AEC88F73C6657481BF1C5B70B3BA9 /* README.md */,
+				4FD160DBE43CC8511AC6D3C2530F0878 /* XMRouter.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		1D3BB69D68A81F71A93A74B2BC98E053 /* XMBase */ = {
+		1A164030446F7211089B4B33D056A152 /* XMLaunch */ = {
 			isa = PBXGroup;
 			children = (
-				4F0F2A371ABFC5CD68285929991C1856 /* XMBase.h */,
-				25F9330FB89E6CD51866AF31F3D1556E /* XMBaseNavViewController.h */,
-				E612E016B22B9EE18146CA4A539DB3B2 /* XMBaseNavViewController.m */,
-				D94CBDE1AF334C350924F64C8DA2C7EC /* XMBaseViewController.h */,
-				0F2C5CAEB29D9E45D90CFAD339E86E78 /* XMBaseViewController.m */,
-				774BF9D8EC7BE25A144FDC74E9D886CC /* Pod */,
-				62995DCACA1EAE9C50222E1A774FC0AB /* Support Files */,
+				3B27E814374055DBAAACFD3D6EDDF186 /* XMAppDelegateComponent.h */,
+				7D8842946147B67F20D2B38AA70FA8B8 /* XMAppDelegateComponent.m */,
+				CF64A81769F409F0849AD20968BAE4AE /* XMApplicationProtocol.h */,
+				F72D984DC349FD4E80071BF6F0CC41EC /* Pod */,
+				F9CC688FEB65C91648FCABCB0918E869 /* Support Files */,
 			);
-			name = XMBase;
-			path = ../../XMBase;
+			name = XMLaunch;
+			path = ../XMLaunch;
 			sourceTree = "<group>";
 		};
-		51602FBBEC082BE96EC1077F27A5FC59 /* Pod */ = {
+		2EBF74A9649FE99F63493CEC235D972F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0BA05EB9B74C3C32A4DB7D29D3178096 /* LICENSE */,
-				B796B5B086FAAEC66252C93CE77BC493 /* README.md */,
-				2EEA31381D20E7AD16437B1C77245677 /* XMHome.podspec */,
+				B98904C0491DAF0778DCFB298BC2499F /* LICENSE */,
+				546CDBD87C252F37AF6A091B9F548CB0 /* README.md */,
+				51946B544A562B87192D7476FE9E9B8A /* XMHome.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		320AA178D72B3CA66C5C5BE0FFFF06B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F501E5FAF0D35BFA745D81F0B2888D8C /* XMUser.modulemap */,
+				EDB1BC5636AE91805481176B161579C1 /* XMUser-dummy.m */,
+				4FA376D166EDC8D366C28096F873EC83 /* XMUser-Info.plist */,
+				F07127BAFC74429C7F23BA4C1F5FBB52 /* XMUser-prefix.pch */,
+				3DF8BA86415301E9A393F002BF4B1EF3 /* XMUser-umbrella.h */,
+				83C45A7E8C5F57EF55ACCF5BC6EB2AA1 /* XMUser.debug.xcconfig */,
+				DFF43EB8EE9684616DEE91BECD0A945C /* XMUser.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/XMUser";
+			sourceTree = "<group>";
+		};
+		4919BBAB0FF71EAC07FD0E1C85F35A39 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8A2AB93F0592154923D44E2D9F7F081C /* LICENSE */,
+				300EBE7C88C6E81F5AF0EA0179217C9E /* README.md */,
+				C346C237BA717DE6E9C369D060EE9625 /* XMUser.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		52C660D1589503F94E236CAC31E7576B /* XMNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				C4AEC86F29EB48109E6C0C53CD61AE3D /* ReplaceMe.m */,
+				FB98FBB300775C774CB7A36D493F4AE9 /* Pod */,
+				6AFCD5C6C884C239AA6866E36070822F /* Support Files */,
+			);
+			name = XMNetWork;
+			path = ../XMNetWork;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -344,110 +393,44 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5AA77C1E46C7AA89AA8DD1C8C3F46E90 /* Support Files */ = {
+		62346A4EF3A3026C4FBF32BCAE9A2415 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E9AA8994D1F212F9436E27AA382B8FCE /* XMUser.modulemap */,
-				517FFFFABE060E27B0F5EFD616EDAB1C /* XMUser-dummy.m */,
-				76C35822917DE5E82F4C8DA90B9D42EF /* XMUser-Info.plist */,
-				34D4CFD228926E5AE77C79D93AD51A63 /* XMUser-prefix.pch */,
-				BDBEA3F64257209DB905F8ED108A7CC2 /* XMUser-umbrella.h */,
-				78EFDD469398043D4669A565A524953F /* XMUser.debug.xcconfig */,
-				DF6D09CB7BA929440E8BDCB1F43251A4 /* XMUser.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../XMProject/Pods/Target Support Files/XMUser";
-			sourceTree = "<group>";
-		};
-		5D6917CD5AB86E8385BFD41C8FE15EB8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6287CBA02BD380EFB06B70CBDD6EFEC /* XMUtils.modulemap */,
-				97E9A42A7EC1E7F028436FBC972696C5 /* XMUtils-dummy.m */,
-				2B7306553992B7779CC991AD90123321 /* XMUtils-Info.plist */,
-				69F4FFAC3CC4FF7B9D7947EBC99B384C /* XMUtils-prefix.pch */,
-				C09A1AFD4CF7D8E24D45C3E950C0B49D /* XMUtils-umbrella.h */,
-				FE1FD1CD6250F8DF6FED584B80B6EC51 /* XMUtils.debug.xcconfig */,
-				A8BBC5160D34BED671DECCC1FFAC01D7 /* XMUtils.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../XMProject/Pods/Target Support Files/XMUtils";
-			sourceTree = "<group>";
-		};
-		62995DCACA1EAE9C50222E1A774FC0AB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3F19C091FFB303F7422665F6BD5F8937 /* XMBase.modulemap */,
-				9A7F3A6B1163B73D11BDE0155B143B03 /* XMBase-dummy.m */,
-				83032321815FB3997CF96DDB9C37E0B4 /* XMBase-Info.plist */,
-				414B24CB647E43C2FF5C750DF851D3BE /* XMBase-prefix.pch */,
-				7718A273A343228B93440BE8C05701F5 /* XMBase-umbrella.h */,
-				C127F42C3E7870AFB4008BA05444B906 /* XMBase.debug.xcconfig */,
-				43C463FF5814D9F1B1639537B5B67FAE /* XMBase.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../XMProject/Pods/Target Support Files/XMBase";
-			sourceTree = "<group>";
-		};
-		774BF9D8EC7BE25A144FDC74E9D886CC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9902FA378158E6DAB437A374794CEF7C /* LICENSE */,
-				0AFD6126EC3DE5C14985ADF31C290D65 /* README.md */,
-				C6E9B7E44D2A0280107374895EC3FFB4 /* XMBase.podspec */,
+				E20598458CA7A31524291EFC9231C8F6 /* LICENSE */,
+				8A3464F1B286C3052CA91C93C8A98471 /* README.md */,
+				8B0F9D4387D1AC9CCFE97F9C720EA1A6 /* XMUtils.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		7DE3AE35FA80763863A3BF76F022C8C2 /* Pod */ = {
+		6AFCD5C6C884C239AA6866E36070822F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FCE00C2BD9763A687A5EF5E111B36F1A /* LICENSE */,
-				3613FC428F75A1576D480AD9572B0278 /* README.md */,
-				C52A607F8723EE30665DD01E70AF45CC /* XMUtils.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		7EC562A27AAF3821CFEB96C4577FE034 /* XMNetWork */ = {
-			isa = PBXGroup;
-			children = (
-				72201BBD31E617D614AFF997DB9D281E /* ReplaceMe.m */,
-				0FAEC8D14739A1CE869896D9265F8AA8 /* Pod */,
-				D0AF7869BB4FA08C59A41B368B59DFC7 /* Support Files */,
-			);
-			name = XMNetWork;
-			path = ../../XMNetWork;
-			sourceTree = "<group>";
-		};
-		849AF09CA8CA09BA5B1F207B9AE5F102 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1827DBD19F25063CB5708C0282F86B8A /* XMLaunch.modulemap */,
-				EBDCA7BD7032D98CB9EC8C9E10D3AADA /* XMLaunch-dummy.m */,
-				82270BC52883B419016E0608D680C3BD /* XMLaunch-Info.plist */,
-				3B6A8F1D8468FBAEB14717D42A6B4D00 /* XMLaunch-prefix.pch */,
-				60FB6A2CE6EBAA4FE0FEE605A3E9F1EE /* XMLaunch-umbrella.h */,
-				EDF3F427DED2A69C15EB2046EC70898C /* XMLaunch.debug.xcconfig */,
-				6647078854FE63DB4DD494A379FFE073 /* XMLaunch.release.xcconfig */,
+				8A041E5A5393FCA0FBEC780DEB0B0C50 /* XMNetWork.modulemap */,
+				2F2F53EF5788354FDF1704736B367715 /* XMNetWork-dummy.m */,
+				D0CABA7B90E04A52AFD85EC4F1880763 /* XMNetWork-Info.plist */,
+				FEBBC630B1A5F3530D718AB92E6EB99C /* XMNetWork-prefix.pch */,
+				C84D17846AE8191B3DDD6168ADB5D96A /* XMNetWork-umbrella.h */,
+				4F414FE3CE91DA4581720EE890CE8849 /* XMNetWork.debug.xcconfig */,
+				C17E06654D12E8729AA2C9AE59927A02 /* XMNetWork.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../XMProject/Pods/Target Support Files/XMLaunch";
+			path = "../Pods/Target Support Files/XMNetWork";
 			sourceTree = "<group>";
 		};
-		84B5AE068D5B0EE06C525924C04C0A09 /* Support Files */ = {
+		8BB5283DF25B2AB2CC132C91D6D717BD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B9248ECC1B4A387362DD1EBBD50ECFF8 /* XMRouter.modulemap */,
-				195898C7A904DC0AC291C1C021BE6F4D /* XMRouter-dummy.m */,
-				833A4EE5554C3BE509EBB8AD194CEF3F /* XMRouter-Info.plist */,
-				1BF34986FC3482A349B151E3F0909768 /* XMRouter-prefix.pch */,
-				0BDE8FE5D77CCD620E896E6BD8637F03 /* XMRouter-umbrella.h */,
-				E7D76E6098277176F19427191E10B3EB /* XMRouter.debug.xcconfig */,
-				C1DE88BB8F40E37812E606688AB17DD6 /* XMRouter.release.xcconfig */,
+				614918AF12123E99C1A8E19E5692BA78 /* XMUtils.modulemap */,
+				42CC3154A31CFD71E04FFE9952DC0944 /* XMUtils-dummy.m */,
+				7A45A85371B759FD3C32BC2F1C455DA3 /* XMUtils-Info.plist */,
+				553F81AC4E0C96950BD4F7A3B69AE588 /* XMUtils-prefix.pch */,
+				C25D7AB034BE643293C1960E4C5F7AE1 /* XMUtils-umbrella.h */,
+				644F20C36D562BF49E83720DB47CCD2E /* XMUtils.debug.xcconfig */,
+				7463B4596E0AA2CF679E356EE2D27DA0 /* XMUtils.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../XMProject/Pods/Target Support Files/XMRouter";
+			path = "../Pods/Target Support Files/XMUtils";
 			sourceTree = "<group>";
 		};
 		8C2DEA1978A44F83F28A3388C85225A6 /* Products */ = {
@@ -465,119 +448,78 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D5D5E4B5BC19A84DBE481C0377F2E76 /* Pod */ = {
+		97610F187AF35B7A64FB9CB3FB9829BE /* XMRouter */ = {
 			isa = PBXGroup;
 			children = (
-				A35AA9158E5D3501EF8BD698BA2601A9 /* LICENSE */,
-				CB15104340A0E21D14F13D58E8F3860F /* README.md */,
-				2BB8C2FEBD5D22BF609D08E024019DF5 /* XMUser.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		8E94B42C06C64B3DCAE5139B268AA64F /* XMUtils */ = {
-			isa = PBXGroup;
-			children = (
-				9E481F04801E653DBF4DAD6FE57C4E55 /* NSString+Extension.h */,
-				395492982FFACEB36C19F3B2CBFE4F25 /* NSString+Extension.m */,
-				BB736E6812C7E1566BADC7CD4B212522 /* UIColor+Extension.h */,
-				913D35406E05B5E4526C3155E671C504 /* UIColor+Extension.m */,
-				1536B2D56738EF9BC41C3B5EB1B78759 /* UIView+Extension.h */,
-				E09390917D7524F8C04A7A45A827C4AD /* UIView+Extension.m */,
-				AF595305E88E4933E7C774BE2A2FDB60 /* XMUtils.h */,
-				7DE3AE35FA80763863A3BF76F022C8C2 /* Pod */,
-				5D6917CD5AB86E8385BFD41C8FE15EB8 /* Support Files */,
-			);
-			name = XMUtils;
-			path = ../../XMUtils;
-			sourceTree = "<group>";
-		};
-		A013C4A568B32B3035C0E22E2A6C0A67 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1D3BB69D68A81F71A93A74B2BC98E053 /* XMBase */,
-				B4E903C3954BFDAC870C7A8E8FA809F7 /* XMHome */,
-				FB9A5ABD39BE3EB54488AACFAF00C271 /* XMLaunch */,
-				7EC562A27AAF3821CFEB96C4577FE034 /* XMNetWork */,
-				BEC77BDD001FBF4C26AA279665C36ECD /* XMRouter */,
-				EC7B38A4BA0B778C1258DA937ED522D6 /* XMUser */,
-				8E94B42C06C64B3DCAE5139B268AA64F /* XMUtils */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B17DDC6897A07948092CCAEABD773745 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BD462E280AF37C55130469E86B0981E3 /* LICENSE */,
-				BF70D762388333FFFC842E7574C5E6D8 /* README.md */,
-				552B2FFEF07D84A688F43DE70176DA6A /* XMRouter.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		B4E903C3954BFDAC870C7A8E8FA809F7 /* XMHome */ = {
-			isa = PBXGroup;
-			children = (
-				BF7A5B33198F59BF5967F7C7F265E041 /* XMHomeViewController.h */,
-				8299CB3B0F7256E73C29279384B7F1D2 /* XMHomeViewController.m */,
-				51602FBBEC082BE96EC1077F27A5FC59 /* Pod */,
-				BDB358A754FC94F3190E793C2AD11A7E /* Support Files */,
-			);
-			name = XMHome;
-			path = ../../XMHome;
-			sourceTree = "<group>";
-		};
-		BDB358A754FC94F3190E793C2AD11A7E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				83FA80FD1A1700463C5E61086F5783EE /* XMHome.modulemap */,
-				EB17D3762F58F17AB021D9E599F1CA3E /* XMHome-dummy.m */,
-				12337B9885AD18A859A6CC316778BF42 /* XMHome-Info.plist */,
-				CD5FF7863457B08903831032B3914262 /* XMHome-prefix.pch */,
-				A2B48AA463F2EDBC8860BA2BFE28F1BF /* XMHome-umbrella.h */,
-				448298070443921E6117CA1F1EAD1C3E /* XMHome.debug.xcconfig */,
-				150455651172FBFC69E44F8FEAE405E7 /* XMHome.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../XMProject/Pods/Target Support Files/XMHome";
-			sourceTree = "<group>";
-		};
-		BEC77BDD001FBF4C26AA279665C36ECD /* XMRouter */ = {
-			isa = PBXGroup;
-			children = (
-				2084A17D6F7C13F62B2F1A9F5EAEA5AF /* ReplaceMe.m */,
-				B17DDC6897A07948092CCAEABD773745 /* Pod */,
-				84B5AE068D5B0EE06C525924C04C0A09 /* Support Files */,
+				01691058C39A232E404B34D64EF25FA7 /* ReplaceMe.m */,
+				0BB092D50168361B3B6240787BC7C540 /* Pod */,
+				BEC08E494DE3C82C2D3F667066F0DC1B /* Support Files */,
 			);
 			name = XMRouter;
-			path = ../../XMRouter;
+			path = ../XMRouter;
+			sourceTree = "<group>";
+		};
+		9FA7A3BF5CC89709C7D11D8D2F047861 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AD2774E581C6A29D6FA5D3483BBC2A18 /* LICENSE */,
+				E8160E02EFCCD71057F78EE261B54D72 /* README.md */,
+				B06F4CB48869F19FF55502D4AD3CB151 /* XMBase.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A541AE4C0334476DE62741D33924B7E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F573B5BB5ED316B79BB5C8B5B22A52DC /* XMHome.modulemap */,
+				1EC7F3033E5BFDFC975F5B79ACE88526 /* XMHome-dummy.m */,
+				44771CF94E04A6BF9FA768AD524D408F /* XMHome-Info.plist */,
+				AE7E1224C8E46C923E70E9DD452DFFD8 /* XMHome-prefix.pch */,
+				F9941E4F0EF5377FD9451EC0DC4EF579 /* XMHome-umbrella.h */,
+				2C719CFD85069C0E083311B29F385364 /* XMHome.debug.xcconfig */,
+				8ED94ACA7A64D9401D0AE893C1874F91 /* XMHome.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/XMHome";
+			sourceTree = "<group>";
+		};
+		BEC08E494DE3C82C2D3F667066F0DC1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22210798875CF06A8C740AD5C2D1437A /* XMRouter.modulemap */,
+				5A77D060089E044EFC668347DA3DA138 /* XMRouter-dummy.m */,
+				A528CECF11C7ED1918D12DB7BD8D6F2A /* XMRouter-Info.plist */,
+				DA35DD071280493E594BA88E4FE4C0B8 /* XMRouter-prefix.pch */,
+				67184863CE68E283E338F16794B25F08 /* XMRouter-umbrella.h */,
+				BE9BC8EC84A267316F5BBADA11444397 /* XMRouter.debug.xcconfig */,
+				54C2D0EFB0A04807C17FE612F1F8D701 /* XMRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/XMRouter";
+			sourceTree = "<group>";
+		};
+		C84901B62C9DCBB8BFB5C748A3C9E173 /* XMUser */ = {
+			isa = PBXGroup;
+			children = (
+				75C8BFD9D754AE8EA142ABB5B5A3D81E /* XMUserViewController.h */,
+				B6443A93FF1B084779369F13EA1610B2 /* XMUserViewController.m */,
+				4919BBAB0FF71EAC07FD0E1C85F35A39 /* Pod */,
+				320AA178D72B3CA66C5C5BE0FFFF06B9 /* Support Files */,
+			);
+			name = XMUser;
+			path = ../XMUser;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A013C4A568B32B3035C0E22E2A6C0A67 /* Development Pods */,
+				DBB7C5505FD961A14575029BA02B6CE8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				8C2DEA1978A44F83F28A3388C85225A6 /* Products */,
 				FFA015AAD90435F4D7FA15A18C83622B /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D0AF7869BB4FA08C59A41B368B59DFC7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E875D2FB632CEA4919433508B651AC04 /* XMNetWork.modulemap */,
-				8553BF584492E5C7D4210A94C092F0BE /* XMNetWork-dummy.m */,
-				6CBB2193199E4BB48E6E8177D133B28F /* XMNetWork-Info.plist */,
-				188E7FE786F4828FC5CEE9C674A366D9 /* XMNetWork-prefix.pch */,
-				621B1C8125E2D0E044F8843734A0CA21 /* XMNetWork-umbrella.h */,
-				6390424038CE537E67954F3E514867C0 /* XMNetWork.debug.xcconfig */,
-				B71AA7F278BF79830611B8A2F59DC1DE /* XMNetWork.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../XMProject/Pods/Target Support Files/XMNetWork";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -586,6 +528,64 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8485C5A58103C3F3B4386D2C9B7BAD0 /* XMUtils */ = {
+			isa = PBXGroup;
+			children = (
+				4651810DCAF9763F99A1E40585C8432C /* NSString+Extension.h */,
+				DE73313ADF0FD305AFFBECF5681424E3 /* NSString+Extension.m */,
+				2BC45AB478E617B6EBD9CE9E6A74115A /* UIColor+Extension.h */,
+				F707F3C69C283BE17EA78B7491B6FCFF /* UIColor+Extension.m */,
+				CD11586A2748591D4E88A30F2A7F11B3 /* UIView+Extension.h */,
+				72E913A3CB4289E50763000AB5278E45 /* UIView+Extension.m */,
+				168420FE1566C989D3076E6C715B58B2 /* XMUtils.h */,
+				62346A4EF3A3026C4FBF32BCAE9A2415 /* Pod */,
+				8BB5283DF25B2AB2CC132C91D6D717BD /* Support Files */,
+			);
+			name = XMUtils;
+			path = ../XMUtils;
+			sourceTree = "<group>";
+		};
+		DB7998BC728073D4D76C05B27A930311 /* XMHome */ = {
+			isa = PBXGroup;
+			children = (
+				9053226566D12A966073B88F94DD4F00 /* XMHomeViewController.h */,
+				B2A6D1B09E9CE09A2F56A16818F8ADF4 /* XMHomeViewController.m */,
+				2EBF74A9649FE99F63493CEC235D972F /* Pod */,
+				A541AE4C0334476DE62741D33924B7E3 /* Support Files */,
+			);
+			name = XMHome;
+			path = ../XMHome;
+			sourceTree = "<group>";
+		};
+		DBB7C5505FD961A14575029BA02B6CE8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD4EB891D61D04E9B24B665C3E7B28 /* XMBase */,
+				DB7998BC728073D4D76C05B27A930311 /* XMHome */,
+				1A164030446F7211089B4B33D056A152 /* XMLaunch */,
+				52C660D1589503F94E236CAC31E7576B /* XMNetWork */,
+				97610F187AF35B7A64FB9CB3FB9829BE /* XMRouter */,
+				C84901B62C9DCBB8BFB5C748A3C9E173 /* XMUser */,
+				D8485C5A58103C3F3B4386D2C9B7BAD0 /* XMUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DCAD4EB891D61D04E9B24B665C3E7B28 /* XMBase */ = {
+			isa = PBXGroup;
+			children = (
+				F38789755865758ED42D34CF62E6348E /* XMBase.h */,
+				2D496970173140396EC14021FFB1D7C5 /* XMBaseNavViewController.h */,
+				97E361829DDEEF18774FD421EBE6CE7C /* XMBaseNavViewController.m */,
+				7D06C7013AACC8023C5C1FC7C60531C9 /* XMBaseViewController.h */,
+				4C1E9BA4BEFF0EC36BCF66B842765D13 /* XMBaseViewController.m */,
+				9FA7A3BF5CC89709C7D11D8D2F047861 /* Pod */,
+				0453EEEB23CC5750C3DDDB84C77FC7E3 /* Support Files */,
+			);
+			name = XMBase;
+			path = ../XMBase;
 			sourceTree = "<group>";
 		};
 		DE8557C9D2285AA33E453A4CA9CD5C97 /* Pods-XMProject */ = {
@@ -605,39 +605,39 @@
 			path = "Target Support Files/Pods-XMProject";
 			sourceTree = "<group>";
 		};
-		EC7B38A4BA0B778C1258DA937ED522D6 /* XMUser */ = {
+		F72D984DC349FD4E80071BF6F0CC41EC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D02C86BB03D23B4DE79DE497E38F2343 /* XMUserViewController.h */,
-				8DE4750F8EA22156658AD33D6E26CEAA /* XMUserViewController.m */,
-				8D5D5E4B5BC19A84DBE481C0377F2E76 /* Pod */,
-				5AA77C1E46C7AA89AA8DD1C8C3F46E90 /* Support Files */,
-			);
-			name = XMUser;
-			path = ../../XMUser;
-			sourceTree = "<group>";
-		};
-		F16B86F7179E0DF9337811C507DFA562 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D8C84848C5B94BD8DE7723BCB54B0D7B /* LICENSE */,
-				17A3C5791C10B8B6B318F44FC28EE9D4 /* README.md */,
-				A4163601608F40FF067BAF8587C64D17 /* XMLaunch.podspec */,
+				BC85399DF10013E8506765FFA423C54C /* LICENSE */,
+				0C7D9AD9E85EC444D37DC86D104F872D /* README.md */,
+				43E51285DB7F2CD6F060B293B6EBD960 /* XMLaunch.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		FB9A5ABD39BE3EB54488AACFAF00C271 /* XMLaunch */ = {
+		F9CC688FEB65C91648FCABCB0918E869 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				087820C9D601B3FCBAF0FF3003B9029F /* XMAppDelegateComponent.h */,
-				2D383E690B7E160FC5967FF51F805298 /* XMAppDelegateComponent.m */,
-				C1EFBCA291F4C8F9D323FF266DE182F4 /* XMApplicationProtocol.h */,
-				F16B86F7179E0DF9337811C507DFA562 /* Pod */,
-				849AF09CA8CA09BA5B1F207B9AE5F102 /* Support Files */,
+				A58D5E16F632DFD129DCFBB05E055B89 /* XMLaunch.modulemap */,
+				0DD83921C3AD11BEC4BB41EBCB2A7881 /* XMLaunch-dummy.m */,
+				70936D7F651430D4C15CA38432839410 /* XMLaunch-Info.plist */,
+				A00DA7A2E25BF1DAFCAA9B1D9719BE2B /* XMLaunch-prefix.pch */,
+				97E1F9C7F33BFB86EC599EAA96D2D700 /* XMLaunch-umbrella.h */,
+				1AD940CF0437C1A054BAA2F525A70AB6 /* XMLaunch.debug.xcconfig */,
+				C500F6C070A16620875965353A839F5F /* XMLaunch.release.xcconfig */,
 			);
-			name = XMLaunch;
-			path = ../../XMLaunch;
+			name = "Support Files";
+			path = "../Pods/Target Support Files/XMLaunch";
+			sourceTree = "<group>";
+		};
+		FB98FBB300775C774CB7A36D493F4AE9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				61584557F6B98C4E53359702C6C6E27F /* LICENSE */,
+				B894933DC3BAEF8CE15FA1D99241923C /* README.md */,
+				34E0921A40FEFAEC9634940EF4F19EB2 /* XMNetWork.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		FFA015AAD90435F4D7FA15A18C83622B /* Targets Support Files */ = {
@@ -1112,7 +1112,7 @@
 /* Begin XCBuildConfiguration section */
 		07FB5F2B9E3BE7E3226FA37B48D14DA4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6647078854FE63DB4DD494A379FFE073 /* XMLaunch.release.xcconfig */;
+			baseConfigurationReference = C500F6C070A16620875965353A839F5F /* XMLaunch.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1147,7 +1147,7 @@
 		};
 		0D0E699E9550EAC7AB9C483995BFDDC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDF3F427DED2A69C15EB2046EC70898C /* XMLaunch.debug.xcconfig */;
+			baseConfigurationReference = 1AD940CF0437C1A054BAA2F525A70AB6 /* XMLaunch.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1181,7 +1181,7 @@
 		};
 		1860063D6B63ED7022EF53D0B02ADECA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE1FD1CD6250F8DF6FED584B80B6EC51 /* XMUtils.debug.xcconfig */;
+			baseConfigurationReference = 644F20C36D562BF49E83720DB47CCD2E /* XMUtils.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1215,7 +1215,7 @@
 		};
 		1E040F5BAD1A0BE0C4D74A31C2F616CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 448298070443921E6117CA1F1EAD1C3E /* XMHome.debug.xcconfig */;
+			baseConfigurationReference = 2C719CFD85069C0E083311B29F385364 /* XMHome.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1249,7 +1249,7 @@
 		};
 		1EB6D7B1F3FD6A1A38A0DE0F77CE3398 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 150455651172FBFC69E44F8FEAE405E7 /* XMHome.release.xcconfig */;
+			baseConfigurationReference = 8ED94ACA7A64D9401D0AE893C1874F91 /* XMHome.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1284,7 +1284,7 @@
 		};
 		25904150AA8AFA0A6DE07FD46DE5E3D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C127F42C3E7870AFB4008BA05444B906 /* XMBase.debug.xcconfig */;
+			baseConfigurationReference = E392852EFC93E4BBE0A067E774FB2D81 /* XMBase.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1484,7 +1484,7 @@
 		};
 		625D0CD83A9802FAD047837164A54222 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43C463FF5814D9F1B1639537B5B67FAE /* XMBase.release.xcconfig */;
+			baseConfigurationReference = 318A7AFD2E6780F1BEBDA9B24EB91397 /* XMBase.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1519,7 +1519,7 @@
 		};
 		688529676611C50F61404C51E0CC5CD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6390424038CE537E67954F3E514867C0 /* XMNetWork.debug.xcconfig */;
+			baseConfigurationReference = 4F414FE3CE91DA4581720EE890CE8849 /* XMNetWork.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1553,7 +1553,7 @@
 		};
 		818B8FBF6BD7EEF417E14FA416B489A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B71AA7F278BF79830611B8A2F59DC1DE /* XMNetWork.release.xcconfig */;
+			baseConfigurationReference = C17E06654D12E8729AA2C9AE59927A02 /* XMNetWork.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1588,7 +1588,7 @@
 		};
 		9A696E75D9C7157A5EBD8377B1A23E73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF6D09CB7BA929440E8BDCB1F43251A4 /* XMUser.release.xcconfig */;
+			baseConfigurationReference = DFF43EB8EE9684616DEE91BECD0A945C /* XMUser.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1623,7 +1623,7 @@
 		};
 		A487B652A41D60F00BE03825AE74E0FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78EFDD469398043D4669A565A524953F /* XMUser.debug.xcconfig */;
+			baseConfigurationReference = 83C45A7E8C5F57EF55ACCF5BC6EB2AA1 /* XMUser.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1657,7 +1657,7 @@
 		};
 		CD5AFC0F234CA88C0F3B29E3DCCA5BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1DE88BB8F40E37812E606688AB17DD6 /* XMRouter.release.xcconfig */;
+			baseConfigurationReference = 54C2D0EFB0A04807C17FE612F1F8D701 /* XMRouter.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1692,7 +1692,7 @@
 		};
 		D1FBCA34D190D73A31138F4907BE565A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8BBC5160D34BED671DECCC1FFAC01D7 /* XMUtils.release.xcconfig */;
+			baseConfigurationReference = 7463B4596E0AA2CF679E356EE2D27DA0 /* XMUtils.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1727,7 +1727,7 @@
 		};
 		DE4EF92A3E6716F46EEDD34FE76BF905 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7D76E6098277176F19427191E10B3EB /* XMRouter.debug.xcconfig */;
+			baseConfigurationReference = BE9BC8EC84A267316F5BBADA11444397 /* XMRouter.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

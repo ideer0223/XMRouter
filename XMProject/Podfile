@@ -7,13 +7,13 @@ target 'XMProject' do
 
   # Pods for XMProject
   # 通用组件
-  pod 'XMBase',    :path=> '../XMBase'   #通用基础模块
-  pod 'XMUtils',   :path=> '../XMUtils'  #常用工具模块
-  pod 'XMRouter',  :path=> '../XMRouter' #路由控制
-  pod 'XMLaunch',  :path=> '../XMLaunch' #App启动模块
-  pod 'XMNetWork', :path=> '../XMNetWork'#网络请求
+  pod 'XMBase',    :path=> './XMBase'   #通用基础模块
+  pod 'XMUtils',   :path=> './XMUtils'  #常用工具模块
+  pod 'XMRouter',  :path=> './XMRouter' #路由控制
+  pod 'XMLaunch',  :path=> './XMLaunch' #App启动模块
+  pod 'XMNetWork', :path=> './XMNetWork'#网络请求
   
   # 业务模块
-  pod 'XMHome',    :path=> '../XMHome'   #首页模块
-  pod 'XMUser',    :path=> '../XMUser'   #个人中心模块
+  pod 'XMHome',    :path=> './XMHome'   #首页模块
+  pod 'XMUser',    :path=> './XMUser'   #个人中心模块
 end
