@@ -11,7 +11,7 @@ target 'XMProject' do
   pod 'XMUtils',   :path=> '../XMUtils'  #常用工具模块
   pod 'XMRouter',  :path=> '../XMRouter' #路由控制
   pod 'XMLaunch',  :path=> '../XMLaunch' #App启动模块
-  
+  pod 'XMNetWork', :path=> '../XMNetWork'#网络请求
   
   # 业务模块
   pod 'XMHome',    :path=> '../XMHome'   #首页模块

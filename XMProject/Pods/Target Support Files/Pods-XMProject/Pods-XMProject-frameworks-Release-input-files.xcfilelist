@@ -2,6 +2,7 @@ ${PODS_ROOT}/Target Support Files/Pods-XMProject/Pods-XMProject-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/XMBase/XMBase.framework
 ${BUILT_PRODUCTS_DIR}/XMHome/XMHome.framework
 ${BUILT_PRODUCTS_DIR}/XMLaunch/XMLaunch.framework
+${BUILT_PRODUCTS_DIR}/XMNetWork/XMNetWork.framework
 ${BUILT_PRODUCTS_DIR}/XMRouter/XMRouter.framework
 ${BUILT_PRODUCTS_DIR}/XMUser/XMUser.framework
 ${BUILT_PRODUCTS_DIR}/XMUtils/XMUtils.framework

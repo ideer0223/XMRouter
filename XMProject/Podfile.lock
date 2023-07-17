@@ -3,6 +3,7 @@ PODS:
   - XMHome (0.1.0):
     - XMBase
   - XMLaunch (0.1.0)
+  - XMNetWork (0.1.0)
   - XMRouter (0.1.0)
   - XMUser (0.1.0):
     - XMBase
@@ -12,6 +13,7 @@ DEPENDENCIES:
   - XMBase (from `../XMBase`)
   - XMHome (from `../XMHome`)
   - XMLaunch (from `../XMLaunch`)
+  - XMNetWork (from `../XMNetWork`)
   - XMRouter (from `../XMRouter`)
   - XMUser (from `../XMUser`)
   - XMUtils (from `../XMUtils`)
@@ -23,6 +25,8 @@ EXTERNAL SOURCES:
     :path: "../XMHome"
   XMLaunch:
     :path: "../XMLaunch"
+  XMNetWork:
+    :path: "../XMNetWork"
   XMRouter:
     :path: "../XMRouter"
   XMUser:
@@ -34,10 +38,11 @@ SPEC CHECKSUMS:
   XMBase: 3c6a013a6fa70b9625815763763923f8910d1806
   XMHome: 1d167b6a65c6c31e4e310a74d639474859229347
   XMLaunch: df074b86f55b673953471b664bb51627374a1efb
+  XMNetWork: c3ad732b4f3f97ea7029c6fe26012f6e6b6cb518
   XMRouter: d96b3251bdaedae578c6de34594fca60a24be178
   XMUser: 826ee70e39ced87a828286626a1ab10eb4cf6760
   XMUtils: 7757bfc2cec39e0e436fc429699342ffb11e734d
 
-PODFILE CHECKSUM: 1883abfbd0c3520f2b334fdf213863dad9ff0500
+PODFILE CHECKSUM: 0ae9ffbfe816ca2e9e831e133522ddd68d2ca33e
 
 COCOAPODS: 1.11.3

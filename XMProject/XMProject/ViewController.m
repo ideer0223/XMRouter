@@ -18,15 +18,24 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UIColor *color = [UIColor colorWithHexString:@"#008000" alpha:0.9];
+    UIColor *color = [UIColor colorWithHexString:@"#FFFFFFF" alpha:1];
     
     self.view.backgroundColor = color;
     
-    NSString *testString = @"中国文化博大精深";
+    NSString *testString = @"6222620140012450597";
     
-    NSLog(@"%d",[testString isChinese]);
+    NSLog(@"%d",[testString isBankCard]);
     
+    UIButton *btn = [UIButton  buttonWithType:UIButtonTypeCustom];
+    
+    btn.x = 100;
+    btn.y = 100;
+    btn.width = 100;
+    btn.height = 100;
+    btn.backgroundColor = [UIColor redColor];
+    
+    
+    [self.view addSubview:btn];
 }
-
 
 @end
