@@ -176,7 +176,9 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMBase/XMBase.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XMDataBase/XMDataBase.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMHome/XMHome.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMLaunch/XMLaunch.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMNetWork/XMNetWork.framework"
@@ -186,7 +188,9 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/XMUtils/XMUtils.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMBase/XMBase.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XMDataBase/XMDataBase.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMHome/XMHome.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMLaunch/XMLaunch.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMNetWork/XMNetWork.framework"

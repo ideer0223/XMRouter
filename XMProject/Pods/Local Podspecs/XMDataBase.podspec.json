@@ -1,0 +1,22 @@
+{
+  "name": "XMDataBase",
+  "version": "0.1.0",
+  "summary": "通用数据库组件",
+  "description": "本地数据库增删改查组件，管理本地数据”",
+  "homepage": "https://github.com/ideer0223/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ideer0223@163.com": "ideer0223@163.com"
+  },
+  "source": {
+    "git": "https://github.com/ideer0223/XMRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "XMDataBase/Classes/**/*"
+}

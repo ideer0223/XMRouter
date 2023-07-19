@@ -1,5 +1,8 @@
 PODS:
-  - XMBase (0.1.0)
+  - Masonry (1.1.0)
+  - XMBase (0.1.0):
+    - Masonry (~> 1.1.0)
+  - XMDataBase (0.1.0)
   - XMHome (0.1.0):
     - XMBase
   - XMLaunch (0.1.0)
@@ -12,6 +15,7 @@ PODS:
 
 DEPENDENCIES:
   - XMBase (from `./XMBase`)
+  - XMDataBase (from `./XMDataBase`)
   - XMHome (from `./XMHome`)
   - XMLaunch (from `./XMLaunch`)
   - XMNetWork (from `./XMNetWork`)
@@ -20,9 +24,15 @@ DEPENDENCIES:
   - XMUser (from `./XMUser`)
   - XMUtils (from `./XMUtils`)
 
+SPEC REPOS:
+  trunk:
+    - Masonry
+
 EXTERNAL SOURCES:
   XMBase:
     :path: "./XMBase"
+  XMDataBase:
+    :path: "./XMDataBase"
   XMHome:
     :path: "./XMHome"
   XMLaunch:
@@ -39,7 +49,9 @@ EXTERNAL SOURCES:
     :path: "./XMUtils"
 
 SPEC CHECKSUMS:
-  XMBase: 3c6a013a6fa70b9625815763763923f8910d1806
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  XMBase: e6bfc4c49e2e31a6d382201790c8de574ce0e02e
+  XMDataBase: d29752021e295b38c4f489b2ba6c18728b9e862c
   XMHome: 1d167b6a65c6c31e4e310a74d639474859229347
   XMLaunch: df074b86f55b673953471b664bb51627374a1efb
   XMNetWork: c3ad732b4f3f97ea7029c6fe26012f6e6b6cb518
@@ -48,6 +60,6 @@ SPEC CHECKSUMS:
   XMUser: 826ee70e39ced87a828286626a1ab10eb4cf6760
   XMUtils: 7757bfc2cec39e0e436fc429699342ffb11e734d
 
-PODFILE CHECKSUM: e42f901be823ccc963cf3984d4d4ab8fc06ed96c
+PODFILE CHECKSUM: 5610fac5537eb3b670a693341a4005e84918a843
 
 COCOAPODS: 1.11.3

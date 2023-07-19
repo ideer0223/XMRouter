@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "XMBase/Classes/**/*"
+  "prefix_header_contents": "#import \"Masonry.h\"",
+  "source_files": "XMBase/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+      "~> 1.1.0"
+    ]
+  }
 }
