@@ -181,6 +181,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/XMLaunch/XMLaunch.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMNetWork/XMNetWork.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMRouter/XMRouter.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XMSafty/XMSafty.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMUser/XMUser.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMUtils/XMUtils.framework"
 fi
@@ -190,6 +191,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/XMLaunch/XMLaunch.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMNetWork/XMNetWork.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMRouter/XMRouter.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XMSafty/XMSafty.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMUser/XMUser.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMUtils/XMUtils.framework"
 fi

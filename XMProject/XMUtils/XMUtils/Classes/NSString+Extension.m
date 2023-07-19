@@ -6,8 +6,14 @@
 //
 
 #import "NSString+Extension.h"
+#import <CommonCrypto/CommonCrypto.h>
+
+#define gkey            @"qnbpwgttcfv96fgw" //密钥
+#define gIv             @"5141928399038306" //偏移量
 
 @implementation NSString (Extension)
+
+/// 判断是否是纯汉字
 - (BOOL)isChinese
 {
     NSString *match = @"(^[\u4e00-\u9fa5]+$)";
@@ -15,12 +21,15 @@
     return [predicate evaluateWithObject:self];
 }
 
+
+/// 判断是否是纯数字
 -(BOOL)isPureNumber{
     NSString *match = @"(^[0123456789]+$)";
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF matches %@", match];
     return [predicate evaluateWithObject:self];
 }
 
+/// 判断是否是手机号码
 -(BOOL)isMobile{
     //手机号以13， 15，16\17 18开头，八个 \d 数字字符
     NSString *phoneRegex = @"^((1[0-9][0-9]))\\d{8}$";
@@ -30,12 +39,16 @@
     return [phoneTest evaluateWithObject:self];
 }
 
+
+
+/// 判断是否是Url地址链接
 - (BOOL)isUrl{
     NSString *regex =@"[a-zA-z]+://[^\\s]*";
     NSPredicate *urlTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
     return [urlTest evaluateWithObject:self];
 }
 
+/// 判断是否是邮箱
 - (BOOL)isEmail{
     NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
     
@@ -44,11 +57,12 @@
     return [emailTest evaluateWithObject:self];
 }
 
+/// 严格执行身份证校验
 - (BOOL)isIDCardStrictly{
     if (self.length != 18) return NO;
     // 正则表达式判断基本 身份证号是否满足格式
     NSString *regex = @"^[1-9]\\d{5}[1-9]\\d{3}((0\\d)|(1[0-2]))(([0|1|2]\\d)|3[0-1])\\d{3}([0-9]|X)$";
-  //  NSString *regex = @"^(^[1-9]\\d{7}((0\\d)|(1[0-2]))(([0|1|2]\\d)|3[0-1])\\d{3}$)|(^[1-9]\\d{5}[1-9]\\d{3}((0\\d)|(1[0-2]))(([0|1|2]\\d)|3[0-1])((\\d{4})|\\d{3}[Xx])$)$";
+    //  NSString *regex = @"^(^[1-9]\\d{7}((0\\d)|(1[0-2]))(([0|1|2]\\d)|3[0-1])\\d{3}$)|(^[1-9]\\d{5}[1-9]\\d{3}((0\\d)|(1[0-2]))(([0|1|2]\\d)|3[0-1])((\\d{4})|\\d{3}[Xx])$)$";
     NSPredicate *identityStringPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
     //如果通过该验证，说明身份证格式正确，但准确性还需计算
     if(![identityStringPredicate evaluateWithObject:self]) return NO;
@@ -87,6 +101,7 @@
     return YES;
 }
 
+/// 简单执行身份证校验
 -(BOOL)isIDCardSimple{
     NSString *pattern = @"(^[0-9]{15}$)|([0-9]{17}([0-9]|X)$)";
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", pattern];
@@ -94,6 +109,8 @@
     return isMatch;
 }
 
+
+/// 判断是否是银行卡号
 - (BOOL)isBankCard{
     if(self.length==0)
     {
@@ -133,4 +150,54 @@
     return modulus == 0;
 }
 
+-(BOOL)isBlank{
+    if (!self
+        || [self isKindOfClass:[NSNull class]]
+        || [self isEqualToString:@""]
+        || [[self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""]) {
+        return YES;
+    } else {
+        return NO;
+    }
+}
+#pragma mark - 加解密
+
+- (NSString *)md5String{
+    const char *cStr = [self UTF8String];
+    unsigned char digest[CC_MD5_DIGEST_LENGTH];
+    CC_MD5( cStr, (CC_LONG)strlen(cStr),digest );
+    NSMutableString *result = [NSMutableString stringWithCapacity:CC_MD5_DIGEST_LENGTH * 2];
+    for(int i = 0; i < CC_MD5_DIGEST_LENGTH; i++)
+        [result appendFormat:@"%02x", digest[i]];
+    return result;
+}
+
+//把字符串加密为base64字符串
+-(NSString *)base64String
+{
+    //判断字符串的长度是否小于等于0如果是，就返回空
+    if (self.length <=0) {
+        return nil;
+    }
+    //把字符串转化为二进制流
+    NSData * sourceData = [[NSData alloc] initWithData:[self dataUsingEncoding:NSUTF8StringEncoding]];
+    //把二进制流转化为base64字符串
+    NSString * baseString = [sourceData base64EncodedStringWithOptions:NSDataBase64EncodingEndLineWithLineFeed];
+    
+    return baseString;
+}
+
+
+- (NSString*)encodeBase64String
+{
+    
+    if (self.length <= 0) {
+        
+        return  nil;
+        
+    }
+    NSData * data = [[NSData alloc] initWithBase64EncodedString:self options:NSDataBase64DecodingIgnoreUnknownCharacters];
+    
+    return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+}
 @end

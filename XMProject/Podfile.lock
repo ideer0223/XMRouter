@@ -5,6 +5,7 @@ PODS:
   - XMLaunch (0.1.0)
   - XMNetWork (0.1.0)
   - XMRouter (0.1.0)
+  - XMSafty (0.1.0)
   - XMUser (0.1.0):
     - XMBase
   - XMUtils (0.1.0)
@@ -15,6 +16,7 @@ DEPENDENCIES:
   - XMLaunch (from `./XMLaunch`)
   - XMNetWork (from `./XMNetWork`)
   - XMRouter (from `./XMRouter`)
+  - XMSafty (from `./XMSafty`)
   - XMUser (from `./XMUser`)
   - XMUtils (from `./XMUtils`)
 
@@ -29,6 +31,8 @@ EXTERNAL SOURCES:
     :path: "./XMNetWork"
   XMRouter:
     :path: "./XMRouter"
+  XMSafty:
+    :path: "./XMSafty"
   XMUser:
     :path: "./XMUser"
   XMUtils:
@@ -40,9 +44,10 @@ SPEC CHECKSUMS:
   XMLaunch: df074b86f55b673953471b664bb51627374a1efb
   XMNetWork: c3ad732b4f3f97ea7029c6fe26012f6e6b6cb518
   XMRouter: d96b3251bdaedae578c6de34594fca60a24be178
+  XMSafty: e76244ea976a7b08bb6403944c8c299448c45c1b
   XMUser: 826ee70e39ced87a828286626a1ab10eb4cf6760
   XMUtils: 7757bfc2cec39e0e436fc429699342ffb11e734d
 
-PODFILE CHECKSUM: f5e04e14c8801629f8591643f3b243e236b342da
+PODFILE CHECKSUM: e42f901be823ccc963cf3984d4d4ab8fc06ed96c
 
 COCOAPODS: 1.11.3

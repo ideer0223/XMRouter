@@ -35,7 +35,23 @@ NS_ASSUME_NONNULL_BEGIN
 /// 判断是否url链接地址
 - (BOOL)isUrl;
 
-#pragma mark - 常用的字符串操作
+/// 判断是否为空
+- (BOOL)isBlank;
+
+
+#pragma mark - 加解密
+
+/// MD5摘要
+- (NSString *)md5String;
+
+/// 把字符串加密为base64字符串
+- (NSString *)base64String;
+
+/// 解密base64字符串
+- (NSString*)encodeBase64String;
+
+
+
 
 
 @end

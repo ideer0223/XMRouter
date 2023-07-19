@@ -12,6 +12,7 @@ target 'XMProject' do
   pod 'XMRouter',  :path=> './XMRouter' #路由控制
   pod 'XMLaunch',  :path=> './XMLaunch' #App启动模块
   pod 'XMNetWork', :path=> './XMNetWork'#网络请求
+  pod 'XMSafty',   :path=> './XMSafty'  #安全控制模块（通过消息转发，runtime避免常见崩溃问题）
   
   # 业务模块
   pod 'XMHome',    :path=> './XMHome'   #首页模块

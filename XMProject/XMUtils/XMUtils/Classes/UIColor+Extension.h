@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)colorWithHexString:(NSString *)color;
 
 
-/// 从十六进制字符串获取颜色
+/// 从十六进制字符串获取颜色+透明度设置
 /// - Parameters:
 ///   - color: color:支持@“#123456”、 @“0X123456”、 @“123456”三种格式
 ///   - alpha: 透明度

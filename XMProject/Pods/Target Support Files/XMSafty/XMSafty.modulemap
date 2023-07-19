@@ -1,0 +1,6 @@
+framework module XMSafty {
+  umbrella header "XMSafty-umbrella.h"
+
+  export *
+  module * { export * }
+}

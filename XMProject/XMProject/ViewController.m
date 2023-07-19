@@ -18,13 +18,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UIColor *color = XMRGBColor(242, 56, 45, 1);
+    UIColor *color = XMRGBColor(255, 255, 255, 1);
 //    [UIColor colorWithHexString:@"#FFFFFFF" alpha:1];
     self.view.backgroundColor = color;
     
     NSString *testString = @"6222620140012450597";
     
-    NSLog(@"%d",[testString isBankCard]);
+    NSLog(@"%@",[testString base64String]);
+    NSLog(@"%@",[[testString base64String] encodeBase64String]);
     
     UIButton *btn = [UIButton  buttonWithType:UIButtonTypeCustom];
     
