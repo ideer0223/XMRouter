@@ -175,29 +175,12 @@
 //把字符串加密为base64字符串
 -(NSString *)base64String
 {
-    //判断字符串的长度是否小于等于0如果是，就返回空
-    if (self.length <=0) {
-        return nil;
-    }
-    //把字符串转化为二进制流
-    NSData * sourceData = [[NSData alloc] initWithData:[self dataUsingEncoding:NSUTF8StringEncoding]];
-    //把二进制流转化为base64字符串
-    NSString * baseString = [sourceData base64EncodedStringWithOptions:NSDataBase64EncodingEndLineWithLineFeed];
-    
-    return baseString;
+    return [XMGTMBase64 encodeBase64String:self];
 }
 
 
 - (NSString*)encodeBase64String
 {
-    
-    if (self.length <= 0) {
-        
-        return  nil;
-        
-    }
-    NSData * data = [[NSData alloc] initWithBase64EncodedString:self options:NSDataBase64DecodingIgnoreUnknownCharacters];
-    
-    return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    return [XMGTMBase64 decodeBase64String:self];
 }
 @end

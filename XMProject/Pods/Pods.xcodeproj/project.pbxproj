@@ -7,176 +7,181 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07797375BDA3BF5322FAE6ABC333D57F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5594EAACB18A566EF574EBB034C46BE6 /* ReplaceMe.m */; };
-		0E3029F110E805FC2B728F32E37B836F /* XMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39956649AC6EC6A80EE8C37122D8B7D /* XMHomeViewController.m */; };
+		07797375BDA3BF5322FAE6ABC333D57F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 77629CD47139F9308CAAC29E14AC26BA /* ReplaceMe.m */; };
+		0E3029F110E805FC2B728F32E37B836F /* XMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E5F9585695EF3144C5CA99D4BC98FD /* XMHomeViewController.m */; };
 		0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1176AF4B0A7505665E969AA16BADAD75 /* XMSafty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84978775BCAD8C8BC5E44A6D938C36C1 /* XMSafty-dummy.m */; };
+		1176AF4B0A7505665E969AA16BADAD75 /* XMSafty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50957AAF50CF8A4B427F0F7087EC4939 /* XMSafty-dummy.m */; };
 		1182C67FCF534835B589EB09C4D4A8E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		11DCFE30993113BE3D33309E47259387 /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7647F9909378F3502C8001FC2452F3CB /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1232D67F03989673D8879736EBAE2BA9 /* XMAppDelegateComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 30AA36243765DE6F0DA7784FBBE7EE57 /* XMAppDelegateComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18AA56C524EB4A672F22F348FB2BED37 /* XMAppDelegateComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CC5861E389D673F999D75BBB1DFE89 /* XMAppDelegateComponent.m */; };
+		1232D67F03989673D8879736EBAE2BA9 /* XMAppDelegateComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D77E4D12A4CE3807D19FA7EF3323FC /* XMAppDelegateComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14ED676FA7B3AA1011FA7A0001405ED7 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C37B34BEBDFF4FAD5B348FE275876B /* UIColor+Extension.m */; };
+		17223582ECE9F6F68E2ED07ECDE1282D /* XMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4E541E90D5B4D02DEF086955F1569 /* XMUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18AA56C524EB4A672F22F348FB2BED37 /* XMAppDelegateComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEFC0688C7F0107319EAB993E67D147 /* XMAppDelegateComponent.m */; };
 		19300CF68F5718C6F9C3476F1A98C1DC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
 		1A87AB4F5CD87CC889186D81DB5F10C3 /* Pods-XMProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 885E7CEC87AD1880A43C6D19C1092363 /* Pods-XMProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B433A1BF92BBD5811F61A000E4771C2 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		209B2C0313824C1D8743A04DBF214FF8 /* XMHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8A59147E4C388ABDBDFDE5B34D6CB /* XMHome-dummy.m */; };
-		241748997C5354823EFE779D17563430 /* XMHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E352FA501B2012AE26BC141F3211930D /* XMHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		200006C82A0594731DCE0FD0A5E577AA /* XMAesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7389FD904FF0015052386DC6DB7153 /* XMAesHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		209B2C0313824C1D8743A04DBF214FF8 /* XMHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EAEAA1CFB694E4B08DBB17ED7DD76 /* XMHome-dummy.m */; };
+		241748997C5354823EFE779D17563430 /* XMHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD55AB0230EDDB5A49336041172E9B27 /* XMHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24A0267C44B369AB5CA96BC2C47F3F26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		277D1C5F90BF1603EE3B18D7288AC43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		2839E3707C14798138E8A0C72ACE4C25 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AC20383511CA679FA95E1ED06A00A27 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF5AFDA3D3BE6B8C04A4839BB313916 /* NSString+Extension.m */; };
+		29D10292D69C14F7578A2E12E8D78316 /* XMGTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B7CEFDD98C7308016DE27BA010625CA6 /* XMGTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DB8C4C4DF0D8D3CAF848DD63300BC99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		2F889B2CCD2B1C86EB58EED0D3907169 /* XMBaseNavViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 786D181A3E8AA08A1186BE0B8B9F73B3 /* XMBaseNavViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		304542A76DE8D996B7A9E29F4519B163 /* XMLaunch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 543117AF863CF7B8B846F71BAD690F4B /* XMLaunch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		309252D67F2203744C1118B1273EB780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2F889B2CCD2B1C86EB58EED0D3907169 /* XMBaseNavViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B03181762DB268F8E76B64E53094F5DF /* XMBaseNavViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		304542A76DE8D996B7A9E29F4519B163 /* XMLaunch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E87CA51F1F3012E0177D3F23EA36C908 /* XMLaunch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31F7C35C8863FA25A741A884E21BE7D0 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		335E28EADBDCEB2FB1FD964018AE915E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1B69BE2C73F739238A3CDDAEEE8A60 /* ReplaceMe.m */; };
-		3B68253468E72C14D08F6F456F1BAA3E /* XMSafty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA530605E47D87DBA7AD959EDA9F43D /* XMSafty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		335E28EADBDCEB2FB1FD964018AE915E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D8B767587997818CC7924BD9049B21 /* ReplaceMe.m */; };
+		3B68253468E72C14D08F6F456F1BAA3E /* XMSafty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54659C58103CE271DF0FFC682050E0DA /* XMSafty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47DD18685D664393D7BE94E004F0E58C /* XMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B657DA5D3FC2FFBAD480EDFAE59A0A92 /* XMBaseViewController.m */; };
-		49F0D0564D751E9EEEE3CDFEBE41F3A7 /* XMBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A746DC0D323CDDB30DC969AC133BB9 /* XMBaseNavViewController.m */; };
+		47DD18685D664393D7BE94E004F0E58C /* XMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC119BD6A2FAECBCC241E2D8429E744 /* XMBaseViewController.m */; };
+		49F0D0564D751E9EEEE3CDFEBE41F3A7 /* XMBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF5A81815A07C4526F6BA9E10DE52F2 /* XMBaseNavViewController.m */; };
 		4CC9B43AD90714A316815FAA71DC89A2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
-		4F291B5F4DF018674D9F4C3E857D3954 /* XMBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 118C1A609830D87041E54EF4E3E2FC71 /* XMBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F291B5F4DF018674D9F4C3E857D3954 /* XMBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE83E9CDF0C6C083AEB044C95E97813 /* XMBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53305278F1654F968B4E02DF71B098BE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
 		54BEFE9F75005D327641073B838C6776 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
 		557A1CD7DFB1FEE5E99249D6E485BBA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		5650318DD879FED2EB465D59D8D2DDEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		567ABE0681AA82748435E32386DE12D7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
-		5A8199A4E30570A1A3B26BF6870FA6C5 /* XMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D7F6ED6F1C0F01663DEDDA8FCC3571 /* XMUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DD8626A3B43144A9AEDC53ADF9B30B3 /* XMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F578E8D7A0D007CA3F15AA654C0640A0 /* XMBase-dummy.m */; };
-		602D91523939998BB242B483380689B3 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 659DB889BB2CF7E56048F576633BCE5C /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D7BA4C7EE904374A538A527F5DF30CE /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 648A8F083B986FEB6ABE5435DB4AC2F0 /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DD8626A3B43144A9AEDC53ADF9B30B3 /* XMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A852EA22A502ADDA37709EB3BCC8F43B /* XMBase-dummy.m */; };
 		61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67436A6FDC5BF847C466FB225D0BB197 /* XMUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7A13BE9447ED40A6120BE90B46E466 /* XMUtils-dummy.m */; };
-		6D708C52E564ACA69974E0A23F47C594 /* XMDataBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBAF7319E450126EAA809861A63027C7 /* XMDataBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64EF7AE165EDF273B1D4DCBF9D55B255 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9772F97C3F908805CCCB5645F80780AD /* UIView+Extension.m */; };
+		6D708C52E564ACA69974E0A23F47C594 /* XMDataBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E23940C60BD15197A6F8AB4C39E51F /* XMDataBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E1C149B59E324DE1D4393BB0D98B3EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		7020F1C2048A157BF9F9F772803D57CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		715AB2C777F6FCAB5EE0C667A909B698 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7675F640DA9822149848052659C9A3DF /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7451758DAA48DD4D43898FE5059CA6 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76B7456E123BFEB28D5B435E7848B241 /* XMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F48D8EBAD7577E8A9DD6F6BCBEBED494 /* XMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7736F9FDE3685630E0E53501F75E44EC /* XMDataBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 016249ED078FCF6EF2D416E931660E0E /* XMDataBase-dummy.m */; };
+		76B7456E123BFEB28D5B435E7848B241 /* XMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 761C8979F45C4599C30E3DA9C2C677A9 /* XMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7736F9FDE3685630E0E53501F75E44EC /* XMDataBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F313AA079F38D283E0C81DF2253F104 /* XMDataBase-dummy.m */; };
 		78251F42EB680FB72F040A1986279CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		7B05A8DE072977F90AA84A0E98E23167 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
 		7E833EF4B8CE85C3D59F163752CB74A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		7E990EE9A58CE3C42E4DAD3D6B427DE0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0524F4B698006BA3DFCC3407AE6F605D /* ReplaceMe.m */; };
-		7F969B83F276CBC3095AA3C2892D08C0 /* XMRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF6DED2BDA058E8BD09B68D11E61440 /* XMRouter-dummy.m */; };
+		7E990EE9A58CE3C42E4DAD3D6B427DE0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C81D1DDFE66EA4AA68905A67A1E7F67E /* ReplaceMe.m */; };
+		7F969B83F276CBC3095AA3C2892D08C0 /* XMRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F23022EBC7C9708490AC088CB76E0E9 /* XMRouter-dummy.m */; };
 		8171D105E2C5CD3C1357D544942B4446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		832A7A29F5530F35C8273F3BD779AD05 /* XMUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 053334223493D1804968B53E14A276C8 /* XMUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8916747E5C5873ADC774B2C1D1DD6F13 /* XMApplicationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A06500D2C6EC001EC05DDF2E9208D03 /* XMApplicationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8916747E5C5873ADC774B2C1D1DD6F13 /* XMApplicationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D90DBBCDB7BB3F357F4EF657ECDC04 /* XMApplicationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AE868BC3E2E6FC92F4717835180C47D /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		904D2C85B1F30BC010F44589FDFD0661 /* XMNetWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39068EFA1F88ED01F4CD0432402332FC /* XMNetWork-dummy.m */; };
-		9572A5886F18352973FEE54A2455F8A1 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0EEF3840642846F94204C2177A8107 /* UIView+Extension.m */; };
-		9B54789411C33A2CFE0710B8B151F317 /* XMUserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1BF3CC8961A7A2A66A9890AE2FE74C /* XMUserViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		904D2C85B1F30BC010F44589FDFD0661 /* XMNetWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9106D60625DFAECC1174DF12F19B921B /* XMNetWork-dummy.m */; };
+		99D29A5CD35AD67789AFD9E851B47FCA /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 090852CAE59128E3C3D238D625D38437 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B54789411C33A2CFE0710B8B151F317 /* XMUserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 721ECB165ED5AE7E308625A5DAB18745 /* XMUserViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1336977ADAAD492D6CFD089A8C6E358 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
 		A41C033D9C95E5ECD6A13FE205BD3606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		A83A6757F6C0003332D57B41FE24BEEA /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADE5BEFFB4DAF1F79B0B617DF5F4534D /* XMBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF47EFC71F86E237EB55475E9147E4A /* XMBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4822D3C245472EAC1D2C8C7396F6C4 /* XMGTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 35897C0A6411CF20417BDA7F2B585CE3 /* XMGTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADE5BEFFB4DAF1F79B0B617DF5F4534D /* XMBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EE76C5AF8A1FD17D32FAE70090342F96 /* XMBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4BE7728D87333785F811FED48CF134E /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4DB5AF7FEEB62A5D89744DCEE64FA95 /* XMUser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A02BE7AA1D44B6B70E65114175CBBD /* XMUser-dummy.m */; };
-		B6167A17173819F091F164169FDD9A6E /* XMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D736C4B4100AF9DD1397EC74DEE105B /* XMUserViewController.m */; };
+		B4DB5AF7FEEB62A5D89744DCEE64FA95 /* XMUser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C6081C8E8B224424E934D9DD20C44 /* XMUser-dummy.m */; };
+		B6167A17173819F091F164169FDD9A6E /* XMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72631BDE9FDE63A019513CA45E1F337B /* XMUserViewController.m */; };
 		B61AA5459C2B345AD6D84D8A5111C9CE /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6BDFB5BECA227483D5779AE22702387 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 931D1335CED28E4785E2A198CA3F4123 /* ReplaceMe.m */; };
+		B6BDFB5BECA227483D5779AE22702387 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 575F812E6C873F87B1837DD0DAF5DBDC /* ReplaceMe.m */; };
+		BDB4F8DD03195A055D32CCE742A29D1E /* XMUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC410777212405719CEDC2CF571F6A7 /* XMUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE050DABC9BF806B3379AFD2367F4194 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEFFD866A5F5024FD143788F4E966A5F /* XMUser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 313056AB1B42DCE8CED25A80376118F0 /* XMUser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEFFD866A5F5024FD143788F4E966A5F /* XMUser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96535B745B81F4FC9BB48C390BC5E357 /* XMUser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C28D022BE363536639378A4E775D8F79 /* Pods-XMProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E31B289B805CA606934C48F995FC42 /* Pods-XMProject-dummy.m */; };
 		C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
 		CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
 		CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D71B11023AF4C25230213807D845FC75 /* XMNetWork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0344F69436C0D1DF05E0AB54F3E5AFD /* XMNetWork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCC29349A5E33103037B655B37B9FAF2 /* XMHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A4B9525D0BC540CB589A3544278304 /* XMHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D08F9D87AF277497131247DDC0BE0897 /* XMUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88892C6CADE9BC88E0C61750947464C0 /* XMUtils-dummy.m */; };
+		D31E06786A60243477EC7B0CAD4669C5 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 774B4F9FE73A6B61DDF97EB6DADD77BA /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4CE00F7EF8A4D704D7746BE32B14E42 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8721BED9DD07E8F9D6A3DC2B021408 /* NSString+Extension.m */; };
+		D71B11023AF4C25230213807D845FC75 /* XMNetWork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84634BE2659FB360893E8DA6E285A79B /* XMNetWork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC29349A5E33103037B655B37B9FAF2 /* XMHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0924BF961333CF9FA9A33396A2388767 /* XMHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6935E4458C674355922F27177411967 /* XMLaunch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24049678E532F23FDCA427280491AC04 /* XMLaunch-dummy.m */; };
+		E6935E4458C674355922F27177411967 /* XMLaunch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB03FA06167DA7E7CDC0F9995B1C16 /* XMLaunch-dummy.m */; };
 		E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
-		EC930488B53F8FAAE885ED6372993FEF /* XMRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9866F27E1FEACAB58BF799976E45CC7B /* XMRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4EDF7AF004A9A89BECA6A1D02AC9212 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5C013FE291090B219737A03A4CAC3F /* UIColor+Extension.m */; };
+		EC570E97A36BB5AF228146CAE1F857AB /* XMAesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F485C4BA51C8017C73FA7FA992302C73 /* XMAesHelper.m */; };
+		EC930488B53F8FAAE885ED6372993FEF /* XMRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6CF8AB617269EE6595709572CE2518F /* XMRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA7D32B80CF937898A183C770EF3D6AC /* XMGTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B08D97E45D17C19085EE15B37FA40A5 /* XMGTMBase64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		061E9BD9A91A6A0D07DCCF67874C9452 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 38B551622640B8A30E9A4BABEC18AF7A;
-			remoteInfo = XMSafty;
-		};
-		3AA98AE36BF97E62A74247264DFD198B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D767AB2818AB482E7C02FCE8BC7CD9A;
-			remoteInfo = XMBase;
-		};
-		60AA30B9228C38048E484FB7BA280E3F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 762DD13817427C30194DBBD3D6E3EF1B;
-			remoteInfo = XMLaunch;
-		};
-		976586EDD2CAF5F59E261753B3048784 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C220DFE6512366CB15D97D0A1829A960;
-			remoteInfo = XMRouter;
-		};
-		98D39EA52779292680AF166AB00E3FFE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A14938A576242D1C0B5F26EDB114423;
-			remoteInfo = XMNetWork;
-		};
-		C428BF4E7BC89C78617CBEAC6A58C5A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		CD176F3EE86F093277FA63A63B23A764 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AFD600A32B656DB9D6EA33D49848ADCD;
-			remoteInfo = XMUser;
-		};
-		D36EF06B65452D457CB560B9CE33DAEB /* PBXContainerItemProxy */ = {
+		237C72918692D02D4A5A6A99C6FF8C1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D80848748F34315F39F7524C0B17C9EA;
 			remoteInfo = XMDataBase;
 		};
-		D460A96FDCA4A9492973910F261AA174 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D767AB2818AB482E7C02FCE8BC7CD9A;
-			remoteInfo = XMBase;
-		};
-		DC855E126BF14126E7E466C3E4977B09 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 15C4334B167657E654567CDDF10A5409;
-			remoteInfo = XMUtils;
-		};
-		E29248FEA64B6F5742C720B105E196A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D767AB2818AB482E7C02FCE8BC7CD9A;
-			remoteInfo = XMBase;
-		};
-		E667BBF37DEACA3CBB0FBE4C0F3CCF26 /* PBXContainerItemProxy */ = {
+		4AD8B1F0E401A17C9CFEF8D521887287 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		ED2BAE0828135266F9D09754BD9A84DE /* PBXContainerItemProxy */ = {
+		7AEBA3CF398AB5B4A5BB7780C23B5D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD600A32B656DB9D6EA33D49848ADCD;
+			remoteInfo = XMUser;
+		};
+		7DE08097275E78A85FFB4A26E7056128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38B551622640B8A30E9A4BABEC18AF7A;
+			remoteInfo = XMSafty;
+		};
+		8C72347E2362FB67CA460144AD66A8FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D767AB2818AB482E7C02FCE8BC7CD9A;
+			remoteInfo = XMBase;
+		};
+		8D590D81729F4E95F562EE4E2216F49D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C4334B167657E654567CDDF10A5409;
+			remoteInfo = XMUtils;
+		};
+		9066AC5209848D81C51ED92A1F26ED1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A14938A576242D1C0B5F26EDB114423;
+			remoteInfo = XMNetWork;
+		};
+		934D12DF518285FC88DED0B7EF398F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D767AB2818AB482E7C02FCE8BC7CD9A;
+			remoteInfo = XMBase;
+		};
+		B50F5665A270BB6532BADF6C851CB566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 762DD13817427C30194DBBD3D6E3EF1B;
+			remoteInfo = XMLaunch;
+		};
+		BF05B2CE892FE58D64C4BCB1639572AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		C47A54A863792E53319B3E6459D5FB0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C220DFE6512366CB15D97D0A1829A960;
+			remoteInfo = XMRouter;
+		};
+		EF345213A482F522B5CC38431DA30ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D767AB2818AB482E7C02FCE8BC7CD9A;
+			remoteInfo = XMBase;
+		};
+		F8D3453E300449AB26DB94ACEE2973CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -186,174 +191,179 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		016249ED078FCF6EF2D416E931660E0E /* XMDataBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMDataBase-dummy.m"; sourceTree = "<group>"; };
-		017AC47778C8A62F69C811C88E78A6F4 /* XMUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMUtils-Info.plist"; sourceTree = "<group>"; };
 		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		02CE5035007ED134DABEA145AB221A18 /* XMHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMHome.modulemap; sourceTree = "<group>"; };
 		02E47FF7A7C713E3A00D6359857EA342 /* XMLaunch */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMLaunch; path = XMLaunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		0524F4B698006BA3DFCC3407AE6F605D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMNetWork/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		05260F5D1342F164300E848E1F7595AE /* XMSafty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMSafty.modulemap; sourceTree = "<group>"; };
-		053334223493D1804968B53E14A276C8 /* XMUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUtils-umbrella.h"; sourceTree = "<group>"; };
-		062F688C755D5B06CA3329A7FA222D1E /* XMRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMRouter-prefix.pch"; sourceTree = "<group>"; };
 		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		08CE232CDA52ACAC3FF1B0C277DF43E2 /* XMSafty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMSafty-prefix.pch"; sourceTree = "<group>"; };
-		0DA530605E47D87DBA7AD959EDA9F43D /* XMSafty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMSafty-umbrella.h"; sourceTree = "<group>"; };
-		0FD018A79504D81BA8A9FA5B16ECFE46 /* XMNetWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMNetWork-prefix.pch"; sourceTree = "<group>"; };
-		0FF5AFDA3D3BE6B8C04A4839BB313916 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "XMUtils/Classes/NSString+Extension.m"; sourceTree = "<group>"; };
-		10C114B392960092B99FE91EDFB2E50A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		118C1A609830D87041E54EF4E3E2FC71 /* XMBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBase.h; path = XMBase/Classes/XMBase.h; sourceTree = "<group>"; };
-		13A746DC0D323CDDB30DC969AC133BB9 /* XMBaseNavViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMBaseNavViewController.m; path = XMBase/Classes/XMBaseNavViewController.m; sourceTree = "<group>"; };
+		090852CAE59128E3C3D238D625D38437 /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "XMUtils/Classes/UIView+Extension.h"; sourceTree = "<group>"; };
+		0924BF961333CF9FA9A33396A2388767 /* XMHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMHomeViewController.h; path = XMHome/Classes/XMHomeViewController.h; sourceTree = "<group>"; };
+		0C371D4A75DD0F824ED7584F7BCDCF1F /* XMRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMRouter-prefix.pch"; sourceTree = "<group>"; };
+		107F19CB382823D9F0E7DE52C694FF29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		11D77E4D12A4CE3807D19FA7EF3323FC /* XMAppDelegateComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMAppDelegateComponent.h; path = XMLaunch/Classes/XMAppDelegateComponent.h; sourceTree = "<group>"; };
 		13E31B289B805CA606934C48F995FC42 /* Pods-XMProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMProject-dummy.m"; sourceTree = "<group>"; };
-		16CC5861E389D673F999D75BBB1DFE89 /* XMAppDelegateComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMAppDelegateComponent.m; path = XMLaunch/Classes/XMAppDelegateComponent.m; sourceTree = "<group>"; };
-		1A49EA6FF1574E761AF6BB1183AA6C11 /* XMDataBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMDataBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1AD5F62CB195523F4A1F84FF60F6C131 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1D54E3251B437D01EDBD999AABBE930A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		198F216C226097B337B32FA0DF50CB63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1EAB41D47FBE7F4C56C2EEFC86EB6166 /* XMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMBase.modulemap; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2279614CD664A87DD2EBFB6D7845AB0F /* XMUser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUser-prefix.pch"; sourceTree = "<group>"; };
-		22A54A9F595D608EE37B9E5FDEB50557 /* XMUser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMUser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		23C317845B4A95052BEC5D48C5EB1DE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		24049678E532F23FDCA427280491AC04 /* XMLaunch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMLaunch-dummy.m"; sourceTree = "<group>"; };
-		247852B1DD1BA697B06CBD2B11C36229 /* XMNetWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMNetWork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		20015A88FE4623D043127C0C81976ECB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2691E17C50C1BE296A96C0AA3C762FA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		26C37B34BEBDFF4FAD5B348FE275876B /* UIColor+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extension.m"; path = "XMUtils/Classes/UIColor+Extension.m"; sourceTree = "<group>"; };
+		26FB9D609FB7BE6784111482CB19B557 /* XMRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMRouter.release.xcconfig; sourceTree = "<group>"; };
 		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		281E800F1FAB38222B660EDCE2E2E6E8 /* Pods-XMProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMProject.modulemap"; sourceTree = "<group>"; };
-		29A5D678FE5AE770C4B8331FEE0AEAB0 /* XMSafty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMSafty.debug.xcconfig; sourceTree = "<group>"; };
-		2A06500D2C6EC001EC05DDF2E9208D03 /* XMApplicationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMApplicationProtocol.h; path = XMLaunch/Classes/XMApplicationProtocol.h; sourceTree = "<group>"; };
-		2C3321769C154363CD477B2E00A5B053 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		30AA36243765DE6F0DA7784FBBE7EE57 /* XMAppDelegateComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMAppDelegateComponent.h; path = XMLaunch/Classes/XMAppDelegateComponent.h; sourceTree = "<group>"; };
+		29853E9511456A0B752BA1162345CDD8 /* XMNetWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMNetWork-prefix.pch"; sourceTree = "<group>"; };
+		303F18F8DED84D9692B60F6A6BE26304 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		313056AB1B42DCE8CED25A80376118F0 /* XMUser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUser-umbrella.h"; sourceTree = "<group>"; };
-		340B5DCB7282A432EA76A4B951E17B62 /* XMLaunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLaunch.debug.xcconfig; sourceTree = "<group>"; };
+		31034DA1AB372315FF53423886B24289 /* XMDataBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMDataBase-prefix.pch"; sourceTree = "<group>"; };
+		32377023451B70BFD50381D30E8EDAF5 /* XMUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUtils.debug.xcconfig; sourceTree = "<group>"; };
 		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		34308F456ED9FF3000BE7F781C91DB64 /* XMUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		386064AB1FA77C10C3A52A93ACD302A4 /* XMRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMRouter-Info.plist"; sourceTree = "<group>"; };
-		39068EFA1F88ED01F4CD0432402332FC /* XMNetWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMNetWork-dummy.m"; sourceTree = "<group>"; };
-		3B0EEF3840642846F94204C2177A8107 /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "XMUtils/Classes/UIView+Extension.m"; sourceTree = "<group>"; };
+		34830CA22EF6B97F8554A548B45B39A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		35897C0A6411CF20417BDA7F2B585CE3 /* XMGTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGTMBase64.h; path = XMUtils/Classes/XMGTMBase64.h; sourceTree = "<group>"; };
+		381F5D631B1ED5929D2451A9C6D744E0 /* XMUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3A0C8C44270AD05BE3CAAE7E17E3D64D /* XMLaunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLaunch.debug.xcconfig; sourceTree = "<group>"; };
 		3B5D7C0CF64D974E496A37AF77237F48 /* Pods-XMProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMProject-Info.plist"; sourceTree = "<group>"; };
-		3C819AF69CFA05556823DFB5CF38AEAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3DD84ECD259034068E9616A6F5B7BAF3 /* XMHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		3EDBB8D3A2D8D137004265364F0B8F84 /* XMSafty-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMSafty-Info.plist"; sourceTree = "<group>"; };
+		3EEECF52E4FA5F2B535C0150491EDEE1 /* XMHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMHome-prefix.pch"; sourceTree = "<group>"; };
 		3FDE5E3736324835B9A2DB5E7E47E63F /* Pods-XMProject */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XMProject"; path = Pods_XMProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40EF28B82D80FA2C207640F70B676846 /* XMLaunch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMLaunch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40809D8F42460CBDB267F85ABF3B2A5A /* XMLaunch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMLaunch-Info.plist"; sourceTree = "<group>"; };
 		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		42AC0C22690A97A2181E7633435066E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		452E3C7E4E20B17F8C88E203EAC15128 /* XMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMBase-prefix.pch"; sourceTree = "<group>"; };
-		45A4B9525D0BC540CB589A3544278304 /* XMHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMHomeViewController.h; path = XMHome/Classes/XMHomeViewController.h; sourceTree = "<group>"; };
+		43D90DBBCDB7BB3F357F4EF657ECDC04 /* XMApplicationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMApplicationProtocol.h; path = XMLaunch/Classes/XMApplicationProtocol.h; sourceTree = "<group>"; };
+		46C49DADACF02D64E0D7AAF8AB94E3B8 /* XMUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMUtils-Info.plist"; sourceTree = "<group>"; };
 		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		47A1CC99D7D8DE0F2AD2AB890DE26DB8 /* XMLaunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLaunch.release.xcconfig; sourceTree = "<group>"; };
 		48AFD785020E045CFD256EC5CF05A9E6 /* XMUser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMUser; path = XMUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1F7CCF5BE92F61FF04347606A5E6EC /* XMLaunch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMLaunch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		4CF396AC1F08B8D1C3890E826C606031 /* XMHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMHome.debug.xcconfig; sourceTree = "<group>"; };
-		5042FD8A5D9C3365B6BD4EFB35BAC94B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		543117AF863CF7B8B846F71BAD690F4B /* XMLaunch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLaunch-umbrella.h"; sourceTree = "<group>"; };
-		5594EAACB18A566EF574EBB034C46BE6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMDataBase/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		4B08D97E45D17C19085EE15B37FA40A5 /* XMGTMBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMGTMBase64.m; path = XMUtils/Classes/XMGTMBase64.m; sourceTree = "<group>"; };
+		4DF39357D438E2CF44B7C442C82060EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4E367777F57F35432622D27A92C26438 /* XMSafty.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMSafty.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		50957AAF50CF8A4B427F0F7087EC4939 /* XMSafty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMSafty-dummy.m"; sourceTree = "<group>"; };
+		51C07A0C75218D47F5D5F105ACB35D4B /* XMRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMRouter-Info.plist"; sourceTree = "<group>"; };
+		54659C58103CE271DF0FFC682050E0DA /* XMSafty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMSafty-umbrella.h"; sourceTree = "<group>"; };
+		5567959175FC4F66E5D6FBC41EDEC7D8 /* XMNetWork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMNetWork-Info.plist"; sourceTree = "<group>"; };
 		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		5886CA87ACDAEBCCF85600064C924A7A /* XMNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMNetWork.debug.xcconfig; sourceTree = "<group>"; };
+		55B81B8451A49035CEFD6BB6552155BE /* XMSafty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMSafty-prefix.pch"; sourceTree = "<group>"; };
+		575F812E6C873F87B1837DD0DAF5DBDC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMRouter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		57A1C1325BFD8AA8197FB7A5B22C50C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5CE46CCE21016C3677B57D9B417D87B8 /* XMBase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMBase; path = XMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE83E9CDF0C6C083AEB044C95E97813 /* XMBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBase.h; path = XMBase/Classes/XMBase.h; sourceTree = "<group>"; };
 		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		6189EE4CB7507D8424E696AE804FC59C /* XMSafty.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMSafty.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6190765A2AA5124AC81AC29F6E5A0B01 /* XMUser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMUser.modulemap; sourceTree = "<group>"; };
-		63C1E7C02D2EB0DAE59595D386790FD7 /* XMNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMNetWork.release.xcconfig; sourceTree = "<group>"; };
-		63DC0FC41005BC2AFC7F87E38C8FDF19 /* XMLaunch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMLaunch-Info.plist"; sourceTree = "<group>"; };
-		659DB889BB2CF7E56048F576633BCE5C /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "XMUtils/Classes/NSString+Extension.h"; sourceTree = "<group>"; };
-		690C504DF6E0554B28F0D9A220BDF4AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6C704F330525C3F4054411BAAD016E05 /* XMLaunch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLaunch-prefix.pch"; sourceTree = "<group>"; };
+		60E5F9585695EF3144C5CA99D4BC98FD /* XMHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMHomeViewController.m; path = XMHome/Classes/XMHomeViewController.m; sourceTree = "<group>"; };
+		63E23940C60BD15197A6F8AB4C39E51F /* XMDataBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMDataBase-umbrella.h"; sourceTree = "<group>"; };
+		641DC0E5601F65A9E3BB80EC7B7854B6 /* XMLaunch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMLaunch.modulemap; sourceTree = "<group>"; };
+		64414EEB4243AE90D3F222CD0F29240A /* XMNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMNetWork.debug.xcconfig; sourceTree = "<group>"; };
+		648A8F083B986FEB6ABE5435DB4AC2F0 /* UIColor+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extension.h"; path = "XMUtils/Classes/UIColor+Extension.h"; sourceTree = "<group>"; };
+		67ACC9C41EC451845DD3DE0CDE220E56 /* XMDataBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMDataBase.debug.xcconfig; sourceTree = "<group>"; };
 		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		6D8BE734523D2CE540219C5B33BB34D1 /* XMBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMBase.release.xcconfig; sourceTree = "<group>"; };
+		6DC119BD6A2FAECBCC241E2D8429E744 /* XMBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMBaseViewController.m; path = XMBase/Classes/XMBaseViewController.m; sourceTree = "<group>"; };
 		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6E7389FD904FF0015052386DC6DB7153 /* XMAesHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMAesHelper.h; path = XMUtils/Classes/XMAesHelper.h; sourceTree = "<group>"; };
+		6F313AA079F38D283E0C81DF2253F104 /* XMDataBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMDataBase-dummy.m"; sourceTree = "<group>"; };
 		6FF17BE2A146A85ECC3076985FD16D6C /* XMDataBase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMDataBase; path = XMDataBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		7099552A1A4590B9D11261F68A97469D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7132D816D96F41FA2D56757F4452E0CF /* XMNetWork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMNetWork-Info.plist"; sourceTree = "<group>"; };
+		709A8F6345C8B14BE08010DC372547C1 /* XMDataBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMDataBase.release.xcconfig; sourceTree = "<group>"; };
+		711FF72525A53D0DBCC0592BC1AA11F3 /* XMHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMHome.debug.xcconfig; sourceTree = "<group>"; };
+		721ECB165ED5AE7E308625A5DAB18745 /* XMUserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMUserViewController.h; path = XMUser/Classes/XMUserViewController.h; sourceTree = "<group>"; };
+		72631BDE9FDE63A019513CA45E1F337B /* XMUserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMUserViewController.m; path = XMUser/Classes/XMUserViewController.m; sourceTree = "<group>"; };
 		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		72B9683A0E7BC252A7C4E5A655603C1E /* XMRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMRouter.release.xcconfig; sourceTree = "<group>"; };
 		74475B7C430B1C7C96794579AA574CE2 /* XMSafty */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMSafty; path = XMSafty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7647F9909378F3502C8001FC2452F3CB /* UIColor+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extension.h"; path = "XMUtils/Classes/UIColor+Extension.h"; sourceTree = "<group>"; };
-		786D181A3E8AA08A1186BE0B8B9F73B3 /* XMBaseNavViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBaseNavViewController.h; path = XMBase/Classes/XMBaseNavViewController.h; sourceTree = "<group>"; };
-		7D5D2737DC49CDBD4444D9B4A327AF57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		80CC4F99BDD4D86F7597BA3BCA615494 /* XMSafty-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMSafty-Info.plist"; sourceTree = "<group>"; };
+		761C8979F45C4599C30E3DA9C2C677A9 /* XMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMBase-umbrella.h"; sourceTree = "<group>"; };
+		771F10A8344EDB69FC0F4D9021A69177 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		774B4F9FE73A6B61DDF97EB6DADD77BA /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "XMUtils/Classes/NSString+Extension.h"; sourceTree = "<group>"; };
+		77629CD47139F9308CAAC29E14AC26BA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMDataBase/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		7AC7D5C55F50B9C22635B0A32C3E1572 /* XMDataBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMDataBase-Info.plist"; sourceTree = "<group>"; };
+		809C6081C8E8B224424E934D9DD20C44 /* XMUser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMUser-dummy.m"; sourceTree = "<group>"; };
 		8192935F7C7083C67E01B697E0D4FADA /* Pods-XMProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMProject.debug.xcconfig"; sourceTree = "<group>"; };
-		81D7F6ED6F1C0F01663DEDDA8FCC3571 /* XMUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMUtils.h; path = XMUtils/Classes/XMUtils.h; sourceTree = "<group>"; };
+		819E8ED0B6E0DD5FFBB194851DACEB51 /* XMUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUtils-prefix.pch"; sourceTree = "<group>"; };
+		81D8B767587997818CC7924BD9049B21 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMSafty/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		84978775BCAD8C8BC5E44A6D938C36C1 /* XMSafty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMSafty-dummy.m"; sourceTree = "<group>"; };
-		84A02BE7AA1D44B6B70E65114175CBBD /* XMUser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMUser-dummy.m"; sourceTree = "<group>"; };
+		84634BE2659FB360893E8DA6E285A79B /* XMNetWork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMNetWork-umbrella.h"; sourceTree = "<group>"; };
+		84D00306AA46413C56AABE4969C313E9 /* XMNetWork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMNetWork.modulemap; sourceTree = "<group>"; };
 		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		885E7CEC87AD1880A43C6D19C1092363 /* Pods-XMProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMProject-umbrella.h"; sourceTree = "<group>"; };
+		88892C6CADE9BC88E0C61750947464C0 /* XMUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMUtils-dummy.m"; sourceTree = "<group>"; };
 		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		8B7451758DAA48DD4D43898FE5059CA6 /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "XMUtils/Classes/UIView+Extension.h"; sourceTree = "<group>"; };
-		8D07C4A3E3FB808B339AF857134109C8 /* XMDataBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMDataBase.modulemap; sourceTree = "<group>"; };
-		8D42F287D776986690FB33C26A60D21F /* XMBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMBase-Info.plist"; sourceTree = "<group>"; };
-		8D69CE1B87F0A56C0352DB1AD90DCB1C /* XMDataBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMDataBase.release.xcconfig; sourceTree = "<group>"; };
-		8D736C4B4100AF9DD1397EC74DEE105B /* XMUserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMUserViewController.m; path = XMUser/Classes/XMUserViewController.m; sourceTree = "<group>"; };
-		8F8AC2A59AB0ADA74A5DD3D22DE14AB7 /* XMUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUser.release.xcconfig; sourceTree = "<group>"; };
+		8BAD1DA22D7273C67BB0589E06958BD8 /* XMUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUser.debug.xcconfig; sourceTree = "<group>"; };
+		8CCF7831456E3C58E43415D42DB94B6A /* XMUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUtils.release.xcconfig; sourceTree = "<group>"; };
+		8DEFC0688C7F0107319EAB993E67D147 /* XMAppDelegateComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMAppDelegateComponent.m; path = XMLaunch/Classes/XMAppDelegateComponent.m; sourceTree = "<group>"; };
+		8EFA1C82E856AD054ECFEA56200DAAFB /* XMRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F23022EBC7C9708490AC088CB76E0E9 /* XMRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMRouter-dummy.m"; sourceTree = "<group>"; };
+		8FB7796426DA7F681C7295B250F67A48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		907BF13E10881F6E859AAEDA520F8EC7 /* Pods-XMProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMProject-acknowledgements.markdown"; sourceTree = "<group>"; };
-		92A2757D39956BC311DBD7687824D417 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		931D1335CED28E4785E2A198CA3F4123 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMRouter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		94CDB6358765E09264CFED5C483FC9D2 /* XMNetWork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMNetWork.modulemap; sourceTree = "<group>"; };
-		9866F27E1FEACAB58BF799976E45CC7B /* XMRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMRouter-umbrella.h"; sourceTree = "<group>"; };
+		9106D60625DFAECC1174DF12F19B921B /* XMNetWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMNetWork-dummy.m"; sourceTree = "<group>"; };
+		9144E3188ECFCA26885575E60AE48FBA /* XMSafty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMSafty.release.xcconfig; sourceTree = "<group>"; };
+		93CEE9A37A35155C0D2BD0558C278CB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		94DCF30510F12AA9C446734BF7942EA6 /* XMUser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUser-prefix.pch"; sourceTree = "<group>"; };
+		96535B745B81F4FC9BB48C390BC5E357 /* XMUser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUser-umbrella.h"; sourceTree = "<group>"; };
+		9772F97C3F908805CCCB5645F80780AD /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "XMUtils/Classes/UIView+Extension.m"; sourceTree = "<group>"; };
+		983399E8959D1047899C0A452993243E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		997972598D1295622A4738EFAD5E866E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9A7A03141E587ED8124A04353AA88345 /* XMUtils */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMUtils; path = XMUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F7B7A1513BE70C9C3EFB126D7745ECB /* XMBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1416A160B37E6C420C7E4AA64A81C29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A221596B5C08D7943A32906C60779059 /* XMDataBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMDataBase.debug.xcconfig; sourceTree = "<group>"; };
-		A39956649AC6EC6A80EE8C37122D8B7D /* XMHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMHomeViewController.m; path = XMHome/Classes/XMHomeViewController.m; sourceTree = "<group>"; };
-		A69DC7F96DD744E77623B2767EADBC46 /* XMDataBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMDataBase-prefix.pch"; sourceTree = "<group>"; };
+		A04EBB60DD47381F0002235214119CBF /* XMRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMRouter.modulemap; sourceTree = "<group>"; };
+		A0AA3034E9074E025556DD1E03D41847 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A6D764FE713A060A555CE434DE910D06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A852EA22A502ADDA37709EB3BCC8F43B /* XMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMBase-dummy.m"; sourceTree = "<group>"; };
 		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		A96BE65DE1394FFB399A03E3574584A1 /* Pods-XMProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMProject.release.xcconfig"; sourceTree = "<group>"; };
+		A9DC5E0FDF83BA286916F1294B29608D /* XMDataBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMDataBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB724D9FBFF1361A7D163E9380BC48D8 /* XMNetWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMNetWork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE18C4C51BFA2DCDD9870392196EE9EB /* Pods-XMProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMProject-acknowledgements.plist"; sourceTree = "<group>"; };
-		AE67B428300E35B1BE8381B399B84B86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AF02EA2E9E432AB1D9640578DEAB2847 /* XMRouter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMRouter; path = XMRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3477D3760B86BD5898C82AA142D483 /* XMHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMHome.modulemap; sourceTree = "<group>"; };
 		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		B05FF89C1C1528BFB7A9F521CB73F8E6 /* XMRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B0C8A59147E4C388ABDBDFDE5B34D6CB /* XMHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMHome-dummy.m"; sourceTree = "<group>"; };
-		B24E9879EA29A0BEE87F921A86ABCFE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B03181762DB268F8E76B64E53094F5DF /* XMBaseNavViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBaseNavViewController.h; path = XMBase/Classes/XMBaseNavViewController.h; sourceTree = "<group>"; };
+		B165EFF00B9A5CEFC86B37307478E383 /* XMUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMUtils.modulemap; sourceTree = "<group>"; };
 		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		B4A3129460EDEAA87B01A08767A555AC /* XMRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMRouter.modulemap; sourceTree = "<group>"; };
-		B657DA5D3FC2FFBAD480EDFAE59A0A92 /* XMBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMBaseViewController.m; path = XMBase/Classes/XMBaseViewController.m; sourceTree = "<group>"; };
-		B785FFFD5F9AEB00537C67A5D420C25D /* XMUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUser.debug.xcconfig; sourceTree = "<group>"; };
-		B9440A49636B9AB7ADCD44E68DB6963B /* XMUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUtils.release.xcconfig; sourceTree = "<group>"; };
-		BA8023203C7D73174621C372CBFFCDBF /* XMRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMRouter.debug.xcconfig; sourceTree = "<group>"; };
+		B7CEFDD98C7308016DE27BA010625CA6 /* XMGTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGTMDefines.h; path = XMUtils/Classes/XMGTMDefines.h; sourceTree = "<group>"; };
 		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		C2E68AD5C7F4E2CF81DFB688F9C8E62C /* XMUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMUtils.modulemap; sourceTree = "<group>"; };
-		C5A8D3E2384F14CA7DC0768401C4C060 /* XMLaunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLaunch.release.xcconfig; sourceTree = "<group>"; };
+		C01BADEC961B3BF78E071A574A1823D7 /* XMHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMHome-Info.plist"; sourceTree = "<group>"; };
+		C2EB7C77496974C7306352F77181D4C8 /* XMDataBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMDataBase.modulemap; sourceTree = "<group>"; };
+		C32EAEAA1CFB694E4B08DBB17ED7DD76 /* XMHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMHome-dummy.m"; sourceTree = "<group>"; };
+		C4D139E218E9B40117BC38C976B3884C /* XMUser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMUser.modulemap; sourceTree = "<group>"; };
 		C74B41E09FF685E6DD49E29B64E112C4 /* XMNetWork */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMNetWork; path = XMNetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA1B69BE2C73F739238A3CDDAEEE8A60 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMSafty/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		CAD4915052DA3495EA4B8CFC637C8B5F /* XMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMBase.modulemap; sourceTree = "<group>"; };
-		CB7A13BE9447ED40A6120BE90B46E466 /* XMUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMUtils-dummy.m"; sourceTree = "<group>"; };
-		CBAF7319E450126EAA809861A63027C7 /* XMDataBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMDataBase-umbrella.h"; sourceTree = "<group>"; };
-		CF1BF3CC8961A7A2A66A9890AE2FE74C /* XMUserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMUserViewController.h; path = XMUser/Classes/XMUserViewController.h; sourceTree = "<group>"; };
+		C81D1DDFE66EA4AA68905A67A1E7F67E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMNetWork/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		CDE4DC7C7F7003950EEEB5BF1322E84F /* XMBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMBase-Info.plist"; sourceTree = "<group>"; };
 		D01650E66D17474C91577DB9CC3EB8D2 /* XMHome */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMHome; path = XMHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0286CC4DAC70677874A9467251B6E08 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D0B5097A79DAD7EDBAFDE9C247D6D285 /* XMDataBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMDataBase-Info.plist"; sourceTree = "<group>"; };
 		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D2A1FF37CF250102C1E8C0BFBEE17107 /* XMHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMHome-prefix.pch"; sourceTree = "<group>"; };
-		D972B09F746BF37C6802586BBCEF7445 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DA5C013FE291090B219737A03A4CAC3F /* UIColor+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extension.m"; path = "XMUtils/Classes/UIColor+Extension.m"; sourceTree = "<group>"; };
-		DB56FFCC4E7C3D932985883B7663CE61 /* XMHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMHome-Info.plist"; sourceTree = "<group>"; };
-		DBD4D6EC5E0E50E00F9D275A99801FC5 /* XMUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUtils.debug.xcconfig; sourceTree = "<group>"; };
-		DDD31510936BF9DDB0B3EA5B5D0699EB /* XMUser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMUser-Info.plist"; sourceTree = "<group>"; };
-		DDF6DED2BDA058E8BD09B68D11E61440 /* XMRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMRouter-dummy.m"; sourceTree = "<group>"; };
-		DF5856F4CB6C0822BFBF126FA8CB6BC2 /* XMUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUtils-prefix.pch"; sourceTree = "<group>"; };
+		D2DB03FA06167DA7E7CDC0F9995B1C16 /* XMLaunch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMLaunch-dummy.m"; sourceTree = "<group>"; };
+		DA8721BED9DD07E8F9D6A3DC2B021408 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "XMUtils/Classes/NSString+Extension.m"; sourceTree = "<group>"; };
+		DE09FCA0AC77AEB65C029AF0E3715975 /* XMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMBase-prefix.pch"; sourceTree = "<group>"; };
+		DE2B417962AC1A21A5E41638EC727856 /* XMNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMNetWork.release.xcconfig; sourceTree = "<group>"; };
 		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		E352FA501B2012AE26BC141F3211930D /* XMHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMHome-umbrella.h"; sourceTree = "<group>"; };
-		E7574172C817F8174273C478780A007A /* XMSafty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMSafty.release.xcconfig; sourceTree = "<group>"; };
+		E076EEBFCBF4E3940B6ACCF92039DDF2 /* XMRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMRouter.debug.xcconfig; sourceTree = "<group>"; };
+		E19CC66717B48608FAF1D2D0277A2044 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E1ADC83591C4A57E9F62B55146CD4CBE /* XMBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMBase.release.xcconfig; sourceTree = "<group>"; };
+		E5ED3D73A8EFD7EE77F09FD283C47338 /* XMHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMHome.release.xcconfig; sourceTree = "<group>"; };
+		E603A3B9AB154B59793074FF94251370 /* XMBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		E87CA51F1F3012E0177D3F23EA36C908 /* XMLaunch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLaunch-umbrella.h"; sourceTree = "<group>"; };
+		E89FBBD9AA1FE262D46D0F118E6F36C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E922CD57BCFE5A0788058EBEBEFF6CBE /* XMSafty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMSafty.modulemap; sourceTree = "<group>"; };
+		E93255EEA3102ED9D23DA76E27166F49 /* XMLaunch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLaunch-prefix.pch"; sourceTree = "<group>"; };
+		E999FC563E1FEC2FA857F9785CBE8D24 /* XMUser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMUser-Info.plist"; sourceTree = "<group>"; };
 		EA05E90D73D49F856741D1E3FADC0097 /* Pods-XMProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMProject-frameworks.sh"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		ECEEFBC3E108781C9EF57F494DDBA872 /* XMUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMUser.release.xcconfig; sourceTree = "<group>"; };
 		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		EF457B9128F39EB9BE0B86F221BE0B36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F0344F69436C0D1DF05E0AB54F3E5AFD /* XMNetWork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMNetWork-umbrella.h"; sourceTree = "<group>"; };
+		EE76C5AF8A1FD17D32FAE70090342F96 /* XMBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBaseViewController.h; path = XMBase/Classes/XMBaseViewController.h; sourceTree = "<group>"; };
+		EFF5A81815A07C4526F6BA9E10DE52F2 /* XMBaseNavViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMBaseNavViewController.m; path = XMBase/Classes/XMBaseNavViewController.m; sourceTree = "<group>"; };
 		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
-		F402E8EDBB92F34D33462721BD11BAC9 /* XMLaunch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMLaunch.modulemap; sourceTree = "<group>"; };
-		F48D8EBAD7577E8A9DD6F6BCBEBED494 /* XMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMBase-umbrella.h"; sourceTree = "<group>"; };
-		F578E8D7A0D007CA3F15AA654C0640A0 /* XMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMBase-dummy.m"; sourceTree = "<group>"; };
-		F90C07B01570659896E3AA84EE73F61C /* XMHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMHome.release.xcconfig; sourceTree = "<group>"; };
-		F99F5ED5E86A33CAF2F84A88F7950765 /* XMBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMBase.debug.xcconfig; sourceTree = "<group>"; };
-		FCF47EFC71F86E237EB55475E9147E4A /* XMBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMBaseViewController.h; path = XMBase/Classes/XMBaseViewController.h; sourceTree = "<group>"; };
+		F485C4BA51C8017C73FA7FA992302C73 /* XMAesHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMAesHelper.m; path = XMUtils/Classes/XMAesHelper.m; sourceTree = "<group>"; };
+		F4F4E541E90D5B4D02DEF086955F1569 /* XMUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMUtils.h; path = XMUtils/Classes/XMUtils.h; sourceTree = "<group>"; };
+		F6CF8AB617269EE6595709572CE2518F /* XMRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMRouter-umbrella.h"; sourceTree = "<group>"; };
+		FBF2C507ED39AF46880681CC8CE08E3B /* XMHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC2C0C85D343DB9AE9CB243C12CFBE50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FCBAFE32FD5F0B6A31062AD83C87ABFE /* XMSafty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMSafty.debug.xcconfig; sourceTree = "<group>"; };
+		FD55AB0230EDDB5A49336041172E9B27 /* XMHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMHome-umbrella.h"; sourceTree = "<group>"; };
+		FDC410777212405719CEDC2CF571F6A7 /* XMUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMUtils-umbrella.h"; sourceTree = "<group>"; };
+		FDE3A3B1A65594D18825476F4AFCC535 /* XMUser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMUser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FFE4EECFD3F547F03CF812EE47AF7E94 /* XMBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMBase.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -381,11 +391,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D18784EDAC87455B08681F9A156D051 /* Frameworks */ = {
+		365FA6243B566F1E8A5E7BAA2A7ABBB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				309252D67F2203744C1118B1273EB780 /* Foundation.framework in Frameworks */,
+				6E1C149B59E324DE1D4393BB0D98B3EE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,17 +459,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01BE768E357EC100F4AB475683285D2F /* XMLaunch */ = {
+		0606F404097A4A6A61B34621593E2B38 /* XMRouter */ = {
 			isa = PBXGroup;
 			children = (
-				30AA36243765DE6F0DA7784FBBE7EE57 /* XMAppDelegateComponent.h */,
-				16CC5861E389D673F999D75BBB1DFE89 /* XMAppDelegateComponent.m */,
-				2A06500D2C6EC001EC05DDF2E9208D03 /* XMApplicationProtocol.h */,
-				CF406ADF872DC727B124E668D3D51AE6 /* Pod */,
-				9995629B815450A3D52736ECC8F819D7 /* Support Files */,
+				575F812E6C873F87B1837DD0DAF5DBDC /* ReplaceMe.m */,
+				A9B18211F3CE9CE69CF51D44ED19E82C /* Pod */,
+				C273583546F4ECE56770E760639C7717 /* Support Files */,
 			);
-			name = XMLaunch;
-			path = ../XMLaunch;
+			name = XMRouter;
+			path = ../XMRouter;
 			sourceTree = "<group>";
 		};
 		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
@@ -496,16 +504,16 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		121ABE6AE199507D97E1231F77EAD554 /* Support Files */ = {
+		0E1F6A737E7E6C854DF67F41BB1D330E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6190765A2AA5124AC81AC29F6E5A0B01 /* XMUser.modulemap */,
-				84A02BE7AA1D44B6B70E65114175CBBD /* XMUser-dummy.m */,
-				DDD31510936BF9DDB0B3EA5B5D0699EB /* XMUser-Info.plist */,
-				2279614CD664A87DD2EBFB6D7845AB0F /* XMUser-prefix.pch */,
-				313056AB1B42DCE8CED25A80376118F0 /* XMUser-umbrella.h */,
-				B785FFFD5F9AEB00537C67A5D420C25D /* XMUser.debug.xcconfig */,
-				8F8AC2A59AB0ADA74A5DD3D22DE14AB7 /* XMUser.release.xcconfig */,
+				C4D139E218E9B40117BC38C976B3884C /* XMUser.modulemap */,
+				809C6081C8E8B224424E934D9DD20C44 /* XMUser-dummy.m */,
+				E999FC563E1FEC2FA857F9785CBE8D24 /* XMUser-Info.plist */,
+				94DCF30510F12AA9C446734BF7942EA6 /* XMUser-prefix.pch */,
+				96535B745B81F4FC9BB48C390BC5E357 /* XMUser-umbrella.h */,
+				8BAD1DA22D7273C67BB0589E06958BD8 /* XMUser.debug.xcconfig */,
+				ECEEFBC3E108781C9EF57F494DDBA872 /* XMUser.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Pods/Target Support Files/XMUser";
@@ -519,60 +527,175 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		21928BB4D1AE22BA5C28108FB5C1C5C9 /* Support Files */ = {
+		17B4F244686F6671897CD65EF12D1FDC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				94CDB6358765E09264CFED5C483FC9D2 /* XMNetWork.modulemap */,
-				39068EFA1F88ED01F4CD0432402332FC /* XMNetWork-dummy.m */,
-				7132D816D96F41FA2D56757F4452E0CF /* XMNetWork-Info.plist */,
-				0FD018A79504D81BA8A9FA5B16ECFE46 /* XMNetWork-prefix.pch */,
-				F0344F69436C0D1DF05E0AB54F3E5AFD /* XMNetWork-umbrella.h */,
-				5886CA87ACDAEBCCF85600064C924A7A /* XMNetWork.debug.xcconfig */,
-				63C1E7C02D2EB0DAE59595D386790FD7 /* XMNetWork.release.xcconfig */,
+				F88C9073FD206442057431684E87F493 /* XMBase */,
+				C83915CA84FE64DF6D5E230609907A18 /* XMDataBase */,
+				6D585FD83AB916C9AB5E40C7EB783CE4 /* XMHome */,
+				69238FDCC8D0EC011D120AE0D1EC9EE0 /* XMLaunch */,
+				8A4EA4267945C9E29E523E73B12F1E1C /* XMNetWork */,
+				0606F404097A4A6A61B34621593E2B38 /* XMRouter */,
+				20D71DB7D9CE850BC2D4464739E16DB6 /* XMSafty */,
+				441F944991C05BA28B146C0E270B20F6 /* XMUser */,
+				3EC3A4D166145E7061D1EE69451B04E2 /* XMUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1819F5B20C465E424FBA0EA98649184E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2EB7C77496974C7306352F77181D4C8 /* XMDataBase.modulemap */,
+				6F313AA079F38D283E0C81DF2253F104 /* XMDataBase-dummy.m */,
+				7AC7D5C55F50B9C22635B0A32C3E1572 /* XMDataBase-Info.plist */,
+				31034DA1AB372315FF53423886B24289 /* XMDataBase-prefix.pch */,
+				63E23940C60BD15197A6F8AB4C39E51F /* XMDataBase-umbrella.h */,
+				67ACC9C41EC451845DD3DE0CDE220E56 /* XMDataBase.debug.xcconfig */,
+				709A8F6345C8B14BE08010DC372547C1 /* XMDataBase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/XMDataBase";
+			sourceTree = "<group>";
+		};
+		1A21DE1CEDC5465D90CA3428210E075F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D00306AA46413C56AABE4969C313E9 /* XMNetWork.modulemap */,
+				9106D60625DFAECC1174DF12F19B921B /* XMNetWork-dummy.m */,
+				5567959175FC4F66E5D6FBC41EDEC7D8 /* XMNetWork-Info.plist */,
+				29853E9511456A0B752BA1162345CDD8 /* XMNetWork-prefix.pch */,
+				84634BE2659FB360893E8DA6E285A79B /* XMNetWork-umbrella.h */,
+				64414EEB4243AE90D3F222CD0F29240A /* XMNetWork.debug.xcconfig */,
+				DE2B417962AC1A21A5E41638EC727856 /* XMNetWork.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Pods/Target Support Files/XMNetWork";
 			sourceTree = "<group>";
 		};
-		236B347A8130EA6457DE6287C05507D4 /* Pod */ = {
+		1DB58CDA15606A6288A2F2266A480B0E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B24E9879EA29A0BEE87F921A86ABCFE6 /* LICENSE */,
-				10C114B392960092B99FE91EDFB2E50A /* README.md */,
-				22A54A9F595D608EE37B9E5FDEB50557 /* XMUser.podspec */,
+				997972598D1295622A4738EFAD5E866E /* LICENSE */,
+				303F18F8DED84D9692B60F6A6BE26304 /* README.md */,
+				4E367777F57F35432622D27A92C26438 /* XMSafty.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		328BBE35496E371D893DB717D61549A2 /* Pod */ = {
+		20D71DB7D9CE850BC2D4464739E16DB6 /* XMSafty */ = {
 			isa = PBXGroup;
 			children = (
-				5042FD8A5D9C3365B6BD4EFB35BAC94B /* LICENSE */,
-				D0286CC4DAC70677874A9467251B6E08 /* README.md */,
-				3DD84ECD259034068E9616A6F5B7BAF3 /* XMHome.podspec */,
+				81D8B767587997818CC7924BD9049B21 /* ReplaceMe.m */,
+				1DB58CDA15606A6288A2F2266A480B0E /* Pod */,
+				A20E99D592583619C8EC60CF246CADB8 /* Support Files */,
+			);
+			name = XMSafty;
+			path = ../XMSafty;
+			sourceTree = "<group>";
+		};
+		24C87B3E9CBA81CD13040AA737CBB39F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E89FBBD9AA1FE262D46D0F118E6F36C7 /* LICENSE */,
+				93CEE9A37A35155C0D2BD0558C278CB3 /* README.md */,
+				A9DC5E0FDF83BA286916F1294B29608D /* XMDataBase.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		37C8AB417162DFD74DF128E013071BDD /* Pod */ = {
+		2FD6A38C1933F9AA1013E56881BD645F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				42AC0C22690A97A2181E7633435066E4 /* LICENSE */,
-				92A2757D39956BC311DBD7687824D417 /* README.md */,
-				B05FF89C1C1528BFB7A9F521CB73F8E6 /* XMRouter.podspec */,
+				34830CA22EF6B97F8554A548B45B39A5 /* LICENSE */,
+				4DF39357D438E2CF44B7C442C82060EE /* README.md */,
+				381F5D631B1ED5929D2451A9C6D744E0 /* XMUtils.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		4EB04A606C67AD9638C3C3203F9AC0CD /* XMDataBase */ = {
+		3EC3A4D166145E7061D1EE69451B04E2 /* XMUtils */ = {
 			isa = PBXGroup;
 			children = (
-				5594EAACB18A566EF574EBB034C46BE6 /* ReplaceMe.m */,
-				C8601552E858E7B1D4F83F4906B1AA8A /* Pod */,
-				FDD9FE6E36CDD37923EE532F2EE45037 /* Support Files */,
+				774B4F9FE73A6B61DDF97EB6DADD77BA /* NSString+Extension.h */,
+				DA8721BED9DD07E8F9D6A3DC2B021408 /* NSString+Extension.m */,
+				648A8F083B986FEB6ABE5435DB4AC2F0 /* UIColor+Extension.h */,
+				26C37B34BEBDFF4FAD5B348FE275876B /* UIColor+Extension.m */,
+				090852CAE59128E3C3D238D625D38437 /* UIView+Extension.h */,
+				9772F97C3F908805CCCB5645F80780AD /* UIView+Extension.m */,
+				6E7389FD904FF0015052386DC6DB7153 /* XMAesHelper.h */,
+				F485C4BA51C8017C73FA7FA992302C73 /* XMAesHelper.m */,
+				35897C0A6411CF20417BDA7F2B585CE3 /* XMGTMBase64.h */,
+				4B08D97E45D17C19085EE15B37FA40A5 /* XMGTMBase64.m */,
+				B7CEFDD98C7308016DE27BA010625CA6 /* XMGTMDefines.h */,
+				F4F4E541E90D5B4D02DEF086955F1569 /* XMUtils.h */,
+				2FD6A38C1933F9AA1013E56881BD645F /* Pod */,
+				598605B363A803217E9BF89FD173A90E /* Support Files */,
 			);
-			name = XMDataBase;
-			path = ../XMDataBase;
+			name = XMUtils;
+			path = ../XMUtils;
+			sourceTree = "<group>";
+		};
+		41A1159DF687D6E95BF8C8123126CE8A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				20015A88FE4623D043127C0C81976ECB /* LICENSE */,
+				A0AA3034E9074E025556DD1E03D41847 /* README.md */,
+				AB724D9FBFF1361A7D163E9380BC48D8 /* XMNetWork.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		441F944991C05BA28B146C0E270B20F6 /* XMUser */ = {
+			isa = PBXGroup;
+			children = (
+				721ECB165ED5AE7E308625A5DAB18745 /* XMUserViewController.h */,
+				72631BDE9FDE63A019513CA45E1F337B /* XMUserViewController.m */,
+				73956A60C8A7F1616732EDC733EA0E9B /* Pod */,
+				0E1F6A737E7E6C854DF67F41BB1D330E /* Support Files */,
+			);
+			name = XMUser;
+			path = ../XMUser;
+			sourceTree = "<group>";
+		};
+		4FE04ED0CC1B7E9E25C6CCB79D95A623 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAB41D47FBE7F4C56C2EEFC86EB6166 /* XMBase.modulemap */,
+				A852EA22A502ADDA37709EB3BCC8F43B /* XMBase-dummy.m */,
+				CDE4DC7C7F7003950EEEB5BF1322E84F /* XMBase-Info.plist */,
+				DE09FCA0AC77AEB65C029AF0E3715975 /* XMBase-prefix.pch */,
+				761C8979F45C4599C30E3DA9C2C677A9 /* XMBase-umbrella.h */,
+				FFE4EECFD3F547F03CF812EE47AF7E94 /* XMBase.debug.xcconfig */,
+				E1ADC83591C4A57E9F62B55146CD4CBE /* XMBase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/XMBase";
+			sourceTree = "<group>";
+		};
+		50857842E3F6AF57B739546747C72ADF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				771F10A8344EDB69FC0F4D9021A69177 /* LICENSE */,
+				8FB7796426DA7F681C7295B250F67A48 /* README.md */,
+				4A1F7CCF5BE92F61FF04347606A5E6EC /* XMLaunch.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		598605B363A803217E9BF89FD173A90E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B165EFF00B9A5CEFC86B37307478E383 /* XMUtils.modulemap */,
+				88892C6CADE9BC88E0C61750947464C0 /* XMUtils-dummy.m */,
+				46C49DADACF02D64E0D7AAF8AB94E3B8 /* XMUtils-Info.plist */,
+				819E8ED0B6E0DD5FFBB194851DACEB51 /* XMUtils-prefix.pch */,
+				FDC410777212405719CEDC2CF571F6A7 /* XMUtils-umbrella.h */,
+				32377023451B70BFD50381D30E8EDAF5 /* XMUtils.debug.xcconfig */,
+				8CCF7831456E3C58E43415D42DB94B6A /* XMUtils.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/XMUtils";
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -584,68 +707,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		656BBE80769082D384F7E0F388F3A8EA /* Pod */ = {
+		69238FDCC8D0EC011D120AE0D1EC9EE0 /* XMLaunch */ = {
 			isa = PBXGroup;
 			children = (
-				23C317845B4A95052BEC5D48C5EB1DE5 /* LICENSE */,
-				7D5D2737DC49CDBD4444D9B4A327AF57 /* README.md */,
-				34308F456ED9FF3000BE7F781C91DB64 /* XMUtils.podspec */,
+				11D77E4D12A4CE3807D19FA7EF3323FC /* XMAppDelegateComponent.h */,
+				8DEFC0688C7F0107319EAB993E67D147 /* XMAppDelegateComponent.m */,
+				43D90DBBCDB7BB3F357F4EF657ECDC04 /* XMApplicationProtocol.h */,
+				50857842E3F6AF57B739546747C72ADF /* Pod */,
+				FD52AFCAD88F4422082EA4B2B17016E8 /* Support Files */,
 			);
-			name = Pod;
+			name = XMLaunch;
+			path = ../XMLaunch;
 			sourceTree = "<group>";
 		};
-		6651F7BF3B0287AD5036F030AA76C172 /* Support Files */ = {
+		6D585FD83AB916C9AB5E40C7EB783CE4 /* XMHome */ = {
 			isa = PBXGroup;
 			children = (
-				05260F5D1342F164300E848E1F7595AE /* XMSafty.modulemap */,
-				84978775BCAD8C8BC5E44A6D938C36C1 /* XMSafty-dummy.m */,
-				80CC4F99BDD4D86F7597BA3BCA615494 /* XMSafty-Info.plist */,
-				08CE232CDA52ACAC3FF1B0C277DF43E2 /* XMSafty-prefix.pch */,
-				0DA530605E47D87DBA7AD959EDA9F43D /* XMSafty-umbrella.h */,
-				29A5D678FE5AE770C4B8331FEE0AEAB0 /* XMSafty.debug.xcconfig */,
-				E7574172C817F8174273C478780A007A /* XMSafty.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/XMSafty";
-			sourceTree = "<group>";
-		};
-		6831BF2FCFB2A3C944EC50CB224C7933 /* XMRouter */ = {
-			isa = PBXGroup;
-			children = (
-				931D1335CED28E4785E2A198CA3F4123 /* ReplaceMe.m */,
-				37C8AB417162DFD74DF128E013071BDD /* Pod */,
-				D3AFF069D04B7B05902135FCF15EEFF6 /* Support Files */,
-			);
-			name = XMRouter;
-			path = ../XMRouter;
-			sourceTree = "<group>";
-		};
-		70DECC9C623165EEDB5689D3A449A029 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C28EA65414DFADD391528BF2C9FC6897 /* XMBase */,
-				4EB04A606C67AD9638C3C3203F9AC0CD /* XMDataBase */,
-				743E262E084F4877EC08C49D75950912 /* XMHome */,
-				01BE768E357EC100F4AB475683285D2F /* XMLaunch */,
-				E68555FD744F2D886F379BF1109FC375 /* XMNetWork */,
-				6831BF2FCFB2A3C944EC50CB224C7933 /* XMRouter */,
-				81BE741892E206AD79290B3071D7D883 /* XMSafty */,
-				93F6FC766E34800670CEE5390B9EB31B /* XMUser */,
-				EFA62246633692C3EBE901A665B2132F /* XMUtils */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		743E262E084F4877EC08C49D75950912 /* XMHome */ = {
-			isa = PBXGroup;
-			children = (
-				45A4B9525D0BC540CB589A3544278304 /* XMHomeViewController.h */,
-				A39956649AC6EC6A80EE8C37122D8B7D /* XMHomeViewController.m */,
-				328BBE35496E371D893DB717D61549A2 /* Pod */,
-				E905AADF36733D54E614691699210911 /* Support Files */,
+				0924BF961333CF9FA9A33396A2388767 /* XMHomeViewController.h */,
+				60E5F9585695EF3144C5CA99D4BC98FD /* XMHomeViewController.m */,
+				B5C7D4BF67AF56E28DE4681381F4BF6F /* Pod */,
+				AB248ECD62BC57A376E6AC4D8F6E8145 /* Support Files */,
 			);
 			name = XMHome;
 			path = ../XMHome;
+			sourceTree = "<group>";
+		};
+		73956A60C8A7F1616732EDC733EA0E9B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				57A1C1325BFD8AA8197FB7A5B22C50C3 /* LICENSE */,
+				198F216C226097B337B32FA0DF50CB63 /* README.md */,
+				FDE3A3B1A65594D18825476F4AFCC535 /* XMUser.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
@@ -656,25 +750,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7F610E9897470BAF703CBEE2F4CC40C4 /* Pod */ = {
+		8A4EA4267945C9E29E523E73B12F1E1C /* XMNetWork */ = {
 			isa = PBXGroup;
 			children = (
-				7099552A1A4590B9D11261F68A97469D /* LICENSE */,
-				690C504DF6E0554B28F0D9A220BDF4AA /* README.md */,
-				6189EE4CB7507D8424E696AE804FC59C /* XMSafty.podspec */,
+				C81D1DDFE66EA4AA68905A67A1E7F67E /* ReplaceMe.m */,
+				41A1159DF687D6E95BF8C8123126CE8A /* Pod */,
+				1A21DE1CEDC5465D90CA3428210E075F /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		81BE741892E206AD79290B3071D7D883 /* XMSafty */ = {
-			isa = PBXGroup;
-			children = (
-				CA1B69BE2C73F739238A3CDDAEEE8A60 /* ReplaceMe.m */,
-				7F610E9897470BAF703CBEE2F4CC40C4 /* Pod */,
-				6651F7BF3B0287AD5036F030AA76C172 /* Support Files */,
-			);
-			name = XMSafty;
-			path = ../XMSafty;
+			name = XMNetWork;
+			path = ../XMNetWork;
 			sourceTree = "<group>";
 		};
 		9296D4CE82694E88E801C24C9204FDC3 /* Products */ = {
@@ -695,56 +779,90 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93F6FC766E34800670CEE5390B9EB31B /* XMUser */ = {
+		A20E99D592583619C8EC60CF246CADB8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CF1BF3CC8961A7A2A66A9890AE2FE74C /* XMUserViewController.h */,
-				8D736C4B4100AF9DD1397EC74DEE105B /* XMUserViewController.m */,
-				236B347A8130EA6457DE6287C05507D4 /* Pod */,
-				121ABE6AE199507D97E1231F77EAD554 /* Support Files */,
-			);
-			name = XMUser;
-			path = ../XMUser;
-			sourceTree = "<group>";
-		};
-		9995629B815450A3D52736ECC8F819D7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F402E8EDBB92F34D33462721BD11BAC9 /* XMLaunch.modulemap */,
-				24049678E532F23FDCA427280491AC04 /* XMLaunch-dummy.m */,
-				63DC0FC41005BC2AFC7F87E38C8FDF19 /* XMLaunch-Info.plist */,
-				6C704F330525C3F4054411BAAD016E05 /* XMLaunch-prefix.pch */,
-				543117AF863CF7B8B846F71BAD690F4B /* XMLaunch-umbrella.h */,
-				340B5DCB7282A432EA76A4B951E17B62 /* XMLaunch.debug.xcconfig */,
-				C5A8D3E2384F14CA7DC0768401C4C060 /* XMLaunch.release.xcconfig */,
+				E922CD57BCFE5A0788058EBEBEFF6CBE /* XMSafty.modulemap */,
+				50957AAF50CF8A4B427F0F7087EC4939 /* XMSafty-dummy.m */,
+				3EDBB8D3A2D8D137004265364F0B8F84 /* XMSafty-Info.plist */,
+				55B81B8451A49035CEFD6BB6552155BE /* XMSafty-prefix.pch */,
+				54659C58103CE271DF0FFC682050E0DA /* XMSafty-umbrella.h */,
+				FCBAFE32FD5F0B6A31062AD83C87ABFE /* XMSafty.debug.xcconfig */,
+				9144E3188ECFCA26885575E60AE48FBA /* XMSafty.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Pods/Target Support Files/XMLaunch";
+			path = "../Pods/Target Support Files/XMSafty";
 			sourceTree = "<group>";
 		};
-		B4759F05C1380C6205487AFB6332CC09 /* Pod */ = {
+		A9B18211F3CE9CE69CF51D44ED19E82C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1AD5F62CB195523F4A1F84FF60F6C131 /* LICENSE */,
-				D972B09F746BF37C6802586BBCEF7445 /* README.md */,
-				247852B1DD1BA697B06CBD2B11C36229 /* XMNetWork.podspec */,
+				983399E8959D1047899C0A452993243E /* LICENSE */,
+				2691E17C50C1BE296A96C0AA3C762FA6 /* README.md */,
+				8EFA1C82E856AD054ECFEA56200DAAFB /* XMRouter.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		C28EA65414DFADD391528BF2C9FC6897 /* XMBase */ = {
+		AB248ECD62BC57A376E6AC4D8F6E8145 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				118C1A609830D87041E54EF4E3E2FC71 /* XMBase.h */,
-				786D181A3E8AA08A1186BE0B8B9F73B3 /* XMBaseNavViewController.h */,
-				13A746DC0D323CDDB30DC969AC133BB9 /* XMBaseNavViewController.m */,
-				FCF47EFC71F86E237EB55475E9147E4A /* XMBaseViewController.h */,
-				B657DA5D3FC2FFBAD480EDFAE59A0A92 /* XMBaseViewController.m */,
-				E0D5B41E934C05529C9B2ED7AF87DC50 /* Pod */,
-				DBADC24E936033FF37AA81EE395DFAD9 /* Support Files */,
+				AF3477D3760B86BD5898C82AA142D483 /* XMHome.modulemap */,
+				C32EAEAA1CFB694E4B08DBB17ED7DD76 /* XMHome-dummy.m */,
+				C01BADEC961B3BF78E071A574A1823D7 /* XMHome-Info.plist */,
+				3EEECF52E4FA5F2B535C0150491EDEE1 /* XMHome-prefix.pch */,
+				FD55AB0230EDDB5A49336041172E9B27 /* XMHome-umbrella.h */,
+				711FF72525A53D0DBCC0592BC1AA11F3 /* XMHome.debug.xcconfig */,
+				E5ED3D73A8EFD7EE77F09FD283C47338 /* XMHome.release.xcconfig */,
 			);
-			name = XMBase;
-			path = ../XMBase;
+			name = "Support Files";
+			path = "../Pods/Target Support Files/XMHome";
+			sourceTree = "<group>";
+		};
+		B5C7D4BF67AF56E28DE4681381F4BF6F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC2C0C85D343DB9AE9CB243C12CFBE50 /* LICENSE */,
+				E19CC66717B48608FAF1D2D0277A2044 /* README.md */,
+				FBF2C507ED39AF46880681CC8CE08E3B /* XMHome.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C273583546F4ECE56770E760639C7717 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A04EBB60DD47381F0002235214119CBF /* XMRouter.modulemap */,
+				8F23022EBC7C9708490AC088CB76E0E9 /* XMRouter-dummy.m */,
+				51C07A0C75218D47F5D5F105ACB35D4B /* XMRouter-Info.plist */,
+				0C371D4A75DD0F824ED7584F7BCDCF1F /* XMRouter-prefix.pch */,
+				F6CF8AB617269EE6595709572CE2518F /* XMRouter-umbrella.h */,
+				E076EEBFCBF4E3940B6ACCF92039DDF2 /* XMRouter.debug.xcconfig */,
+				26FB9D609FB7BE6784111482CB19B557 /* XMRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/XMRouter";
+			sourceTree = "<group>";
+		};
+		C6BDB21CBFF7A9B2AC958BACB0D10E6E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				107F19CB382823D9F0E7DE52C694FF29 /* LICENSE */,
+				A6D764FE713A060A555CE434DE910D06 /* README.md */,
+				E603A3B9AB154B59793074FF94251370 /* XMBase.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C83915CA84FE64DF6D5E230609907A18 /* XMDataBase */ = {
+			isa = PBXGroup;
+			children = (
+				77629CD47139F9308CAAC29E14AC26BA /* ReplaceMe.m */,
+				24C87B3E9CBA81CD13040AA737CBB39F /* Pod */,
+				1819F5B20C465E424FBA0EA98649184E /* Support Files */,
+			);
+			name = XMDataBase;
+			path = ../XMDataBase;
 			sourceTree = "<group>";
 		};
 		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
@@ -762,81 +880,16 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		C8601552E858E7B1D4F83F4906B1AA8A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2C3321769C154363CD477B2E00A5B053 /* LICENSE */,
-				AE67B428300E35B1BE8381B399B84B86 /* README.md */,
-				1A49EA6FF1574E761AF6BB1183AA6C11 /* XMDataBase.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				70DECC9C623165EEDB5689D3A449A029 /* Development Pods */,
+				17B4F244686F6671897CD65EF12D1FDC /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
 				9296D4CE82694E88E801C24C9204FDC3 /* Products */,
 				FFA015AAD90435F4D7FA15A18C83622B /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF406ADF872DC727B124E668D3D51AE6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A1416A160B37E6C420C7E4AA64A81C29 /* LICENSE */,
-				1D54E3251B437D01EDBD999AABBE930A /* README.md */,
-				40EF28B82D80FA2C207640F70B676846 /* XMLaunch.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		D1A5D9F842087261783F9225D24C4205 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C2E68AD5C7F4E2CF81DFB688F9C8E62C /* XMUtils.modulemap */,
-				CB7A13BE9447ED40A6120BE90B46E466 /* XMUtils-dummy.m */,
-				017AC47778C8A62F69C811C88E78A6F4 /* XMUtils-Info.plist */,
-				DF5856F4CB6C0822BFBF126FA8CB6BC2 /* XMUtils-prefix.pch */,
-				053334223493D1804968B53E14A276C8 /* XMUtils-umbrella.h */,
-				DBD4D6EC5E0E50E00F9D275A99801FC5 /* XMUtils.debug.xcconfig */,
-				B9440A49636B9AB7ADCD44E68DB6963B /* XMUtils.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/XMUtils";
-			sourceTree = "<group>";
-		};
-		D3AFF069D04B7B05902135FCF15EEFF6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B4A3129460EDEAA87B01A08767A555AC /* XMRouter.modulemap */,
-				DDF6DED2BDA058E8BD09B68D11E61440 /* XMRouter-dummy.m */,
-				386064AB1FA77C10C3A52A93ACD302A4 /* XMRouter-Info.plist */,
-				062F688C755D5B06CA3329A7FA222D1E /* XMRouter-prefix.pch */,
-				9866F27E1FEACAB58BF799976E45CC7B /* XMRouter-umbrella.h */,
-				BA8023203C7D73174621C372CBFFCDBF /* XMRouter.debug.xcconfig */,
-				72B9683A0E7BC252A7C4E5A655603C1E /* XMRouter.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/XMRouter";
-			sourceTree = "<group>";
-		};
-		DBADC24E936033FF37AA81EE395DFAD9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CAD4915052DA3495EA4B8CFC637C8B5F /* XMBase.modulemap */,
-				F578E8D7A0D007CA3F15AA654C0640A0 /* XMBase-dummy.m */,
-				8D42F287D776986690FB33C26A60D21F /* XMBase-Info.plist */,
-				452E3C7E4E20B17F8C88E203EAC15128 /* XMBase-prefix.pch */,
-				F48D8EBAD7577E8A9DD6F6BCBEBED494 /* XMBase-umbrella.h */,
-				F99F5ED5E86A33CAF2F84A88F7950765 /* XMBase.debug.xcconfig */,
-				6D8BE734523D2CE540219C5B33BB34D1 /* XMBase.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/XMBase";
 			sourceTree = "<group>";
 		};
 		DE8557C9D2285AA33E453A4CA9CD5C97 /* Pods-XMProject */ = {
@@ -856,72 +909,34 @@
 			path = "Target Support Files/Pods-XMProject";
 			sourceTree = "<group>";
 		};
-		E0D5B41E934C05529C9B2ED7AF87DC50 /* Pod */ = {
+		F88C9073FD206442057431684E87F493 /* XMBase */ = {
 			isa = PBXGroup;
 			children = (
-				EF457B9128F39EB9BE0B86F221BE0B36 /* LICENSE */,
-				3C819AF69CFA05556823DFB5CF38AEAE /* README.md */,
-				9F7B7A1513BE70C9C3EFB126D7745ECB /* XMBase.podspec */,
+				5FE83E9CDF0C6C083AEB044C95E97813 /* XMBase.h */,
+				B03181762DB268F8E76B64E53094F5DF /* XMBaseNavViewController.h */,
+				EFF5A81815A07C4526F6BA9E10DE52F2 /* XMBaseNavViewController.m */,
+				EE76C5AF8A1FD17D32FAE70090342F96 /* XMBaseViewController.h */,
+				6DC119BD6A2FAECBCC241E2D8429E744 /* XMBaseViewController.m */,
+				C6BDB21CBFF7A9B2AC958BACB0D10E6E /* Pod */,
+				4FE04ED0CC1B7E9E25C6CCB79D95A623 /* Support Files */,
 			);
-			name = Pod;
+			name = XMBase;
+			path = ../XMBase;
 			sourceTree = "<group>";
 		};
-		E68555FD744F2D886F379BF1109FC375 /* XMNetWork */ = {
+		FD52AFCAD88F4422082EA4B2B17016E8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0524F4B698006BA3DFCC3407AE6F605D /* ReplaceMe.m */,
-				B4759F05C1380C6205487AFB6332CC09 /* Pod */,
-				21928BB4D1AE22BA5C28108FB5C1C5C9 /* Support Files */,
-			);
-			name = XMNetWork;
-			path = ../XMNetWork;
-			sourceTree = "<group>";
-		};
-		E905AADF36733D54E614691699210911 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				02CE5035007ED134DABEA145AB221A18 /* XMHome.modulemap */,
-				B0C8A59147E4C388ABDBDFDE5B34D6CB /* XMHome-dummy.m */,
-				DB56FFCC4E7C3D932985883B7663CE61 /* XMHome-Info.plist */,
-				D2A1FF37CF250102C1E8C0BFBEE17107 /* XMHome-prefix.pch */,
-				E352FA501B2012AE26BC141F3211930D /* XMHome-umbrella.h */,
-				4CF396AC1F08B8D1C3890E826C606031 /* XMHome.debug.xcconfig */,
-				F90C07B01570659896E3AA84EE73F61C /* XMHome.release.xcconfig */,
+				641DC0E5601F65A9E3BB80EC7B7854B6 /* XMLaunch.modulemap */,
+				D2DB03FA06167DA7E7CDC0F9995B1C16 /* XMLaunch-dummy.m */,
+				40809D8F42460CBDB267F85ABF3B2A5A /* XMLaunch-Info.plist */,
+				E93255EEA3102ED9D23DA76E27166F49 /* XMLaunch-prefix.pch */,
+				E87CA51F1F3012E0177D3F23EA36C908 /* XMLaunch-umbrella.h */,
+				3A0C8C44270AD05BE3CAAE7E17E3D64D /* XMLaunch.debug.xcconfig */,
+				47A1CC99D7D8DE0F2AD2AB890DE26DB8 /* XMLaunch.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Pods/Target Support Files/XMHome";
-			sourceTree = "<group>";
-		};
-		EFA62246633692C3EBE901A665B2132F /* XMUtils */ = {
-			isa = PBXGroup;
-			children = (
-				659DB889BB2CF7E56048F576633BCE5C /* NSString+Extension.h */,
-				0FF5AFDA3D3BE6B8C04A4839BB313916 /* NSString+Extension.m */,
-				7647F9909378F3502C8001FC2452F3CB /* UIColor+Extension.h */,
-				DA5C013FE291090B219737A03A4CAC3F /* UIColor+Extension.m */,
-				8B7451758DAA48DD4D43898FE5059CA6 /* UIView+Extension.h */,
-				3B0EEF3840642846F94204C2177A8107 /* UIView+Extension.m */,
-				81D7F6ED6F1C0F01663DEDDA8FCC3571 /* XMUtils.h */,
-				656BBE80769082D384F7E0F388F3A8EA /* Pod */,
-				D1A5D9F842087261783F9225D24C4205 /* Support Files */,
-			);
-			name = XMUtils;
-			path = ../XMUtils;
-			sourceTree = "<group>";
-		};
-		FDD9FE6E36CDD37923EE532F2EE45037 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8D07C4A3E3FB808B339AF857134109C8 /* XMDataBase.modulemap */,
-				016249ED078FCF6EF2D416E931660E0E /* XMDataBase-dummy.m */,
-				D0B5097A79DAD7EDBAFDE9C247D6D285 /* XMDataBase-Info.plist */,
-				A69DC7F96DD744E77623B2767EADBC46 /* XMDataBase-prefix.pch */,
-				CBAF7319E450126EAA809861A63027C7 /* XMDataBase-umbrella.h */,
-				A221596B5C08D7943A32906C60779059 /* XMDataBase.debug.xcconfig */,
-				8D69CE1B87F0A56C0352DB1AD90DCB1C /* XMDataBase.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/XMDataBase";
+			path = "../Pods/Target Support Files/XMLaunch";
 			sourceTree = "<group>";
 		};
 		FFA015AAD90435F4D7FA15A18C83622B /* Targets Support Files */ = {
@@ -935,6 +950,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1269D7B0856455C58D43E5EEDF355E8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31E06786A60243477EC7B0CAD4669C5 /* NSString+Extension.h in Headers */,
+				5D7BA4C7EE904374A538A527F5DF30CE /* UIColor+Extension.h in Headers */,
+				99D29A5CD35AD67789AFD9E851B47FCA /* UIView+Extension.h in Headers */,
+				200006C82A0594731DCE0FD0A5E577AA /* XMAesHelper.h in Headers */,
+				AA4822D3C245472EAC1D2C8C7396F6C4 /* XMGTMBase64.h in Headers */,
+				29D10292D69C14F7578A2E12E8D78316 /* XMGTMDefines.h in Headers */,
+				17223582ECE9F6F68E2ED07ECDE1282D /* XMUtils.h in Headers */,
+				BDB4F8DD03195A055D32CCE742A29D1E /* XMUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76A69B42528EB736315C685E832CB4BE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1004,18 +1034,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C651FD6861CFEE67439674F533FB1A06 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				602D91523939998BB242B483380689B3 /* NSString+Extension.h in Headers */,
-				11DCFE30993113BE3D33309E47259387 /* UIColor+Extension.h in Headers */,
-				7675F640DA9822149848052659C9A3DF /* UIView+Extension.h in Headers */,
-				5A8199A4E30570A1A3B26BF6870FA6C5 /* XMUtils.h in Headers */,
-				832A7A29F5530F35C8273F3BD779AD05 /* XMUtils-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D17C62C793A79879421CC599FC63AA8A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1064,16 +1082,16 @@
 			buildRules = (
 			);
 			dependencies = (
-				C1C2945DA6F998CA63EA059C8D5CC712 /* PBXTargetDependency */,
-				712037B4BB0DE2B6D6D8D8519E35B1E5 /* PBXTargetDependency */,
-				CFC9130A3427E5DE2EEBC4C4D3BD092B /* PBXTargetDependency */,
-				FBAE06C6D7DC73A7A854C4CE3FEFA881 /* PBXTargetDependency */,
-				D3158BAB9CF23B516C2148BB443DEFF9 /* PBXTargetDependency */,
-				1A99A5CDA608FCF2140FA7CB62E5B00D /* PBXTargetDependency */,
-				DA8427EB5CF4D447A3614756D1DCB614 /* PBXTargetDependency */,
-				E64DD9FCC8E9CEB392E54D0F963754C8 /* PBXTargetDependency */,
-				F91BDC60A3EE75DB186F9F86BE3CEA5C /* PBXTargetDependency */,
-				876E63452EA638A9E2C7928842449897 /* PBXTargetDependency */,
+				BC9BD680294173C5EB3765C0E968E4B3 /* PBXTargetDependency */,
+				8B19F43DBAE88874290423A579510DBF /* PBXTargetDependency */,
+				C6A7740646E581506ADFC781802B038A /* PBXTargetDependency */,
+				055F1083783144F479893B1DDA41A107 /* PBXTargetDependency */,
+				CFF0FEE5D6F5CF9BE2514C3678D20A9F /* PBXTargetDependency */,
+				B0A517356D4F1B7998718FC3E649AEBD /* PBXTargetDependency */,
+				D2C20F44A01BD749B3CF70F4CF5376A5 /* PBXTargetDependency */,
+				4E2CCD02ADB1D7E985C5711062FDBE7A /* PBXTargetDependency */,
+				7840B65B734343CD5451EFF7F1D60D5E /* PBXTargetDependency */,
+				62577A3664D1B3EFEEC98F7340DD3FF3 /* PBXTargetDependency */,
 			);
 			name = "Pods-XMProject";
 			productName = Pods_XMProject;
@@ -1082,12 +1100,12 @@
 		};
 		15C4334B167657E654567CDDF10A5409 /* XMUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1365E363792B4F5E47D955F2D8BE8DFA /* Build configuration list for PBXNativeTarget "XMUtils" */;
+			buildConfigurationList = B85C1BC318E340E2169187DC8627F5A7 /* Build configuration list for PBXNativeTarget "XMUtils" */;
 			buildPhases = (
-				C651FD6861CFEE67439674F533FB1A06 /* Headers */,
-				A2E94F47ED276BC38F87E6EC2AE2414A /* Sources */,
-				2D18784EDAC87455B08681F9A156D051 /* Frameworks */,
-				F40F589AC91EA11D87B31EA9024FBC4E /* Resources */,
+				1269D7B0856455C58D43E5EEDF355E8D /* Headers */,
+				E8D406AF37F77CCFA65F529AB7DFF3F2 /* Sources */,
+				365FA6243B566F1E8A5E7BAA2A7ABBB7 /* Frameworks */,
+				830D4354D5B8A6C376871A93C682586C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1182,7 +1200,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				21FA53364D726563293AD9B1EB389862 /* PBXTargetDependency */,
+				E413B9B04C56790BDEBAB0E107E7AA76 /* PBXTargetDependency */,
 			);
 			name = XMBase;
 			productName = XMBase;
@@ -1201,7 +1219,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				007FE043D38B3A0B492A72F9A5C8556A /* PBXTargetDependency */,
+				79EE379AF4E46EDEA7402BBB97310033 /* PBXTargetDependency */,
 			);
 			name = XMHome;
 			productName = XMHome;
@@ -1220,7 +1238,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F493F4E19A9783B1D7E39E9303B356F9 /* PBXTargetDependency */,
+				E803943CE5AF0FD15E12C532BAE8FC53 /* PBXTargetDependency */,
 			);
 			name = XMUser;
 			productName = XMUser;
@@ -1343,6 +1361,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		830D4354D5B8A6C376871A93C682586C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F0150FFB51406C10CBA389E0DD680DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1365,13 +1390,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D9D7A07A1EC4A593A12CD424DE7C2D0D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F40F589AC91EA11D87B31EA9024FBC4E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1452,17 +1470,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2E94F47ED276BC38F87E6EC2AE2414A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AC20383511CA679FA95E1ED06A00A27 /* NSString+Extension.m in Sources */,
-				F4EDF7AF004A9A89BECA6A1D02AC9212 /* UIColor+Extension.m in Sources */,
-				9572A5886F18352973FEE54A2455F8A1 /* UIView+Extension.m in Sources */,
-				67436A6FDC5BF847C466FB225D0BB197 /* XMUtils-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B9F6A98D27087EBE83F5E9E93D685AFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1491,93 +1498,106 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E8D406AF37F77CCFA65F529AB7DFF3F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CE00F7EF8A4D704D7746BE32B14E42 /* NSString+Extension.m in Sources */,
+				14ED676FA7B3AA1011FA7A0001405ED7 /* UIColor+Extension.m in Sources */,
+				64EF7AE165EDF273B1D4DCBF9D55B255 /* UIView+Extension.m in Sources */,
+				EC570E97A36BB5AF228146CAE1F857AB /* XMAesHelper.m in Sources */,
+				FA7D32B80CF937898A183C770EF3D6AC /* XMGTMBase64.m in Sources */,
+				D08F9D87AF277497131247DDC0BE0897 /* XMUtils-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		007FE043D38B3A0B492A72F9A5C8556A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XMBase;
-			target = 9D767AB2818AB482E7C02FCE8BC7CD9A /* XMBase */;
-			targetProxy = E29248FEA64B6F5742C720B105E196A2 /* PBXContainerItemProxy */;
-		};
-		1A99A5CDA608FCF2140FA7CB62E5B00D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XMNetWork;
-			target = 7A14938A576242D1C0B5F26EDB114423 /* XMNetWork */;
-			targetProxy = 98D39EA52779292680AF166AB00E3FFE /* PBXContainerItemProxy */;
-		};
-		21FA53364D726563293AD9B1EB389862 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = E667BBF37DEACA3CBB0FBE4C0F3CCF26 /* PBXContainerItemProxy */;
-		};
-		712037B4BB0DE2B6D6D8D8519E35B1E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XMBase;
-			target = 9D767AB2818AB482E7C02FCE8BC7CD9A /* XMBase */;
-			targetProxy = D460A96FDCA4A9492973910F261AA174 /* PBXContainerItemProxy */;
-		};
-		876E63452EA638A9E2C7928842449897 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XMUtils;
-			target = 15C4334B167657E654567CDDF10A5409 /* XMUtils */;
-			targetProxy = DC855E126BF14126E7E466C3E4977B09 /* PBXContainerItemProxy */;
-		};
-		C1C2945DA6F998CA63EA059C8D5CC712 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = C428BF4E7BC89C78617CBEAC6A58C5A8 /* PBXContainerItemProxy */;
-		};
-		CFC9130A3427E5DE2EEBC4C4D3BD092B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XMDataBase;
-			target = D80848748F34315F39F7524C0B17C9EA /* XMDataBase */;
-			targetProxy = D36EF06B65452D457CB560B9CE33DAEB /* PBXContainerItemProxy */;
-		};
-		D3158BAB9CF23B516C2148BB443DEFF9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XMLaunch;
-			target = 762DD13817427C30194DBBD3D6E3EF1B /* XMLaunch */;
-			targetProxy = 60AA30B9228C38048E484FB7BA280E3F /* PBXContainerItemProxy */;
-		};
-		DA8427EB5CF4D447A3614756D1DCB614 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XMRouter;
-			target = C220DFE6512366CB15D97D0A1829A960 /* XMRouter */;
-			targetProxy = 976586EDD2CAF5F59E261753B3048784 /* PBXContainerItemProxy */;
-		};
-		E64DD9FCC8E9CEB392E54D0F963754C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XMSafty;
-			target = 38B551622640B8A30E9A4BABEC18AF7A /* XMSafty */;
-			targetProxy = 061E9BD9A91A6A0D07DCCF67874C9452 /* PBXContainerItemProxy */;
-		};
-		F493F4E19A9783B1D7E39E9303B356F9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XMBase;
-			target = 9D767AB2818AB482E7C02FCE8BC7CD9A /* XMBase */;
-			targetProxy = 3AA98AE36BF97E62A74247264DFD198B /* PBXContainerItemProxy */;
-		};
-		F91BDC60A3EE75DB186F9F86BE3CEA5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XMUser;
-			target = AFD600A32B656DB9D6EA33D49848ADCD /* XMUser */;
-			targetProxy = CD176F3EE86F093277FA63A63B23A764 /* PBXContainerItemProxy */;
-		};
-		FBAE06C6D7DC73A7A854C4CE3FEFA881 /* PBXTargetDependency */ = {
+		055F1083783144F479893B1DDA41A107 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XMHome;
 			target = A680538C9E7AF5E3668D136E30902027 /* XMHome */;
-			targetProxy = ED2BAE0828135266F9D09754BD9A84DE /* PBXContainerItemProxy */;
+			targetProxy = F8D3453E300449AB26DB94ACEE2973CF /* PBXContainerItemProxy */;
+		};
+		4E2CCD02ADB1D7E985C5711062FDBE7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMSafty;
+			target = 38B551622640B8A30E9A4BABEC18AF7A /* XMSafty */;
+			targetProxy = 7DE08097275E78A85FFB4A26E7056128 /* PBXContainerItemProxy */;
+		};
+		62577A3664D1B3EFEEC98F7340DD3FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMUtils;
+			target = 15C4334B167657E654567CDDF10A5409 /* XMUtils */;
+			targetProxy = 8D590D81729F4E95F562EE4E2216F49D /* PBXContainerItemProxy */;
+		};
+		7840B65B734343CD5451EFF7F1D60D5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMUser;
+			target = AFD600A32B656DB9D6EA33D49848ADCD /* XMUser */;
+			targetProxy = 7AEBA3CF398AB5B4A5BB7780C23B5D1C /* PBXContainerItemProxy */;
+		};
+		79EE379AF4E46EDEA7402BBB97310033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMBase;
+			target = 9D767AB2818AB482E7C02FCE8BC7CD9A /* XMBase */;
+			targetProxy = EF345213A482F522B5CC38431DA30ABD /* PBXContainerItemProxy */;
+		};
+		8B19F43DBAE88874290423A579510DBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMBase;
+			target = 9D767AB2818AB482E7C02FCE8BC7CD9A /* XMBase */;
+			targetProxy = 8C72347E2362FB67CA460144AD66A8FD /* PBXContainerItemProxy */;
+		};
+		B0A517356D4F1B7998718FC3E649AEBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMNetWork;
+			target = 7A14938A576242D1C0B5F26EDB114423 /* XMNetWork */;
+			targetProxy = 9066AC5209848D81C51ED92A1F26ED1B /* PBXContainerItemProxy */;
+		};
+		BC9BD680294173C5EB3765C0E968E4B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = BF05B2CE892FE58D64C4BCB1639572AF /* PBXContainerItemProxy */;
+		};
+		C6A7740646E581506ADFC781802B038A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMDataBase;
+			target = D80848748F34315F39F7524C0B17C9EA /* XMDataBase */;
+			targetProxy = 237C72918692D02D4A5A6A99C6FF8C1F /* PBXContainerItemProxy */;
+		};
+		CFF0FEE5D6F5CF9BE2514C3678D20A9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMLaunch;
+			target = 762DD13817427C30194DBBD3D6E3EF1B /* XMLaunch */;
+			targetProxy = B50F5665A270BB6532BADF6C851CB566 /* PBXContainerItemProxy */;
+		};
+		D2C20F44A01BD749B3CF70F4CF5376A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMRouter;
+			target = C220DFE6512366CB15D97D0A1829A960 /* XMRouter */;
+			targetProxy = C47A54A863792E53319B3E6459D5FB0D /* PBXContainerItemProxy */;
+		};
+		E413B9B04C56790BDEBAB0E107E7AA76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 4AD8B1F0E401A17C9CFEF8D521887287 /* PBXContainerItemProxy */;
+		};
+		E803943CE5AF0FD15E12C532BAE8FC53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMBase;
+			target = 9D767AB2818AB482E7C02FCE8BC7CD9A /* XMBase */;
+			targetProxy = 934D12DF518285FC88DED0B7EF398F89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		07FB5F2B9E3BE7E3226FA37B48D14DA4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5A8D3E2384F14CA7DC0768401C4C060 /* XMLaunch.release.xcconfig */;
+			baseConfigurationReference = 47A1CC99D7D8DE0F2AD2AB890DE26DB8 /* XMLaunch.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1612,7 +1632,7 @@
 		};
 		0D0E699E9550EAC7AB9C483995BFDDC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 340B5DCB7282A432EA76A4B951E17B62 /* XMLaunch.debug.xcconfig */;
+			baseConfigurationReference = 3A0C8C44270AD05BE3CAAE7E17E3D64D /* XMLaunch.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1644,43 +1664,9 @@
 			};
 			name = Debug;
 		};
-		1860063D6B63ED7022EF53D0B02ADECA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBD4D6EC5E0E50E00F9D275A99801FC5 /* XMUtils.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XMUtils/XMUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XMUtils/XMUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/XMUtils/XMUtils.modulemap";
-				PRODUCT_MODULE_NAME = XMUtils;
-				PRODUCT_NAME = XMUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1E040F5BAD1A0BE0C4D74A31C2F616CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CF396AC1F08B8D1C3890E826C606031 /* XMHome.debug.xcconfig */;
+			baseConfigurationReference = 711FF72525A53D0DBCC0592BC1AA11F3 /* XMHome.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1714,7 +1700,7 @@
 		};
 		1EB6D7B1F3FD6A1A38A0DE0F77CE3398 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F90C07B01570659896E3AA84EE73F61C /* XMHome.release.xcconfig */;
+			baseConfigurationReference = E5ED3D73A8EFD7EE77F09FD283C47338 /* XMHome.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1849,6 +1835,41 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		564CDECDEE224574B07CAD9BAB4AB949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCF7831456E3C58E43415D42DB94B6A /* XMUtils.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMUtils/XMUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMUtils/XMUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMUtils/XMUtils.modulemap";
+				PRODUCT_MODULE_NAME = XMUtils;
+				PRODUCT_NAME = XMUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		574336E93FEE5E80463961C3B5210418 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1985,7 +2006,7 @@
 		};
 		688529676611C50F61404C51E0CC5CD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5886CA87ACDAEBCCF85600064C924A7A /* XMNetWork.debug.xcconfig */;
+			baseConfigurationReference = 64414EEB4243AE90D3F222CD0F29240A /* XMNetWork.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2019,7 +2040,7 @@
 		};
 		7738C5A0CB8E76CCCC561CFDB8D5AD04 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F99F5ED5E86A33CAF2F84A88F7950765 /* XMBase.debug.xcconfig */;
+			baseConfigurationReference = FFE4EECFD3F547F03CF812EE47AF7E94 /* XMBase.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2053,7 +2074,7 @@
 		};
 		818B8FBF6BD7EEF417E14FA416B489A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63C1E7C02D2EB0DAE59595D386790FD7 /* XMNetWork.release.xcconfig */;
+			baseConfigurationReference = DE2B417962AC1A21A5E41638EC727856 /* XMNetWork.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2122,7 +2143,7 @@
 		};
 		865131DBC702D35590B94C642BEBFE73 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A221596B5C08D7943A32906C60779059 /* XMDataBase.debug.xcconfig */;
+			baseConfigurationReference = 67ACC9C41EC451845DD3DE0CDE220E56 /* XMDataBase.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2156,7 +2177,7 @@
 		};
 		93A9B4EA85841FAD723D81B6736446DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7574172C817F8174273C478780A007A /* XMSafty.release.xcconfig */;
+			baseConfigurationReference = 9144E3188ECFCA26885575E60AE48FBA /* XMSafty.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2191,7 +2212,7 @@
 		};
 		9A696E75D9C7157A5EBD8377B1A23E73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F8AC2A59AB0ADA74A5DD3D22DE14AB7 /* XMUser.release.xcconfig */;
+			baseConfigurationReference = ECEEFBC3E108781C9EF57F494DDBA872 /* XMUser.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2226,7 +2247,7 @@
 		};
 		A487B652A41D60F00BE03825AE74E0FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B785FFFD5F9AEB00537C67A5D420C25D /* XMUser.debug.xcconfig */;
+			baseConfigurationReference = 8BAD1DA22D7273C67BB0589E06958BD8 /* XMUser.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2260,7 +2281,7 @@
 		};
 		B35A26F15EF7D0E2A1C4C32071D91625 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D8BE734523D2CE540219C5B33BB34D1 /* XMBase.release.xcconfig */;
+			baseConfigurationReference = E1ADC83591C4A57E9F62B55146CD4CBE /* XMBase.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2293,9 +2314,43 @@
 			};
 			name = Release;
 		};
+		BA28F7FDB129B89C109DBF0B4FB8221A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32377023451B70BFD50381D30E8EDAF5 /* XMUtils.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMUtils/XMUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMUtils/XMUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMUtils/XMUtils.modulemap";
+				PRODUCT_MODULE_NAME = XMUtils;
+				PRODUCT_NAME = XMUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C1A39800E9E28A8A86AFE7F50115B181 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29A5D678FE5AE770C4B8331FEE0AEAB0 /* XMSafty.debug.xcconfig */;
+			baseConfigurationReference = FCBAFE32FD5F0B6A31062AD83C87ABFE /* XMSafty.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2329,7 +2384,7 @@
 		};
 		C355FED6556393EE257F0FB835D60E33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D69CE1B87F0A56C0352DB1AD90DCB1C /* XMDataBase.release.xcconfig */;
+			baseConfigurationReference = 709A8F6345C8B14BE08010DC372547C1 /* XMDataBase.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2364,7 +2419,7 @@
 		};
 		CD5AFC0F234CA88C0F3B29E3DCCA5BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72B9683A0E7BC252A7C4E5A655603C1E /* XMRouter.release.xcconfig */;
+			baseConfigurationReference = 26FB9D609FB7BE6784111482CB19B557 /* XMRouter.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2397,44 +2452,9 @@
 			};
 			name = Release;
 		};
-		D1FBCA34D190D73A31138F4907BE565A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9440A49636B9AB7ADCD44E68DB6963B /* XMUtils.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XMUtils/XMUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XMUtils/XMUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/XMUtils/XMUtils.modulemap";
-				PRODUCT_MODULE_NAME = XMUtils;
-				PRODUCT_NAME = XMUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		DE4EF92A3E6716F46EEDD34FE76BF905 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA8023203C7D73174621C372CBFFCDBF /* XMRouter.debug.xcconfig */;
+			baseConfigurationReference = E076EEBFCBF4E3940B6ACCF92039DDF2 /* XMRouter.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2474,15 +2494,6 @@
 			buildConfigurations = (
 				574336E93FEE5E80463961C3B5210418 /* Debug */,
 				83A1CD5A0D744E6C5C16EB552F459A6A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1365E363792B4F5E47D955F2D8BE8DFA /* Build configuration list for PBXNativeTarget "XMUtils" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1860063D6B63ED7022EF53D0B02ADECA /* Debug */,
-				D1FBCA34D190D73A31138F4907BE565A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2528,6 +2539,15 @@
 			buildConfigurations = (
 				0D0E699E9550EAC7AB9C483995BFDDC2 /* Debug */,
 				07FB5F2B9E3BE7E3226FA37B48D14DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B85C1BC318E340E2169187DC8627F5A7 /* Build configuration list for PBXNativeTarget "XMUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA28F7FDB129B89C109DBF0B4FB8221A /* Debug */,
+				564CDECDEE224574B07CAD9BAB4AB949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

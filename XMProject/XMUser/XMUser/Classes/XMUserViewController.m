@@ -6,7 +6,7 @@
 //
 
 #import "XMUserViewController.h"
-
+#import "Masonry.h"
 @interface XMUserViewController ()
 
 @end
@@ -16,16 +16,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UIView *headerView = [UIView new];
+    headerView.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:headerView];
+    
+    [headerView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.right.equalTo(self.view);
+        make.height.equalTo(@(300));
+    }];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

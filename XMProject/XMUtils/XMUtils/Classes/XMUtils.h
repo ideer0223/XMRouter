@@ -11,4 +11,6 @@
 #import "UIColor+Extension.h"
 #import "UIView+Extension.h"
 #import "NSString+Extension.h"
+#import "XMAesHelper.h"
+#import "XMGTMBase64.h"
 #endif /* XMUtils_h */

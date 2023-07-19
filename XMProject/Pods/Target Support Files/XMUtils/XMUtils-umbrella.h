@@ -13,6 +13,9 @@
 #import "NSString+Extension.h"
 #import "UIColor+Extension.h"
 #import "UIView+Extension.h"
+#import "XMAesHelper.h"
+#import "XMGTMBase64.h"
+#import "XMGTMDefines.h"
 #import "XMUtils.h"
 
 FOUNDATION_EXPORT double XMUtilsVersionNumber;

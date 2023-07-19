@@ -6,7 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "XMGTMBase64.h"
+#import "XMAesHelper.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (Extension)
@@ -48,12 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)base64String;
 
 /// 解密base64字符串
-- (NSString*)encodeBase64String;
-
-
-
-
-
+- (NSString *)encodeBase64String;
 @end
 
 NS_ASSUME_NONNULL_END
